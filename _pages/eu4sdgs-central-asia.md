@@ -10,15 +10,11 @@ The European Union (EU) plays a pivotal role in advancing Sustainable Developmen
 
 
 ## Overview of EU projects in Central Asia and SDGs
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/9ed471eb-9b77-4f87-bbe9-4bc323eb4d42/page/NLkqD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
-
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/b999e428-0616-4da1-af07-e450c9de6b2a/page/29mqD" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 
 ## Contribution of EU projects towards achievement of SDGs 
-
-
-<iframe src="https://embed.kumu.io/d376984a933c24dd474cd90ed7d0bc99" width="940" height="600" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/d376984a933c24dd474cd90ed7d0bc99" width="100%" height="600" frameborder="0"></iframe>
 
 
 
