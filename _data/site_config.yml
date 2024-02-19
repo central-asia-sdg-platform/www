@@ -71,9 +71,9 @@ footer_menu:
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
   - path: https://www.undp.org/
-    translation_key: '<img src="https://central-asia-sdg-platform.github.io/site/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP '
+    translation_key: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP '
   - path: https://european-union.europa.eu/index_en
-    translation_key: '<img src="https://central-asia-sdg-platform.github.io/site/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU '
+    translation_key: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU '
 frontpage_cards:
 #  - title: frontpage.download_all
 #    content: ''
@@ -91,10 +91,10 @@ frontpage_cards:
   - title: SDG Partnership 
     content: |
       Achieving SDGs requires whole-of-society approach, partenrship and collaboration. Learn how you could contribute to SDGs achievement in Central Asia
-      * [Private sector](https://central-asia-sdg-platform.github.io/site/private-sector)
-      * [CSO and NGOs](https://central-asia-sdg-platform.github.io/site/cso-and-ngo)
-      * [Academia](https://central-asia-sdg-platform.github.io/site/academia)
-      * [Parliaments](https://central-asia-sdg-platform.github.io/site/parliaments)
+      * [Private sector](https://central-asia-sdg-platform.github.io/www/private-sector)
+      * [CSO and NGOs](https://central-asia-sdg-platform.github.io/www/cso-and-ngo)
+      * [Academia](https://central-asia-sdg-platform.github.io/www/academia)
+      * [Parliaments](https://central-asia-sdg-platform.github.io/www/parliaments)
     include: ''
     button_label: Read more
     button_link: 'https://data.undp.org/sdg-push-diagnostic'
@@ -102,7 +102,7 @@ frontpage_cards:
   - title: SDG Push Diagnostics
     content: |
       SDG Push reimagines and recalibrates how we determine, interrogate and advance development interventions that put countries on more stable footing. The Diagnostic powers ‘Integrated SDG Insights‘ reports which provide a strong evidence-base and relevant insights to support national ambition at the SDG Summit 2023.
-      [Overview of SDG Push diagnoistics for Central Asia](https://central-asia-sdg-platform.github.io/site/sdg-trends/)
+      [Overview of SDG Push diagnoistics for Central Asia](https://central-asia-sdg-platform.github.io/www/sdg-trends/)
     include: ''
     button_label: Read more
     button_link: 'https://data.undp.org/sdg-push-diagnostic'
@@ -232,22 +232,23 @@ menu:
       translation_key: menu-partnership.cso-and-ngo
     - path: /vnr
       translation_key: menu-partnership.vnr
-  - path: /sdg-reporting
-    translation_key: menu.sdgme
+  - path: /sdg-actions
+    translation_key: menu-actions.actions
     dropdown:
-    - path: /vnr
-      translation_key: menu.vnr
-    - path: /reporting-status
-      translation_key: menu.reporting_status
-  - path: /policies
-    translation_key: menu.policies
-    dropdown: []
-  - path: /systems
-    translation_key: menu.systems
-    dropdown: []
-  - path: /finances
-    translation_key: menu.finances
-    dropdown: []
+    - path: /goals
+      translation_key: menu-actions.goals
+    - path: /sdg-local
+      translation_key: menu-actions.local
+    - path: /policies
+      translation_key: menu-actions.policies
+    - path: /systems
+      translation_key: menu-actions.systems
+    - path: /finances
+      translation_key: menu-actions.finances
+    - path: /hotspots
+      translation_key: menu-actions.hotspots
+  - path: /sdg-stories
+    translation_key: menu-stories-stories
 #  - path: /about
 #    translation_key: menu.about
 #    dropdown: []

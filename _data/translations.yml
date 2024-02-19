@@ -13,6 +13,25 @@ en:
     finances: 'Finances'
     annotation_2030_target: 'Target 2030'
     annotation_2025_target: 'Target 2025'
+  menu-partnership:
+    partnership:     'Partnership for SDGs'
+    eu4sdgs-central-asia: 'EU for SDGs in Central Asia'
+    parliaments:     'Parliaments and SDGs'    
+    private-sector:  'Private Sector'
+    academia:        'Academia and Universities'
+    cso-and-ngo:     'Civil Society: CSOs and NGOs'
+    vnr:             'Voluntary National Reviews'
+  menu-actions:
+    actions:         'Activities for SDGs'
+    goals:           'Tracking progress in SDGs'
+    local:           'Localization of SDGs'
+    policies:        'Policies for SDGs'
+    systems:         'Systemic and integral approach'
+    finances:        'Finances for SDGs' 
+    hotspots:        'Vulnerability hotspots'
+  menu-stories:
+    stories:        'Stories from Central Asia'
+
   menu:
     policies: 'Policies for SDGs'
     systems: 'SDG systems'
