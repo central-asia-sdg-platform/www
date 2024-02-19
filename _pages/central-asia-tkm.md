@@ -36,7 +36,7 @@ However, the pursuit of economic growth and industrialization also entails trade
 
 The dynamic map shows SDG Accelerators for Turkmenistan. 
 
-<iframe src="https://embed.kumu.io/20ed8ae31ddd0d8a764441bdfeec3a20" width="940" height="600" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/20ed8ae31ddd0d8a764441bdfeec3a20" width="100%" height="600" frameborder="0"></iframe>
 
 Use buttons to highlight certain paths and Focus to explore certain targets
 

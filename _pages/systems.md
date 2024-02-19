@@ -17,10 +17,8 @@ To address this complexity, countries are using various SDG complexity tools, su
 
 
 
-
 # SDG systems in Central Asia 
 ## SDG systems 
-
 <iframe src="https://embed.kumu.io/74a9c1005c1770d154ef51dccc809599" width="100%" height="600" frameborder="0"></iframe>
 
 
@@ -29,6 +27,71 @@ To address this complexity, countries are using various SDG complexity tools, su
 ## Synergies and Tradeoffs
 The SDGs do not exist in silos. Understanding the interactions across social, economic and environmental elements of sustainable development is essential to move the needle on the SDGs. SDG Interlinkages show how actions directed towards one SDG can influence the others. Uncovering and understanding these interactions helps in achieving the 2030 Agenda - avoiding the unintended deterioration of the SDGs and their 169 associated targets.
 The target-level interlinkages are based on the latest available methodology by the [KnowSDGs Platform by European Commission](https://knowsdgs.jrc.ec.europa.eu/interlinkages-targets). A first literature review ([Miola et al., 2019](https://publications.jrc.ec.europa.eu/repository/handle/JRC115163)) was updated and expanded in [2021-2022](https://knowsdgs.jrc.ec.europa.eu/intro-interlinkages) by a team of researchers who retrieved and analysed all relevant scientific and grey literature* on SDG interlinkages, both in Scopus and Google Scholar.
+
+
+
+### SDG Accelerators for Kazakhstan
+🔷 **2.4: Sustainable food production systems and implement resilient agriculture.** 
+🔷 **4.4: Skills for employment**
+🔷 **7.2. Increase substantially the share of renewable energy in the energy mix**
+🔷 **10.4: Adopt policies for greater equality**
+
+The dynamic map shows SDG Accelerators for Kazakhstan
+
+<iframe src="https://embed.kumu.io/2641668c40b8a7e162cb6a129dd76b90" width="100%" height="600" frameborder="0"></iframe>
+
+
+
+### SDG Accelerators for Kyrgyzstan
+🔷 **2.2. Ensure food security**
+🔷 **4.3. Quality education for everyone**
+🔷 **7.1, 7.2, 7.3. Ensure access to affordable, reliable, sustainable and modern energy for all**
+🔷 **8.6. Youth employment and education**
+🔷 **11.1. Safe and affordable housing and basic services**
+
+The dynamic map shows SDG Accelerators for Kyrgyzstan
+
+<iframe src="https://embed.kumu.io/998580a7b995bd0c471ae65cbaf33d5d" width="100%" height="600" frameborder="0"></iframe>
+
+
+
+### SDG Accelerators for Tajikistan 
+🔷 **2.2. Ensure food security**
+🔷 **4.3. Quality education for everyone**
+🔷 **9.2. Promote inclusive and sustainable industrialization**
+🔷 **11.1. Safe and affordable housing and basic services**
+
+The dynamic map shows SDG Accelerators for Tajikistan
+
+<iframe src="https://embed.kumu.io/175edab0dd50ee12a6a06501d6a33c77" width="100%" height="600" frameborder="0"></iframe>
+
+
+
+### SDG Accelerators for Turkmenistan 
+🔷 **2.3. The agricultural productivity and rural development**
+🔷 **3.4. Reduce mortality from noncommunicable diseases**
+🔷 **4.4. Skills for employment**
+🔷 **6.1. Universal and equitable access to safe drinking water**
+🔷 **8.5. Full and productive employment and decent work**
+
+The dynamic map shows SDG Accelerators for Turkmenistan
+
+<iframe src="https://embed.kumu.io/20ed8ae31ddd0d8a764441bdfeec3a20" width="100%" height="600" frameborder="0"></iframe>
+
+
+
+### SDG Accelerators for Uzbekistan
+🔷 **4.3. Quality education for everyone**
+🔷 **8.3. Policies for economic development**
+🔷 **11.1. Safe and affordable housing and basic services**
+🔷 **12.2. The sustainable management and efficient use of natural resources (Green Economy)**
+
+The dynamic map shows SDG Accelerators for Uzbekistan
+
+<iframe src="https://embed.kumu.io/6a36850a3dba3fa0d5236d4a813feecb" width="100%" height="600" frameborder="0"></iframe>
+
+
+
 
 ## Interlinkages Visualization
 ### ![Flag of Kazakhstan]({{ site.baseurl }}/assets/images/KAZ_flag_h40.png) [Kazakhstan](https://data.undp.org/sdg-push-diagnostic/KAZ/synergies-and-tradeoffs)
@@ -68,6 +131,4 @@ Central Asia faces many environmental challenges, including desertification, def
 
 
 ![Map of Central Asia, 2020]({{ site.baseurl }}/assets/images/map_centralasia_un_2020_800px.jpg)
-
-
 

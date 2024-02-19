@@ -36,7 +36,7 @@ Building the green economy – one of the strategic goals of Uzbekistan – requ
 
 The dynamic map shows SDG Accelerators for Uzbekistan. 
 
-<iframe src="https://embed.kumu.io/6a36850a3dba3fa0d5236d4a813feecb" width="940" height="600" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/6a36850a3dba3fa0d5236d4a813feecb" width="100%" height="600" frameborder="0"></iframe>
 
 Use buttons to highlight certain paths and Focus to explore certain targets
 

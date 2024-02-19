@@ -241,6 +241,8 @@ menu:
       translation_key: menu-actions.local
     - path: /policies
       translation_key: menu-actions.policies
+    - path: /sdg-scenarios
+      translation_key: menu-actions.scenarios
     - path: /systems
       translation_key: menu-actions.systems
     - path: /finances
@@ -248,7 +250,7 @@ menu:
     - path: /hotspots
       translation_key: menu-actions.hotspots
   - path: /sdg-stories
-    translation_key: menu-stories-stories
+    translation_key: menu-stories.stories
 #  - path: /about
 #    translation_key: menu.about
 #    dropdown: []

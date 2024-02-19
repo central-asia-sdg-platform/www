@@ -40,7 +40,7 @@ Providing universal access for all to adequate, safe and affordable housing and 
 
 The dynamic map shows SDG Accelerators for Kyrgyzstan. 
 
-<iframe src="https://embed.kumu.io/998580a7b995bd0c471ae65cbaf33d5d" width="940" height="600" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/998580a7b995bd0c471ae65cbaf33d5d" width="100%" height="600" frameborder="0"></iframe>
 
 Use buttons to highlight certain paths and Focus to explore certain targets
 
