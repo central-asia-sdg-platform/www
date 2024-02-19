@@ -1,8 +1,8 @@
 ﻿analytics:
   ua: ''
-  gtag: ''
+  gtag: 'G-JY1RD8J5KH'
   gtm: ''
-  ga_prod: ''
+  ga_prod: 'G-JY1RD8J5KH'
 breadcrumbs:
   goal:
     - path: /
@@ -22,10 +22,11 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Central Asia
+  name: Central Asia 
   adjective: Central Asian
 create_goals:
   previous_next_links: false
+  goal_content_heading: ''
   goals: []
 create_indicators:
   previous_next_links: false
@@ -55,46 +56,72 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: mihail.peleah@undp.org
+  suggestions: mihail.peleah@undp.org
+  functional: mihail.peleah@undp.org
+empty_metadata_placeholder: ''
+empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: 'https://twitter.com/UNDPEurasia'
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
+  - path: https://www.undp.org/
+    translation_key: '<img src="https://central-asia-sdg-platform.github.io/site/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP '
+  - path: https://european-union.europa.eu/index_en
+    translation_key: '<img src="https://central-asia-sdg-platform.github.io/site/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU '
 frontpage_cards:
-  - title: frontpage.download_all
-    content: ''
-    include: components/download-all-data.html
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: SDG Partnership
+#  - title: frontpage.download_all
+#    content: ''
+#    include: components/download-all-data.html
+#    button_label: ''
+#    button_link: ''
+#    rule_color: ''
+  - title: European Union and SDGs in Central Asia 
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      The European Union (EU) plays a pivotal role in advancing Sustainable Development Goals (SDGs) throughout Central Asia, emphasizing the critical importance of investments for human prosperity and environmental stability across the region. By fostering cross-border collaboration and strategic partnerships, the EU actively promotes sustainable development initiatives that transcend geopolitical boundaries, addressing common challenges and opportunities shared among Central Asian nations. Notably, with the inclusion of Afghanistan in the broader Central Asian context, the EU's efforts become even more pertinent, aiming to stabilize conflict-affected regions while promoting economic resilience and social progress. Through targeted investments, capacity-building programs, and inclusive dialogue, the EU underscores the significance of collective action in achieving SDGs, ensuring a prosperous and sustainable future for generations to come in Central Asia and beyond.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://www.eeas.europa.eu/eeas/projects_en?f%5B0%5D=project_site%3AKazakhstan&s=222'
     rule_color: ''
-  - title: SDG Complexity
+  - title: SDG Partnership 
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      Achieving SDGs requires whole-of-society approach, partenrship and collaboration. Learn how you could contribute to SDGs achievement in Central Asia
+      * [Private sector](https://central-asia-sdg-platform.github.io/site/private-sector)
+      * [CSO and NGOs](https://central-asia-sdg-platform.github.io/site/cso-and-ngo)
+      * [Academia](https://central-asia-sdg-platform.github.io/site/academia)
+      * [Parliaments](https://central-asia-sdg-platform.github.io/site/parliaments)
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://data.undp.org/sdg-push-diagnostic'
+    rule_color: ''
+  - title: SDG Push Diagnostics
+    content: |
+      SDG Push reimagines and recalibrates how we determine, interrogate and advance development interventions that put countries on more stable footing. The Diagnostic powers ‘Integrated SDG Insights‘ reports which provide a strong evidence-base and relevant insights to support national ambition at the SDG Summit 2023.
+      [Overview of SDG Push diagnoistics for Central Asia](https://central-asia-sdg-platform.github.io/site/sdg-trends/)
+    include: ''
+    button_label: Read more
+    button_link: 'https://data.undp.org/sdg-push-diagnostic'
+    rule_color: ''
+  - title: The 2023 SDG Summit
+    content: |
+      The 2023 SDG Summit will be convened on 18-19 September 2023, during the United Nations General Assembly high-level week. Heads of State and Government will gather at the United Nations Headquarters in New York to follow-up and review the implementation of the 2030 Agenda for Sustainable Development and the 17 Sustainable Development Goals (SDGs) . They will carry out a comprehensive review of the state of the SDGs, respond to the impact of multiple and interlocking crises facing the world, and provide high-level political guidance on transformative and accelerated actions leading up to the target year of 2030 for achieving the SDGs.
+      The special edition of the report of the Secretary-General entitled “Progress towards the Sustainable Development Goals: Towards a Rescue Plan for People and Planet”, the [Advance Unedited version](https://hlpf.un.org/sites/default/files/2023-06/SDG%20Progress%20Report%20Special%20Edition_1_0.pdf) has been released.
+    include: ''
+    button_label: Read more
+    button_link: 'https://www.un.org/en/conferences/SDGSummit2023'
     rule_color: ''
 frontpage_goals_grid:
-  title: frontpage.heading_short
-  description: frontpage.instructions_shorter
+  title: Central Asia Sustainable Development Goal indicators
+  description: Browse goals for indicator data
+# [!] Revise for translation 
+# frontpage_goals_grid:
+#  title: frontpage.heading_short
+#  description: frontpage.instructions_shorter
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
@@ -129,6 +156,7 @@ indicator_metadata_form:
   language: ''
   scopes:
     - national
+#   - regional 
     - global
   exclude_fields: []
   translated: false
@@ -139,7 +167,8 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-  - es
+# [!] Temp to simplify things, uncomment
+# - ru
 languages_public: []
 logos: []
 map_layers: []
@@ -173,24 +202,61 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: /
-    translation_key: general.home
+  - path: /central-asia
+    translation_key: about.centralasia
+    dropdown: 
+    - path: /central-asia-kaz
+      translation_key: about.centralasia_kaz
+    - path: /central-asia-kgz
+      translation_key: about.centralasia_kgz
+    - path: /central-asia-tjk
+      translation_key: about.centralasia_tjk
+    - path: /central-asia-tkm
+      translation_key: about.centralasia_tkm
+    - path: /central-asia-uzb
+      translation_key: about.centralasia_uzb
+    - path: /central-asia
+      translation_key: about.centralasia
+  - path: /partnership
+    translation_key: menu-partnership.partnership
+    dropdown:
+    - path: /eu4sdgs-central-asia
+      translation_key: menu-partnership.eu4sdgs-central-asia
+    - path: /parliaments/
+      translation_key: menu-partnership.parliaments
+    - path: /private-sector
+      translation_key: menu-partnership.private-sector
+    - path: /academia
+      translation_key: menu-partnership.academia
+    - path: /cso-and-ngo
+      translation_key: menu-partnership.cso-and-ngo
+    - path: /vnr
+      translation_key: menu-partnership.vnr
+  - path: /sdg-reporting
+    translation_key: menu.sdgme
+    dropdown:
+    - path: /vnr
+      translation_key: menu.vnr
+    - path: /reporting-status
+      translation_key: menu.reporting_status
+  - path: /policies
+    translation_key: menu.policies
     dropdown: []
-  - path: /goals
-    translation_key: general.goals
+  - path: /systems
+    translation_key: menu.systems
     dropdown: []
-  - path: /reporting-status
-    translation_key: menu.reporting_status
+  - path: /finances
+    translation_key: menu.finances
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []  
-  - path: /about
-    translation_key: menu.about
-    dropdown: []    
+#  - path: /about
+#    translation_key: menu.about
+#    dropdown: []
+#  - path: /faq
+#    translation_key: menu.faq
+#    dropdown: []
+#  - path: /news
+#    translation_key: menu.updates
+#    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
