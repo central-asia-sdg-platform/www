@@ -37,7 +37,7 @@ Providing universal access for all to adequate, safe and affordable housing and 
 
 The dynamic map shows SDG Accelerators for Tajikistan. 
 
-<iframe src="https://embed.kumu.io/175edab0dd50ee12a6a06501d6a33c77" width="940" height="600" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/175edab0dd50ee12a6a06501d6a33c77" width="100%" height="600" frameborder="0"></iframe>
 
 Use buttons to highlight certain paths and Focus to explore certain targets
 
