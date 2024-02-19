@@ -141,7 +141,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/www/assets/css/style.css?v=20240219192348">
+        <link rel="stylesheet" href="/www/assets/css/style.css?v=20240219203848">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -150,6 +150,23 @@ var translations = {
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+    
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-JY1RD8J5KH"></script>
+<script >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JY1RD8J5KH', {
+    'anonymize_ip': true,
+    'forceSSL': true,
+  });
+</script>
+
+        
         
 
         
@@ -180,7 +197,7 @@ layout-frontpage
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:mihail.peleah@undp.org">feedback</a>.
     
   </div>
 </div>
@@ -198,18 +215,52 @@ layout-frontpage
             </button>
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="menu"><li class="nav-item active">
-    <a class="nav-link" href="/www/">Home</a>
+                    <ul class="navbar-nav" id="menu"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-about-centralasia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    🌐 Central Asia
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-about-centralasia"><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-kaz"><img src="https://mikepeleah.github.io/CA-SDG-Platform//assets/images/KAZ_flag_h20.png" alt="Kazakhstan"> Kazakhstan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-kgz"><img src="https://mikepeleah.github.io/CA-SDG-Platform//assets/images/KGZ_flag_h20.png" alt="Kyrgyzstan"> Kyrgyzstan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-tjk"><img src="https://mikepeleah.github.io/CA-SDG-Platform//assets/images/TJK_flag_h20.png" alt="Tajikistan"> Tajikistan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-tkm"><img src="https://mikepeleah.github.io/CA-SDG-Platform//assets/images/TKM_flag_h20.png" alt="Turkmenistan"> Turkmenistan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-uzb"><img src="https://mikepeleah.github.io/CA-SDG-Platform//assets/images/UZB_flag_h20.png" alt="Uzbekistan"> Uzbekistan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia">🌐 Central Asia</a>
+</li></ul>
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-partnership-partnership" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    menu-partnership.partnership
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-partnership-partnership"><li class=" ">
+    <a class="dropdown-item" href="/www/eu4sdgs-central-asia">menu-partnership.eu4sdgs-central-asia</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/parliaments/">menu-partnership.parliaments</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/private-sector">menu-partnership.private-sector</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/academia">menu-partnership.academia</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/cso-and-ngo">menu-partnership.cso-and-ngo</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/vnr">menu-partnership.vnr</a>
+</li></ul>
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-sdgme" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SDGs Monitoring
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-sdgme"><li class=" ">
+    <a class="dropdown-item" href="/www/vnr">Voluntary National Reviews</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/reporting-status">Reporting Status</a>
+</li></ul>
+            </li><li class="nav-item ">
+    <a class="nav-link" href="/www/policies">Policies for SDGs</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/www/goals">Goals</a>
+    <a class="nav-link" href="/www/systems">SDG systems</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/www/reporting-status">Reporting Status</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/www/news">Updates</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/www/faq">FAQ</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/www/about">About</a>
+    <a class="nav-link" href="/www/finances">Finances for SDGs</a>
 </li></ul>
     
                 </div>
@@ -227,37 +278,7 @@ layout-frontpage
 </form>
 
                 </div>
-                <div class="header-toggles d-flex">
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown  dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fa fa-globe"></i>
-      English
-    </button>
-    <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/www/es/">
-              Español
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
-    <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/www/es/">
-                Español
-            </a>
-        </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+                <div class="header-toggles d-flex"><a title="Enable high contrast" aria-label="Enable high contrast"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -285,11 +306,11 @@ data-event-label="high"
     <div class="frontpage-goals-grid">
 
         
-        <h2 class="frontpage-goals-grid-title">Central Asia data for the Sustainable Development Goals</h2>
+        <h2 class="frontpage-goals-grid-title">Central Asia Sustainable Development Goal indicators</h2>
         
 
         
-        <div class="frontpage-goals-grid-description"><p>Select each goal for indicator data.</p>
+        <div class="frontpage-goals-grid-description"><p>Browse goals for indicator data</p>
 </div>
         
 
@@ -421,28 +442,23 @@ data-event-label="high"
         
         style="border-color: ;"
         
-    >Download all data (.zip)</h2>
+    >European Union and SDGs in Central Asia</h2>
     
   
     
-  
-    
-      <div class="zip-download-container">
-    <a href="https://open-sdg.org/open-sdg-data-starter/en/zip/all_indicators.zip"
-       class="btn btn-primary btn-download" aria-describedby="zip-download-info">
-        Download all data (.zip)
-    </a>
-    <div id="zip-download-info">
-        Size: 22 Bytes
-        
-            <br>
-            Data last updated - Jul 20, 2023
-        
-    </div>
+    <div class="card-text"><p>The European Union (EU) plays a pivotal role in advancing Sustainable Development Goals (SDGs) throughout Central Asia, emphasizing the critical importance of investments for human prosperity and environmental stability across the region. By fostering cross-border collaboration and strategic partnerships, the EU actively promotes sustainable development initiatives that transcend geopolitical boundaries, addressing common challenges and opportunities shared among Central Asian nations. Notably, with the inclusion of Afghanistan in the broader Central Asian context, the EU’s efforts become even more pertinent, aiming to stabilize conflict-affected regions while promoting economic resilience and social progress. Through targeted investments, capacity-building programs, and inclusive dialogue, the EU underscores the significance of collective action in achieving SDGs, ensuring a prosperous and sustainable future for generations to come in Central Asia and beyond.</p>
 </div>
-
     
   
+    
+  
+    
+    
+    
+    
+    <a class="btn btn-primary btn-download" href="https://www.eeas.europa.eu/eeas/projects_en?f%5B0%5D=project_site%3AKazakhstan&s=222">
+      Read more
+    </a>
     
 
     </div>
@@ -471,8 +487,13 @@ data-event-label="high"
     
   
     
-    <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-cursus est sed dapibus.</p>
+    <div class="card-text"><p>Achieving SDGs requires whole-of-society approach, partenrship and collaboration. Learn how you could contribute to SDGs achievement in Central Asia</p>
+<ul>
+  <li><a href="https://central-asia-sdg-platform.github.io/site/private-sector">Private sector</a></li>
+  <li><a href="https://central-asia-sdg-platform.github.io/site/cso-and-ngo">CSO and NGOs</a></li>
+  <li><a href="https://central-asia-sdg-platform.github.io/site/academia">Academia</a></li>
+  <li><a href="https://central-asia-sdg-platform.github.io/site/parliaments">Parliaments</a></li>
+</ul>
 </div>
     
   
@@ -482,7 +503,7 @@ cursus est sed dapibus.</p>
     
     
     
-    <a class="btn btn-primary btn-download" href="https://example.com">
+    <a class="btn btn-primary btn-download" href="https://data.undp.org/sdg-push-diagnostic">
       Read more
     </a>
     
@@ -509,12 +530,12 @@ cursus est sed dapibus.</p>
         
         style="border-color: ;"
         
-    >SDG Complexity</h2>
+    >SDG Push Diagnostics</h2>
     
   
     
-    <div class="card-text"><p>Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
+    <div class="card-text"><p>SDG Push reimagines and recalibrates how we determine, interrogate and advance development interventions that put countries on more stable footing. The Diagnostic powers ‘Integrated SDG Insights‘ reports which provide a strong evidence-base and relevant insights to support national ambition at the SDG Summit 2023.
+<a href="https://central-asia-sdg-platform.github.io/site/sdg-trends/">Overview of SDG Push diagnoistics for Central Asia</a></p>
 </div>
     
   
@@ -524,7 +545,53 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
     
     
     
-    <a class="btn btn-primary btn-download" href="https://example.com">
+    <a class="btn btn-primary btn-download" href="https://data.undp.org/sdg-push-diagnostic">
+      Read more
+    </a>
+    
+
+    </div>
+  
+  </div>
+  
+  </div>
+
+        
+        </div>
+        
+
+    
+        
+
+        
+        <div class="row">
+        
+
+        <div class="col-sm-6 col-md-4">
+    <div class="card">
+    <div class="card-body">
+
+    
+    <h2 class="card-title"
+        
+        style="border-color: ;"
+        
+    >The 2023 SDG Summit</h2>
+    
+  
+    
+    <div class="card-text"><p>The 2023 SDG Summit will be convened on 18-19 September 2023, during the United Nations General Assembly high-level week. Heads of State and Government will gather at the United Nations Headquarters in New York to follow-up and review the implementation of the 2030 Agenda for Sustainable Development and the 17 Sustainable Development Goals (SDGs) . They will carry out a comprehensive review of the state of the SDGs, respond to the impact of multiple and interlocking crises facing the world, and provide high-level political guidance on transformative and accelerated actions leading up to the target year of 2030 for achieving the SDGs.
+The special edition of the report of the Secretary-General entitled “Progress towards the Sustainable Development Goals: Towards a Rescue Plan for People and Planet”, the <a href="https://hlpf.un.org/sites/default/files/2023-06/SDG%20Progress%20Report%20Special%20Edition_1_0.pdf">Advance Unedited version</a> has been released.</p>
+</div>
+    
+  
+    
+  
+    
+    
+    
+    
+    <a class="btn btn-primary btn-download" href="https://www.un.org/en/conferences/SDGSummit2023">
       Read more
     </a>
     
@@ -560,16 +627,21 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
                         </li>
                         <li>
                             
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
+                            <a href="https://twitter.com/UNDPEurasia" target="_blank">Twitter</a>
                             
                         </li>
                         <li>
                             <a href="/www/about/cookies-and-privacy/">Cookies</a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://www.undp.org/" target="_blank"><img src="https://central-asia-sdg-platform.github.io/site/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP </a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://european-union.europa.eu/index_en" target="_blank"><img src="https://central-asia-sdg-platform.github.io/site/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU </a>
                             
                         </li>
                         
@@ -604,6 +676,23 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 
 
 
+  <script >
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-JY1RD8J5KH', 'auto');
+ga('require', 'eventTracker', {
+    attributePrefix: 'data-'
+});
+// anonymize user IPs (chops off the last IP triplet)
+ga('set', 'anonymizeIp', true);
+// forces SSL even if the page were somehow loaded over http://
+ga('set', 'forceSSL', true);
+ga('send', 'pageview');
+</script>
+
 
 
 <script>translations['general'] = translations['general'] || {};
@@ -612,12 +701,12 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/www/assets/js/sdg.js?v=20240219192348'></script>
+<script src='/www/assets/js/sdg.js?v=20240219203848'></script>
 
 
     
     
-    <script src="/www/assets/js/custom.js?v=20240219192348"></script><script>
+    <script src="/www/assets/js/custom.js?v=20240219203848"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
