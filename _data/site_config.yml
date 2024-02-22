@@ -54,7 +54,7 @@ date_formats: []
 disclaimer:
   phase: ''
   message: ''
-  hidden: false
+  hidden: true
 email_contacts:
   questions: mihail.peleah@undp.org
   suggestions: mihail.peleah@undp.org
@@ -167,8 +167,7 @@ indicator_tabs:
   tab_4: ''
 languages:
   - en
-# [!] Temp to simplify things, uncomment
-# - ru
+  - ru
 languages_public: []
 logos: []
 map_layers: []

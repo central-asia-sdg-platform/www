@@ -9,7 +9,8 @@ layout: page
 **Kazakhstan**, the largest country in Central Asia, has made significant progress in achieving the United Nations' Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Kazakhstan has undertaken a range of measures to promote sustainable development across its economy, society, and environment. Some notable achievements include reducing poverty and inequality, improving access to healthcare and education, and promoting gender equality. In 2022, Kazakhstan presented its second Voluntary National Review (VNR) at the United Nations High-Level Political Forum on Sustainable Development, which highlighted the country's progress and identified priorities for future action. The VNR also showcased Kazakhstan's commitment to sustainable development and its efforts to align its policies with the SDGs.
 
 ### [Progress in SDGs](https://data.undp.org/sdg-push-diagnostic/KAZ/sdg-trends)
-![SDG Trends in Kazakhstan in 2023, based on Global SDG Indicators and Diagnostics]({{ site.baseurl }}/assets/images/KAZ-SDG-trends-2023.png)  
+![SDG Trends in Kazakhstan in 2023, based on Global SDG Indicators and Diagnostics]({{ site.baseurl }}/assets/images/KAZ-SDG-trends-2023.png)
+ 
 Based on Global SDG Indicators and Diagnostics 🟩 On Track     🟨 Mixed / For Review     🟥 Off Track     ⬛ Trends NA  
 
 ### SDG Accelerators
@@ -37,6 +38,7 @@ The dynamic map shows SDG Accelerators for Kazakhstan.
 <iframe src="https://embed.kumu.io/2641668c40b8a7e162cb6a129dd76b90" width="100%" height="600" frameborder="0"></iframe>
 
 Use buttons to highlight certain paths and Focus to explore certain targets
+
 
 
 [See 📊 SDG Push Diagnostic for Kazakhstan](https://sdgdiagnostics.data.undp.org/KAZ)  
