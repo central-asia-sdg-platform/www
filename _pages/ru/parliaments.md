@@ -28,11 +28,13 @@ permalink: /ru/parliaments/
 🌐 [Добровольный национальный обзор 2019 г.](https://hlpf.un.org/countries/kazakhstan/voluntary-national-review-2019)
 
 
+
 ## ![Флаг Кыргызстана]({{ site.baseurl }}/assets/images/KGZ_flag_h20.png) Кыргызстан
 
 🌐 [Добровольный национальный обзор 2025 г., готовится к публикации](https://hlpf.un.org/countries/kyrgyzstan/voluntary-national-review-2025)
 
 🌐 [Добровольный национальный обзор 2020 г.](https://hlpf.un.org/countries/kyrgyzstan/voluntary-national-review-2020)
+
 
 
 ## ![Флаг Таджикистана]({{ site.baseurl }}/assets/images/TJK_flag_h20.png) Таджикистан
@@ -42,11 +44,14 @@ permalink: /ru/parliaments/
 🌐 [Добровольный национальный обзор 2017 г.](https://hlpf.un.org/countries/tajikistan/voluntary-national-review-2017)
 
 
+
+
 ## ![Флаг Туркменистана]({{ site.baseurl }}/assets/images/TKM_flag_h20.png) Туркменистан
 
 🌐 [Добровольный национальный обзор 2023 г.](https://hlpf.un.org/countries/turkmenistan/voluntary-national-reviews-2023)
 
 🌐 [Добровольный национальный обзор 2019 г.](https://hlpf.un.org/countries/turkmenistan/voluntary-national-review-2019)
+
 
 
 ## ![Флаг Узбекистана]({{ site.baseurl }}/assets/images/UZB_flag_h20.png) Узбекистан

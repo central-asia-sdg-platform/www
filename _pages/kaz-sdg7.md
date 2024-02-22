@@ -29,4 +29,3 @@ SDG 7 is closely related with a number of SDG goals, especially 1, 3, 8, 9, 11, 
 
 Explore connections in details:
 <iframe src="https://embed.kumu.io/05ab6debbcc0e1ca26cc48b722efb3ce#cur-v-ca/puti-kaz/cel-7?focus=2" width="100%" height="600" frameborder="0"></iframe>
-

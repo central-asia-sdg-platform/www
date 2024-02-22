@@ -29,8 +29,5 @@ permalink: /ru/kaz-sdg7/
 
 
 
-
 Детальная схема взаимосвязей:
 <iframe src="https://embed.kumu.io/05ab6debbcc0e1ca26cc48b722efb3ce#cur-v-ca/puti-kaz/cel-7?focus=2" width="100%" height="600" frameborder="0"></iframe>
-
-
