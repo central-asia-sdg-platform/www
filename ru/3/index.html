@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex%2Cfetch"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://central-asia-sdg-platform.github.io/data/ru',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded. A "context" parameter
+  // is also passed which contains additional information.
+  dataRounding: function(value, context) {
+    // Alterations go here.
+    return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
+  },
+
+  // Disaggregations which should be ignored on indicator pages.
+  ignoredDisaggregations: null,
+
+  language: 'ru',
+
+  mapColors: {
+    "default": [
+        "#c4e1c6",
+        "#b0d1b3",
+        "#9bc2a1",
+        "#87b28f",
+        "#74a37c",
+        "#60946b",
+        "#4d8559",
+        "#3a7747",
+        "#276836"
+    ]
+},
+};
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        
+    
+    <title>Цель 3 - Хорошее здоровье и благополучие - Показатели Целей устойчивого развития</title>
+    
+
+
+
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+
+        <!--[if IE 9]>
+        <script src="/www/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/www/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/www/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/www/assets/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/www/assets/img/favicons/favicon.ico" />
+
+        
+
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/www/assets/css/style.css?v=20240222174000">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+    
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-JY1RD8J5KH"></script>
+<script >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JY1RD8J5KH', {
+    'anonymize_ip': true,
+    'forceSSL': true,
+  });
+</script>
+
+        
+        
+
+        
+
+
+        <!--[if IE]>
+        <link rel="stylesheet" href="/www/assets/css/ie.css">
+        <![endif]-->
+
+        
+
+    </head>
+<body class="language-ru
+layout-goal
+">
+<!-- <div class="container"> -->
+
+<script>translations['header'] = {"alpha":"Альфа","default_contrast":"стандартный контраст","disable_high_contrast":"Отключить высокую контрастность","disclaimer":"Это сайт находится в разработке. Мы рады вашим отзывам.","enable_high_contrast":"Включить высокую контрастность","hide_menu":"Скрыть навигационное меню","high_contrast":"высокий контраст","internet_explorer_message":"Мы обнаружили, что для посещения этого сайта вы используете Internet Explorer. В настоящее время компания Microsoft постепенно отказывается от использования Internet Explorer. В результате этот сайт больше не поддерживает ни одну из версий Internet Explorer. Некоторые функции на этом сайте не будут работать. Вам следует использовать современный браузер, такой как Edge, Chrome, Firefox или Safari. Если у вас возникли трудности с установкой или доступом к другому браузеру, обратитесь в службу ИТ-поддержки.","internet_explorer_message_title":"Этот интернет-браузер больше не поддерживается","logo_title":"Перейти на главную страницу","show_menu":"Показать навигационное меню","skip_link":"Перейти к главному содержанию","tag_line":"17 Целей, чтобы преобразовать наш мир","toggle_menu":"Переключайте меню. Нажмите, чтобы развернуть или свернуть меню.","toggle_search":"Поисковая переключатель. Нажмите, чтобы развернуть или свернуть панель поиска."};</script>
+
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Перейти к главному содержанию</a>
+<div class="container internet-explorer-message">
+    <h2 class="internet-explorer-message-title">Этот интернет-браузер больше не поддерживается</h2>
+    <p class="internet-explorer-message-body">Мы обнаружили, что для посещения этого сайта вы используете Internet Explorer. В настоящее время компания Microsoft постепенно отказывается от использования Internet Explorer. В результате этот сайт больше не поддерживает ни одну из версий Internet Explorer. Некоторые функции на этом сайте не будут работать. Вам следует использовать современный браузер, такой как Edge, Chrome, Firefox или Safari. Если у вас возникли трудности с установкой или доступом к другому браузеру, обратитесь в службу ИТ-поддержки.</p>
+</div>
+<div id="disclaimer">
+    
+</div>
+
+<header role="banner" class="">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
+            <a class="navbar-brand" href="/www/ru/" id="home" aria-label="Перейти на главную страницу" title="Перейти на главную страницу">
+    <img src="/www/assets/img/SDG_logo.png" alt="Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир" />
+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Показать навигационное меню">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-wrap w-100 justify-content-between">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav" id="menu"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-about-centralasia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    🌐 Центральная Азия
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-about-centralasia"><li class=" ">
+    <a class="dropdown-item" href="/www/ru/central-asia-kaz"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Казахстан"> Казахстан</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/central-asia-kgz"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/KGZ_flag_h20.png" alt="Кыргызстан"> Кыргызстан</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/central-asia-tjk"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/TJK_flag_h20.png" alt="Таджикистан"> Таджикистан</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/central-asia-tkm"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/TKM_flag_h20.png" alt="Туркменистан"> Туркменистан</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/central-asia-uzb"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/UZB_flag_h20.png" alt="Узбекистан"> Узбекистан</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/central-asia">🌐 Центральная Азия</a>
+</li></ul>
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-partnership-partnership" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Партнерство дляЦУР
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-partnership-partnership"><li class=" ">
+    <a class="dropdown-item" href="/www/ru/eu4sdgs-central-asia">ЕС и ЦУР в Центральной Азии</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/parliaments/">Парламенты и ЦУР</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/private-sector">Частный сектор</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/academia">Академический сектор и Университеты</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/cso-and-ngo">Гражданское общество: ОГО и НПО</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/vnr">Добровольные национальные обзоры</a>
+</li></ul>
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-actions-actions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Деятельность по достижению ЦУР
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-actions-actions"><li class=" ">
+    <a class="dropdown-item" href="/www/ru/goals">Отслеживание прогресса ЦУР</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/sdg-local">Локализация ЦУР</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/policies">Политика для достижения ЦУР</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/sdg-scenarios">Сценарии достижения ЦУР</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/systems">Системный и целостный подход</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/finances">Финансы для ЦУР</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/ru/hotspots">Точки уязвимости в Центральной Азии</a>
+</li></ul>
+            </li><li class="nav-item ">
+    <a class="nav-link" href="/www/ru/sdg-stories">Stories from Central Asia</a>
+</li></ul>
+    
+                </div>
+                <div class="header-search-bar">
+                    <form class="align-self-lg-end" id="search" action="/www/ru/search/">
+    <div class="input-group">
+        <label class="visually-hidden" for="indicator_search">Поиск</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Поиск">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Поиск по сайту" id="search-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+                </div>
+                <div class="header-toggles d-flex">
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      Pусский
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/www/3/">
+              English
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/www/3/">
+                English
+            </a>
+        </li></ul>
+</div></span><a title="Включить высокую контрастность" aria-label="Включить высокую контрастность"
+    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+>A</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<div id="top" tabindex=-1></div>
+
+
+
+<div class="container">
+  <nav>
+    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
+        
+        <li class="breadcrumb-item" >
+            <a href="/www/ru/">Главная</a>
+        </li>
+        <li class="breadcrumb-item" >
+            <a href="/www/ru/goals">Цели</a>
+        </li>
+        
+        
+    </ol>
+</nav>
+  
+</div>
+
+<div class="heading goal-banner goal-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
+                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/ru/3.png" alt="Хорошее здоровье и благополучие - Цель 3" id="goal-3" class="goal-icon-image goal-icon-image-" />
+            </div>
+            <div class="col-8 col-md-9 col-lg-10 goal-details">
+                <h1>
+                    
+                        Обеспечение здорового образа жизни и содействие благополучию для всех в любом возрасте
+                    
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div id="main-content" class="container" role="main">
+
+  
+
+
+
+  <div class="container g-0 ">
+    <div class="row align-items-end">
+      <div class="col">
+        <h2 class="goal-page-heading">Цели и индикаторы</h2>
+      </div>
+      
+    </div>
+    <hr class="goal-page-column-header-rule">
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.1</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2030 году снизить глобальный коэффициент материнской смертности до менее 70 случаев на 100 000 живорождений</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.1.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-1-1/">Maternal mortality ratio</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.1.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-1-2/">Proportion of births attended by skilled health personnel</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.2</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2030 году положить конец предотвратимой смертности новорожденных и детей в возрасте до пяти лет, при этом все страны должны стремиться уменьшить неонатальную смертность до не более 12 случаев на 1000 живорождений, а смертность в возрасте до пяти лет до не более 25 случаев на 1000 живорождений</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.2.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-2-1/">Under‑5 mortality rate</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.2.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-2-2/">Neonatal mortality rate</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.3</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2030 году положить конец эпидемиям СПИДа, туберкулеза, малярии и тропических болезней, которым не уделяется должного внимания, и обеспечить борьбу с гепатитом, заболеваниями, передаваемыми через воду, и другими инфекционными заболеваниями</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.3.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-3-1/">Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.3.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-3-2/">Tuberculosis incidence per 100,000 population</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.3.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-3-3/">Malaria incidence per 1,000 population</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.3.4</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-3-4/">Hepatitis B incidence per 100,000 population</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.3.5</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-3-5/">Number of people requiring interventions against neglected tropical diseases</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.4</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2030 году уменьшить на треть преждевременную смертность от неинфекционных заболеваний посредством профилактики и лечения и поддержания психического здоровья и благополучия</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.4.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-4-1/">Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.4.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-4-2/">Suicide mortality rate</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.5</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Улучшать профилактику и лечение зависимости от психоактивных веществ, в том числе злоупотребления наркотическими средствами и алкоголем</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.5.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-5-1/">Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.5.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-5-2/">Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.6</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2020 году вдвое сократить во всем мире число смертей и травм в результате дорожно-транспортных происшествий</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.6.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-6-1/">Death rate due to road traffic injuries</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.7</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2030 году обеспечить всеобщий доступ к услугам по охране сексуального и репродуктивного здоровья, включая услуги по планированию семьи, информирование и просвещение, и учет вопросов охраны репродуктивного здоровья в национальных стратегиях и программах</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.7.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-7-1/">Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.7.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-7-2/">Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.8</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Обеспечить всеобщий охват услугами здравоохранения, в том числе защиту от финансовых рисков, доступ к качественным основным медико-санитарным услугам и доступ к безопасным, эффективным, качественным и недорогим основным лекарственным средствам и вакцинам для всех</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.8.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-8-1/">Coverage of essential health services</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.8.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-8-2/">Proportion of population with large household expenditures on health as a share of total household expenditure or income</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.9</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">К 2030 году существенно сократить количество случаев смерти и заболевания в результате воздействия опасных химических веществ и загрязнения и отравления воздуха, воды и почв</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.9.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-9-1/">Mortality rate attributed to household and ambient air pollution</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.9.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-9-2/">Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.9.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-9-3/">Mortality rate attributed to unintentional poisoning</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.a</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Активизировать при необходимости осуществление Рамочной конвенции Всемирной организации здравоохранения по борьбе против табака во всех странах</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.a.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-a-1/">Age-standardized prevalence of current tobacco use among persons aged 15 years and older</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.b</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Оказывать содействие исследованиям и разработкам вакцин и лекарственных препаратов для лечения инфекционных и неинфекционных болезней, которые в первую очередь затрагивают развивающиеся страны, обеспечивать доступность недорогих основных лекарственных средств и вакцин в соответствии с Дохинской декларацией «Соглашение по ТРИПС и общественное здравоохранение», в которой подтверждается право развивающихся стран в полном объеме использовать положения Соглашения по торговым аспектам прав интеллектуальной собственности в отношении проявления гибкости для целей охраны здоровья населения и, в частности, обеспечения доступа к лекарственным средствам для всех</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.b.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-b-1/">Proportion of the target population covered by all vaccines included in their national programme</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.b.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-b-2/">Total net official development assistance to medical research and basic health sectors</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.b.3</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-b-3/">Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.c</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Существенно увеличить финансирование здравоохранения и набор, развитие, профессиональную подготовку и удержание медицинских кадров в развивающихся странах, особенно в наименее развитых странах и малых островных развивающихся государствах</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.c.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-c-1/">Health worker density and distribution</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+      
+      <div class="row align-items-start goal-target">
+          <div class="col-auto goal-page-target-number">
+            <h3 class="goal-target">
+              <span class="target-number"><span class="visually-hidden">Задача</span> 3.d</span>
+            </h3>
+          </div>
+          <div class="col goal-page-target-name">
+            <span class="target-name">Наращивать потенциал всех стран, особенно развивающихся стран, в области раннего предупреждения, снижения рисков и регулирования национальных и глобальных рисков для здоровья</span>
+          </div>
+          
+      </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.d.1</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-d-1/">International Health Regulations (IHR) capacity and health emergency preparedness</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+
+          
+          
+          
+          
+
+          <div class="row align-items-start goal-indicator">
+          
+            <div class="col-auto goal-page-indicator-number">
+              <h4>
+                <span class="indicator-number"><span class="visually-hidden">Показатель</span> 3.d.2</span>
+              </h4>
+            </div>
+            <div class="col goal-page-indicator-name">
+              
+              <span class="indicator-name"><a href="/www/ru/3-d-2/">Percentage of bloodstream infections due to selected antimicrobial-resistant organismsi</a></span>
+              
+
+
+
+
+    <ul class="tags list-unstyled list-inline" aria-label="Теги"><li class="list-inline-item">
+        <span class="visually-hidden">Состояние индикатора</span>
+        
+
+
+
+<span class="status notstarted">
+    <span class="status-inner">Нет данных</span>
+</span>
+
+
+        </li></ul>
+
+
+            </div>
+            
+            
+          </div>
+        
+        <hr class="goal-page-target-rule" />
+    
+  </div>
+  <a href="#top">Наверх</a>
+</div>
+
+
+<footer role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="footerLinks">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">Построен с использованием Open SDG</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/www/ru/contact-us">Свяжитесь с нами</a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://twitter.com/UNDPEurasia" target="_blank">Твиттеру</a>
+                            
+                        </li>
+                        <li>
+                            <a href="/www/ru/about/cookies-and-privacy/">Cookies</a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://www.undp.org/" target="_blank"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP </a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://european-union.europa.eu/index_en" target="_blank"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU </a>
+                            
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/www/ru/config">Configuration</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+
+
+
+
+
+  <script >
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-JY1RD8J5KH', 'auto');
+ga('require', 'eventTracker', {
+    attributePrefix: 'data-'
+});
+// anonymize user IPs (chops off the last IP triplet)
+ga('set', 'anonymizeIp', true);
+// forces SSL even if the page were somehow loaded over http://
+ga('set', 'forceSSL', true);
+ga('send', 'pageview');
+</script>
+
+
+
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = 'скрывать';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = 'Поиск';</script>
+
+<script src='/www/assets/js/sdg.js?v=20240222174000'></script>
+
+
+    
+    
+    <script src="/www/assets/js/custom.js?v=20240222174000"></script><script>
+    new indicatorInit();
+    new accessibilitySwitcher();
+</script>
+
+
+</body>
+</html>
