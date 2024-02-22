@@ -39,6 +39,7 @@ The dynamic map shows SDG Accelerators for Kazakhstan.
 Use buttons to highlight certain paths and Focus to explore certain targets
 
 
+
 [See 📊 SDG Push Diagnostic for Kazakhstan](https://sdgdiagnostics.data.undp.org/KAZ)  
 [Read the 📑 Integrated SDG Insights Report for Kazakhstan](https://sdgigeneralstorage.blob.core.windows.net/sdg-push/InsightReports/UNDP%20-%20SDG%20KAZ.pdf)
 
