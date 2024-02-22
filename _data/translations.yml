@@ -76,12 +76,12 @@ ru:
     annotation_2030_target: 'Целевое значение 2030'
     annotation_2025_target: 'Целевое значение 2025'
   menu-partnership:
-    partnership:     'Партнерство дляЦУР'
+    partnership:     'Партнерство для ЦУР'
     eu4sdgs-central-asia: 'ЕС и ЦУР в Центральной Азии'
     parliaments:     'Парламенты и ЦУР'    
     private-sector:  'Частный сектор'
     academia:        'Академический сектор и Университеты'
-    cso-and-ngo:     'Гражданское общество: ОГО и НПО'
+    cso-and-ngo:     'Гражданское общество и НПО'
     vnr:             'Добровольные национальные обзоры'
   menu-actions:
     actions:         'Деятельность по достижению ЦУР'
@@ -93,7 +93,7 @@ ru:
     finances:        'Финансы для ЦУР' 
     hotspots:        'Точки уязвимости в Центральной Азии'
   menu-stories:
-    stories:        'Stories from Central Asia'
+    stories:        'Истории из Центральной Азии'
   menu:
     policies: 'Политика для ЦУР'
     systems: 'Системы ЦУР'

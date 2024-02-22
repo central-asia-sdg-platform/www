@@ -14,7 +14,7 @@ It includes three targets and two means of achievements:
 - Target 7.b By 2030, expand infrastructure and upgrade technology for supplying modern and sustainable energy services for all in developing countries, in particular least developed countries, small island developing States, and land-locked developing countries, in accordance with their respective programmes of support
 
 Progress in SDG7 targets in Kazakhstan:
-- [Target 7.1 Access to clean energy 🟩 On track]({{ site.baseurl }}/7-1-1/)
+- [Target 7.1 Access to clean energy 🟩 On track]({{ site.baseurl }}/7-1-1/), including [🟢 Indicator 7.1.1]({{ site.baseurl }}/7-1-1/) [🟢 Indicator 7.1.2]({{ site.baseurl }}/7-1-2/)
 - [Target 7.2 Renewable energy 🟥 Off track]({{ site.baseurl }}/7-2-1/)
 - [Target 7.3 Energy efficiency 🟥 Off track]({{ site.baseurl }}/7-3-1/)
 
@@ -25,7 +25,7 @@ SDG 7 is closely related with a number of SDG goals, especially 1, 3, 8, 9, 11, 
 
 
 
+
+
 Explore connections in details:
-<iframe src="https://embed.kumu.io/eb5a436cf3cf52075b00b893831b1ce5" width="940" height="600" frameborder="0"></iframe>
-
-
+<iframe src="https://embed.kumu.io/05ab6debbcc0e1ca26cc48b722efb3ce#cur-v-ca/puti-kaz/cel-7?focus=2" width="100%" height="600" frameborder="0"></iframe>
