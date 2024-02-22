@@ -45,7 +45,7 @@ layout: page
 
 На динамической карте показаны ускорители достижения ЦУР в Казахстане.
 
-<iframe src="https://embed.kumu.io/2641668c40b8a7e162cb6a129dd76b90" width="100%" height="600"frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/2641668c40b8a7e162cb6a129dd76b90" width="100%" height="600" frameborder="0"></iframe>
 
 Используйте кнопки, чтобы выделить определенные пути, и «Фокус», чтобы исследовать определенные цели.
 
