@@ -7,6 +7,29 @@ layout: page
 
 # This is a test page for experiments
 
+## Emebedding elements 
+Informaton from other sites could be embedded using ```<iframe>``` html code. Examples 
+
+
+### Video 
+Do you know all 17 SDGs?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0XTBYMfZyrM?si=d13iMiBDpsBhxgHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Kumu
+<iframe src="https://embed.kumu.io/d376984a933c24dd474cd90ed7d0bc99" width="100%" height="600" frameborder="0"></iframe>
+
+### Form from Google.Form
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFTF6OgU8IPWWzpyLm1h6SnkGiIbXrYZ-z3Mh9VKolBUyoTA/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+
+
+
+
+
+## Using flags 
+
+
 ![Flag of Kazakhstan]({{ site.baseurl }}/assets/images/KAZ_flag_h20.png)
 ![Flag of Kazakhstan]({{ site.baseurl }}/assets/images/KAZ_flag_h40.png)
 # ![Flag of Kazakhstan]({{ site.baseurl }}/assets/images/KAZ_flag_h20.png) Kazakhstan

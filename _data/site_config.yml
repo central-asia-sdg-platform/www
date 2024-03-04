@@ -248,6 +248,8 @@ menu:
       translation_key: menu-actions.finances
     - path: /hotspots
       translation_key: menu-actions.hotspots
+    - path: /gender
+      translation_key: menu-actions.gender
   - path: /sdg-stories
     translation_key: menu-stories.stories
 #  - path: /about
