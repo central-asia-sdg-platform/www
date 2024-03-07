@@ -20,5 +20,5 @@ remote_data_prefix: "https://central-asia-sdg-platform.github.io/data"
 
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
-  ga_prod: 'G-JY1RD8J5KH'
+  ga_prod: 'G-YGNPYR18HS'
 

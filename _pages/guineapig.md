@@ -65,6 +65,15 @@ Do you know all 17 SDGs?
 🌐 [Voluntary National Review 2019](https://hlpf.un.org/countries/kazakhstan/voluntary-national-review-2019)
 
 
+
+# Test maps
+
+<iframe id="test" style="height:600px; width:100%;" scrolling="no" frameborder="0" src="https://central-asia-sdg-platform.github.io/xtras/ca-middle-corridor/ca-middle-corridor-hotspots.html"></iframe>
+
+
+
+
+
 # Test urls
 [{{ site.baseurl }}]({{ site.baseurl }})
 
