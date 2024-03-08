@@ -1,0 +1,48 @@
+---
+title: SDG Summit 2022
+language: en
+permalink: /sdg-summit-2022/
+layout: page
+---
+
+To establish a proactive platform to address identified challenging issues in the region, share valuable experience and knowledge, develop sustainable solutions for the benefit of the entire region Kazakhstan hosted the Second Regional SDG Summit “Beyond COVID—Towards Just Recovery in Central Asia”, on 16–17 June 2022, in Almaty, Kazakhstan.
+
+[Summit agenda and all materials]({{ site.baseurl }}/sdg-summit-2022-agenda)
+
+
+## Major takeaways and follow up points
+- Countries of Central Asia face similar challenges in achievement of SDGs. There is a great scope of intra-regional cooperation and economic collaboration. Achievement of SDGs requires whole-of-society approach and active engagement of partners. There are a lot of opportunities for peer learning between countries. 
+- To effectively coordinate SDGs implementation in Central Asia Government of Kazakhstan proposed to create UN based SDG Regional Centre for Central Asia and Afghanistan in Almaty, in partnership with national and international organizations
+- The Intergovernmental Commission is a special format, a government platform, of international relations, which allows for bilateral cooperation between countries, for the interaction of the parties, covering all major areas of the economy. Example of activities of Intergovernmental Commissions of Kyrgyz Republic https://mineconom.gov.kg/ru/direct/12 (in Russian). This format could be expanded and strengthened for practical cooperation in Central Asia.
+- Voluntary National Reviews played important role in monitoring and reporting on SDGs. All countries of Central Asia prepared and presented their first VNRs and have plans for next round.
+- The SDGs have been given intensive attention in terms of “top-down” approach—developing national SDG targets, integrating an SDG perspective into policy reform agendas, and tracking progress towards SDGs at the national level. It needs to be complemented by a “bottom-up” up approach that links nationally significant projects and programs with the SDGs
+- Focus on the missing link between the SDGs and the development projects and programs and the scaling pathways are necessary to close the gap between “top-down” support to SDGs and “bottom-up” implementation. There are working approaches for scaling up, which requires a change in mindset and systematic implementation.
+- [SDGs outcome indicators]({{ site.baseurl }}/goals) should be linked to development projects and programs KPIs to ensure coherence and meaningful interlinkages between interventions.
+- Even with uncertain futures, scenario modelling allows us to explore trade-offs and synergies across different policy packages. The best way is to use existing regional scenarios for country modelling and regularly update them. This could be done by think tanks, Universities, or NGOs and provide a flexible tool for Governments for evidence-based and integrated policy-making for SDGs. Inter alia it will strengthen government credibility in the policy communication to different groups in society.
+- Governments of Central Asia implemented various measures to soften impact of the COVID-19 pandemic. The main challenge is a huge demand for infrastructure projects, which need more efficient financing. Due to the large gap, the Governments are looking for different type of financing—Government, Private, Public-Private Partnership. Integrated National Financial Frameworks are necessary. 
+- MSMEs were particularly hard hit by COVID-19 crisis. Partnership played crucial role in maintaining MSMEs, reducing negative impacts and adopting to new business conditions. One example is Kazakhstan “Atamaken”, a network organization. Another example is Tajikistan Business Incubator, which coordinated support to MSMEs. 
+- Digitalization could offer integration of digital services between countries of Central Asia, for both commercial and public services. It requires harmonization of requirements between countries of Central Asia, and strengthening of personal data protection. 
+- Current understanding of innovations moved from Tech-centred view towards Multidisciplinary Agency view of innovation. We need to understand innovation in a broader sense. Multiple drivers of innovation are going well beyond more tech and data, and include institutional context, leadership and decision making, networks and collaboration, organizational structure, results and impact. They differ for different cities, and play different roles throughout the innovation cycle. Collaboration and trust building are key for innovations.
+- To achieve SDG1 Government of Kazakhstan digitalized all social payments via e-gov system and banks. Currently working with Ministry of Labor and Social Protection to do early detection of social vulnerabilities. Forthcoming Digital Family Social Card should include 64 social protection indicators to identify where people need support. 
+- GIS monitoring systems, based on satellite Earth scanning, are of great value for agriculture, water and waste management. Kazakhstan suggest collaboration in the areas of agriculture, water, cross-border rives to share resources necessary for setting up a system and conduct joint monitoring.
+- Kyrgyzstan suggests to work on making digital services accessible and aligned across borders— taking into account that region of Central Asia is very interconnected. This will require regional coordination and regulation of data, including personal data protection, joint efforts on data and cyber security, to guarantee safe data exchange.
+- Having digitally educated people across all professions is a key for implementation of digital solutions, rather than technological solutions per se. This requires re- and up-skilling of workforce in all sectors. 
+- Development happens locally. Public services that matter—clean water, electricity, schools, hospitals—are by units close to where people live. Empowerment of local administration combined with increased accountability is a way forward. Sound urban planning and approaches via collaboration with stakeholders.
+- The process of development of Istanbul Vision 2050 showed the power of mutual learning through the international cooperation. 
+- SDGs could be a guiding framework for local development planning and implementation. Namangan developed SDG-based Regional Development Strategy 2022-2030. Osh endorsed socio-economic development programme aligned with SDGs. 
+- Young people don’t have a voice in climate change decision making, while the youth also will bear higher longer-term economic and social costs. Engagement of you should be limited to education (using future proof curriculum), but also provide active engagement, immersion activities and field placements. 
+- We need to avoid objectifying youth but talking and listening to youth. We want to introduce flexible youth strategy, which encourage bottom-up approach by observing existing initiatives and providing opportunities for replication and scaling up. 
+- Education is an important factor for political and economic empowerment of women. Family support and positive examples play crucial roles in promotion of girl education. 
+- There are good working examples of women empowerment in the region of Central Asia. In Kyrgyzstan women start eco-friendly business through One Village–One Product initiative. Kazakhstan would like to use Kyrgyzstan experience and use it this year 4 villages.
+- Human activities driving catastrophic biodiversity loss and exacerbating impact of climate change, while more than half of the worlds GDP, is dependent on nature. Therefore, Loss of Nature is an environmental issue, as well as developmental, economic, health, and social issue. 
+- Regional cooperation is critical for Green Recovery. Three directions are important: (i) Greening cross-border drivers of recovery: infrastructure, trade, investments, and tourism; (ii) Mobilizing international funds for green financing; and (iii) Addressing shared vulnerabilities and providing regional public goods – for Central Asia, managing shared water resources is essential.
+- Just transition should be framed arounds SDGs, to balance environmntal, social and economic concerns.
+- Partnership between Central Asia and EU countries is important more than ever. On the one hand, EU is a trailblazer in Green Deal and Just Green Recovery. On the other, EU countries accumulated the wealthy of experience in green economy and green transition. 
+- Establishment of the Regional Center for Climate Technology in Central Asia (RCCT-CA) in Ashgabat in partnership with Climate Technology Centre & Network (CTCN) is under way, series of expert consultations are taking place.
+- The idea of accelerating finance for accelerating SDGs is shaping UNDP approach to SDG financing. SDGs finance need are ambitious, but achievable. [Integrated National Financing Framework (INFF)](https://inff.org/) will be a central element for SDGs financing.
+- Private sector will play central role in achieving SDGs, private sector finance will be an essential part of INFF. There is a growing body of good models in region of Central Asia and beyond—tax breaks in Kyrgyzstan, green bonds in Uzbekistan, green bonds and ESG reporting in Kazakhstan.
+- [Second component of Central Asia SDG Platform]({{ site.baseurl }}/finances) supports mutual learning for INFF in Central Asia. Turkmenistan benefited from this knowledge exchange in setting up and implementing current DFA.
+
+## Press about the Summit
+[Media monitoring of the Second Regional SDG Summit Beyond COVID Towards Just Recovery in Central Asia]({{ site.baseurl }}/sdg-summit-2022-press)
+
