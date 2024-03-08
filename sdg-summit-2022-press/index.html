@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex%2Cfetch"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
+
+        <script>
+// This is where we initialise any global variables, namespaced in "opensdg".
+var opensdg = {
+
+  // A base URL for asynchronous calls to SDG data.
+  remoteDataBaseUrl: 'https://central-asia-sdg-platform.github.io/data/en',
+
+  chartConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Chart.js.
+  chartConfigAlter: function(callback) {
+    this.chartConfigAlterations.push(callback);
+  },
+
+  tableConfigAlterations: [],
+  // A hook which can be used to modify the configuration for Datatables.
+  tableConfigAlter: function(callback) {
+    this.tableConfigAlterations.push(callback);
+  },
+
+  // A hook which can be replaced to alter whether/how the values that are
+  // displayed on indicator tables/graphs get rounded. A "context" parameter
+  // is also passed which contains additional information.
+  dataRounding: function(value, context) {
+    // Alterations go here.
+    return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
+  },
+
+  // Disaggregations which should be ignored on indicator pages.
+  ignoredDisaggregations: null,
+
+  language: 'en',
+
+  mapColors: {
+    "default": [
+        "#c4e1c6",
+        "#b0d1b3",
+        "#9bc2a1",
+        "#87b28f",
+        "#74a37c",
+        "#60946b",
+        "#4d8559",
+        "#3a7747",
+        "#276836"
+    ]
+},
+};
+
+</script>
+
+        <script>
+// JavaScript container for translation data.
+var translations = {
+  //Javascript version of the "t" filter from jekyll-open-sdg-plugins.
+  t: function(key) {
+
+    if (!key || typeof key !== 'string') {
+      return '';
+    }
+
+    // The majority of uses of this function are to translate disaggregation
+    // data. To spare data providers of needing to enter "data." in front of
+    // their disaggregation data, we specifically look for that here.
+    if (typeof this.data === 'object' && this.data !== null && this.data[key]) {
+      return this.data[key];
+    }
+
+    var originalKey = key;
+    var drilled = this;
+    var levelsDrilled = 0;
+    var levels = key.split('.');
+
+    for (var level in levels) {
+      // If we have drilled down to soon, abort.
+      if (typeof drilled !== 'object') {
+        break;
+      }
+
+      if (levels[level] in drilled) {
+        drilled = drilled[levels[level]];
+        levelsDrilled += 1;
+      }
+    }
+
+    // If we didn't drill the right number of levels, return the original string.
+    if (levels.length != levelsDrilled) {
+      return originalKey;
+    }
+
+    // Otherwise we must have drilled all the way.
+    return drilled;
+  },
+};
+</script>
+
+        <!-- Basic Page Needs
+        ================================================== -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title and meta description
+        ================================================== -->
+
+        
+    <title>SDG Summit 2022 Press about the Summit - Indicators For The Sustainable Development Goals</title>
+
+
+
+        
+        <meta name="robots" content="noindex, nofollow">
+        
+
+        <!--[if IE 9]>
+        <script src="/www/assets/js/lib/classList.js"></script>
+        <![endif]-->
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/www/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/www/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/www/assets/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/www/assets/img/favicons/favicon.ico" />
+
+        
+
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
+        <link rel="stylesheet" href="/www/assets/css/style.css?v=20240308175642">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
+        <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
+        <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
+          <!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+    
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-YGNPYR18HS"></script>
+<script >
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YGNPYR18HS', {
+    'anonymize_ip': true,
+    'forceSSL': true,
+  });
+</script>
+
+        
+        
+
+        
+
+
+        <!--[if IE]>
+        <link rel="stylesheet" href="/www/assets/css/ie.css">
+        <![endif]-->
+
+        
+
+    </head>
+<body class="language-en
+layout-page
+">
+<!-- <div class="container"> -->
+
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","hide_menu":"Hide navigation menu","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","logo_title":"Go to homepage","show_menu":"Show navigation menu","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<div class="container internet-explorer-message">
+    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
+    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+</div>
+<div id="disclaimer">
+    
+</div>
+
+<header role="banner" class="">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
+            <a class="navbar-brand" href="/www/" id="home" aria-label="Go to homepage" title="Go to homepage">
+    <img src="/www/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Show navigation menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-wrap w-100 justify-content-between">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav" id="menu"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-about-centralasia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    🌐 Central Asia
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-about-centralasia"><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-kaz"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Kazakhstan"> Kazakhstan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-kgz"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/KGZ_flag_h20.png" alt="Kyrgyzstan"> Kyrgyzstan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-tjk"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/TJK_flag_h20.png" alt="Tajikistan"> Tajikistan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-tkm"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/TKM_flag_h20.png" alt="Turkmenistan"> Turkmenistan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia-uzb"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/UZB_flag_h20.png" alt="Uzbekistan"> Uzbekistan</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/central-asia">🌐 Central Asia</a>
+</li></ul>
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-partnership-partnership" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Partnership for SDGs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-partnership-partnership"><li class=" ">
+    <a class="dropdown-item" href="/www/eu4sdgs-central-asia">EU for SDGs in Central Asia</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/parliaments/">Parliaments and SDGs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/private-sector">Private Sector</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/academia">Academia and Universities</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/cso-and-ngo">Civil Society: CSOs and NGOs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/vnr">Voluntary National Reviews</a>
+</li></ul>
+            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-actions-actions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Activities for SDGs
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-actions-actions"><li class=" ">
+    <a class="dropdown-item" href="/www/goals">Tracking progress in SDGs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/sdg-local">Localization of SDGs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/policies">Policies for SDGs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/sdg-scenarios">Scenarios for SDGs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/systems">Systemic and integral approach</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/finances">Finances for SDGs</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/hotspots">Vulnerability hotspots</a>
+</li><li class=" ">
+    <a class="dropdown-item" href="/www/gender">Gender as an SDG Accelerator</a>
+</li></ul>
+            </li><li class="nav-item ">
+    <a class="nav-link" href="/www/sdg-stories">Stories from Central Asia</a>
+</li></ul>
+    
+                </div>
+                <div class="header-search-bar">
+                    <form class="align-self-lg-end" id="search" action="/www/search/">
+    <div class="input-group">
+        <label class="visually-hidden" for="indicator_search">Search</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Site search" id="search-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+                </div>
+                <div class="header-toggles d-flex">
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      English
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/www/ru/sdg-summit-2022-press/">
+              Pусский
+            </a>
+          </li></ul>
+  </div>
+</div>
+
+
+
+                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-ru list-inline-item">
+            <a class="language-toggle-link" href="/www/ru/sdg-summit-2022-press/">
+                Pусский
+            </a>
+        </li></ul>
+</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+>A</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<div id="top" tabindex=-1></div>
+
+
+<div class="container">
+    <nav>
+    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
+        <li class="breadcrumb-item" >
+            <a href="/www/">Home</a>
+        </li>
+        <li class="breadcrumb-item active">SDG Summit 2022 Press about the Summit</li>
+    </ol>
+</nav>
+</div>
+<div id="main-content" class="container" role="main">
+    <div>
+        <h1>SDG Summit 2022 Press about the Summit</h1>
+        
+
+
+    <p>Media monitoring of the Second Regional SDG Summit Beyond COVID Towards Just Recovery in Central Asia</p>
+
+<h3 id="-international-media">🌐 International media</h3>
+<ul>
+  <li><strong>Delegation of the European Union to the RK</strong>: <a href="https://www.eeas.europa.eu/delegations/kazakhstan/central-asian-countries-discussed-progress-achieving-sustainable-development_en?s=222">Central Asian countries discussed progress in achieving the Sustainable Development Goals at a high-level summit in Almaty</a> (RUS / KAZ / ENG)</li>
+  <li><strong>Deutsche Welle</strong>: <a href="https://www.dw.com/ru/evrosojuz-zaverjaet-chto-ne-ostavit-centralnuju-aziju-bez-podderzhki/a-62168818">The European Union assures that it will not leave Central Asia without support</a> (RUS)</li>
+  <li><strong>Business Information Network</strong>: <a href="https://bin.ua/news/foreign/world/278988-evrosoyuz-zaveryaet-chto-ne-ostavit-centralnuyu.html">The European Union assures that it will not leave Central Asia without support</a> (RUS)</li>
+  <li><strong>IA Red Spring (Russia)</strong>: <a href="https://rossaprimavera.ru/news/3626c7db">A sustainable development center for the countries of the region will be opened in Almaty</a> (RUS)</li>
+  <li><strong>Russian.people.com.cn (China)</strong>: <a href="http://russian.people.com.cn/n3/2022/0617/c31519-10111245.html">Regional Summit of the Central Asian countries began work in Almaty</a> (RUS)</li>
+  <li><strong>Tass.ru</strong>: <a href="https://tass.ru/ekonomika/14924249?utm_source=google.com&amp;utm_medium=organic&amp;utm_campaign=google.com&amp;utm_referrer=google.com">It is planned to open the UN Center for Sustainable Development Goals for the countries of the region in Almaty</a> (RUS)</li>
+  <li><strong>IA REGNUM</strong>: <a href="https://regnum.ru/news/economy/3620090.html">The Prime Minister of Kazakhstan called on the countries of the region to expand partnership</a> (RUS)</li>
+  <li><strong>MIR 24</strong>: <a href="https://mir24.tv/news/16512427/centr-ustoichivogo-razvitiya-centralnoi-azii-i-afganistana-otkroetsya-v-almaty">Center for Sustainable Development of Central Asia and Afghanistan to open in Almaty</a> (RUS)</li>
+  <li><strong>CIS.minsk.by</strong>: <a href="https://cis.minsk.by/news/23548/premer-ministr_kazahstana_obsudil_voprosy_dvustoronnego_sotrudnichestva_s_premer-ministrami_uzbekistana_kyrgyzstana_i_tadzhikistana">The Prime Minister of Kazakhstan discussed issues of bilateral cooperation with the Prime Ministers of Uzbekistan, Kyrgyzstan and Tajikistan</a> (RUS)</li>
+  <li><strong>@centralasianow (Telegram channel)</strong>: <a href="https://t.me/centralasianow/1713">Second Regional SDG Summit held in Almaty</a> ()</li>
+  <li><strong>Russian.news.cn</strong>: <a href="https://russian.news.cn/20220617/f1a57eff16ca464eb1e9643b2221c294/c.html">The Regional Summit of Central Asian Countries has started its work in Almaty</a> (RUS)</li>
+  <li><strong>Sng.today</strong>: <a href="https://sng.today/bishkek/23620-kyrgyzskaja-delegacija-na-sammite-v-kazahstane-podnjala-vopros-o-ravnopravnom-uchastii-zhenschin-v-politike.html">The Kyrgyz delegation at the summit in Kazakhstan raised the issue of equal participation of women in politics</a> (RUS)</li>
+  <li><strong>E-cis.info</strong>: <a href="https://e-cis.info/news/567/101123/">Kyrgyzstan intends to gradually switch to renewable energy sources</a> (RUS)</li>
+  <li><strong>Centralasia.news</strong>: <a href="https://centralasia.news/15814-kyrgyzstan-na-sammite-v-almaty-vystupil-za-gendernoe-ravenstvo.html">Kyrgyzstan stands for gender equality at the summit in Almaty</a> (RUS)</li>
+  <li><strong>Eurasia.expert</strong>: <a href="https://eurasia.expert/eabr-podderzhit-proekty-ustoychivogo-razvitiya-na-evraziyskom-prostranstve/">EDB to support sustainable development projects in the Eurasian space</a> (RUS)</li>
+  <li><strong>Facenews.ua</strong>: <a href="https://www.facenews.ua/news/2022/524204/">The European Union assures that it will not leave Central Asia without support</a> (RUS)</li>
+  <li><strong>Centralasia.news</strong>: <a href="https://centralasia.news/15826-kyrgyzstan-advocates-for-gender-equality-at-summit-in-almaty.html">Kyrgyzstan advocates for gender equality at Summit in Almaty</a> (ENG)</li>
+  <li><strong>En.trend.az</strong>: <a href="https://en.trend.az/casia/turkmenistan/3610767.html">Turkmenistan participates in Second Regional Summit on SDGs</a> (ENG)</li>
+  <li><strong>Timesca.com</strong>: <a href="https://www.timesca.com/index.php/news/24966-central-asian-countries-discuss-progress-in-achieving-sustainable-development-goals-at-a-high-level-summit-in-kazakhstan">Central Asian countries discuss progress towards achieving Sustainable Development Goals at high-level summit in Kazakhstan</a> (ENG)</li>
+  <li><strong>Einnews.com</strong>: <a href="https://www.einnews.com/pr_news/577240047/sustainable-development-goals-discussed">Sustainable Development Goals discussed</a> (ENG)</li>
+  <li><strong>Newscentralasia.net</strong>: <a href="http://www.newscentralasia.net/2022/06/20/strany-tsentralnoy-azii-obsudili-progress-v-dostijenii-sdg/">Central Asian countries discuss progress towards achieving Sustainable Development Goals at high-level summit in Kazakhstan</a> (RUS)</li>
+  <li><strong>Intergazeta.com</strong>: <a href="https://www.intergazeta.com/%d1%86%d0%b5%d0%bd%d1%82%d1%80%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-%d0%b0%d0%b7%d0%b8%d1%8f/%d0%ba%d0%b0%d0%b7%d0%b0%d1%85%d1%81%d1%82%d0%b0%d0%bd/%d0%b0%d0%ba%d1%8b%d0%bb%d0%b1%d0%b5%d0%ba-%d0%b6%d0%b0%d0%bf%d0%b0%d1%80%d0%be%d0%b2-%d0%b5%d0%b4%d0%b5%d1%82-%d0%b2-%d0%ba%d0%b0%d0%b7%d0%b0%d1%85%d1%81%d1%82%d0%b0%d0%bd/">Akylbek Zhaparov goes to Kazakhstan</a> (RUS)</li>
+</ul>
+
+<h3 id="-kazakhstan-media"><img src="/www/assets/flags/KAZ_flag_h20.png" alt="Flag of Kazakhstan" /> Kazakhstan media</h3>
+<ul>
+  <li><strong>Primeminister.kz</strong>: <a href="https://primeminister.kz/ru/news/premer-ministr-rk-prizval-strany-centralnoy-azii-ukreplyat-i-rasshiryat-torgovye-otnosheniya-1654844">The Prime Minister of the Republic of Kazakhstan called on the countries of Central Asia to strengthen and expand trade relations</a> (RUS / KAZ / ENG)</li>
+  <li><strong>Primeminister.kz</strong>: <a href="https://primeminister.kz/ru/news/reviews/poslekovidnoe-vosstanovlenie-v-almaty-prohodit-sammit-po-cur-165506">Post-COVID recovery. Almaty hosts SDG Summit</a> (RUS / KAZ / ENG)</li>
+  <li><strong>KazInform</strong>: <a href="https://www.inform.kz/ru/vtoroy-regional-nyy-sammit-po-cur-prohodit-v-almaty_a3944999">Second Regional SDG Summit Held in Almaty</a> (RUS)</li>
+  <li><strong>KazInform</strong>: <a href="https://www.inform.kz/ru/cifrovizaciya-gosuslug-sposobstvuet-uskoreniyu-dostizheniya-cur-eksperty_a3945309">Digitization of public services contributes to accelerating the achievement of the SDGs - experts</a> (RUS)</li>
+  <li><strong>KazInform</strong>: <a href="https://www.inform.kz/ru/vvp-na-dushu-naseleniya-v-rk-za-2021-god-sostavil-6-5-minnacekonomiki_a3945065">GDP per capita in Kazakhstan for 2021 amounted to 6.5% - Ministry of National Economy</a> (RUS)</li>
+  <li><strong>KazInform</strong>: <a href="https://www.inform.kz/ru/dostizhenie-cur-potrebuet-fundamental-nogo-izmeneniya-puti-razvitiya-predstavitel-oon_a3945035">Achieving SDGs will require fundamental change in development path - UN representative</a> (RUS)</li>
+  <li><strong>KazInform</strong>: <a href="https://www.inform.kz/kz/almaty-hosts-second-regional-sdg-summit_a3945050/amp">Almaty hosts Second Regional SDG Summit</a> (RUS)</li>
+  <li><strong>Zakon.kz</strong>: <a href="https://www.zakon.kz/6017308-alikhan-smailov-prodovolstvennaia-bezopasnost-glavnyi-vopros-dlia-mnogikh-stran.html">Alikhan Smailov: Food security is the main issue for many countries</a> (RUS)</li>
+  <li><strong>Central Communications Service under the President of the RK</strong>: <a href="https://ortcom.kz/ru/novosti/1655369143">Alikhan Smailov met with UN Under Secretary-General and UNDP Associate Administrator</a> (RUS)</li>
+  <li><strong>Khabar.kz</strong>: <a href="https://khabar.kz/ru/news/ekonomika/item/141281-kak-tsifrovizatsiya-pomozhet-dostignut-ustojchivogo-razvitiya-v-tsentralnoj-azii">How will digitalization help achieve sustainable development in Central Asia?</a> (RUS)</li>
+  <li><strong>Tengrinews.kz</strong>: <a href="https://tengrinews.kz/kazakhstan_news/smailov-vstretilsya-premerami-treh-stran-zamestitelem-471150/">Smailov met with the prime ministers of three countries and the UN Under Secretary-General</a> (RUS)</li>
+  <li><strong>BaigeNews.kz</strong>: <a href="https://baigenews.kz/news/sammit_po_tsur/">SDG Summit: How Central Asian countries will recover from the pandemic</a> (RUS)</li>
+  <li><strong>24.kz</strong>: <a href="https://24.kz/ru/news/policy/item/550050-alikhan-smailov-vstretilsya-s-zamestitelem-gensekretarya-oon">Alikhan Smailov met with UN Under Secretary-General and UNDP Associate Administrator</a> (RUS)</li>
+  <li><strong>24.kz</strong>: <a href="https://24.kz/ru/news/policy/item/550021-alikhan-smailov-prizval-strany-tsa-ukreplyat-i-rasshiryat-torgovye-otnosheniya">Alikhan Smailov called on the countries of CA to strengthen and expand trade relations</a> (RUS)</li>
+  <li><strong>Orda.kz</strong>: <a href="https://orda.kz/zeljonaja-jekonomika-i-vvp-v-almaty-prohodit-regionalnyj-sammit-po-cur-oon/">“Green” economy and GDP: Regional UN SDG Summit takes place in Almaty</a> (RUS)</li>
+  <li><strong>Orda.kz</strong>: <a href="https://orda.kz/oon-v-almaty-iz-za-chego-vy-vstali-v-probku-segodnja-utrom/#part=1">UN in Almaty: why you got stuck in traffic this morning</a> (RUS)</li>
+  <li><strong>Orda.kz</strong>: <a href="https://orda.kz/vas-dezinformirovali-chinovnik-turkmenistana-o-zapretah-dlja-zhenshhin/">“You have been misinformed” – Turkmen official on bans on women</a> (RUS)</li>
+  <li><strong>KazTag</strong>: <a href="https://kaztag.kz/ru/news/vzaimnaya-torgovlya-s-uzbekistanom-dostigla-1-4-mlrd">Mutual trade with Uzbekistan reached $1.4 billion</a> ()</li>
+  <li><strong>Economic Research Institute QAZAQSTAN</strong>: <a href="https://economy.kz/ru/Novosti_instituta/id=4752">Second Regional High Level Summit</a> (RUS)</li>
+  <li><em>**</em>: <a href="https://economy.kz/en/Celi_ustojchivogo_razvitija/Sobytija_CUR/id=4762"></a> (ENG)</li>
+  <li><strong>Economic Research Institute QAZAQSTAN</strong>: <a href="https://economy.kz/ru/Novosti_ekonomiki_Kazahstana/id=4757">Second Regional Summit on the Sustainable Development Goals</a> (RUS)</li>
+  <li><strong>Vecherniy Almaty</strong>: <a href="https://vecher.kz/premer-ministr-kazakhstana-prizval-strani-tsentralnoy-azii-ukreplyat-i-rasshiryat-torgovie-otnosheniya">Almaty hosts Second Regional Summit on SDGs</a> (RUS)</li>
+  <li><strong>Vecherniy Almaty</strong>: <a href="https://vecher.kz/glavi-pravitelstv-kazakhstana-i-tsa-obsudili-torgovo-ekonomicheskoe-sotrudnichestvo">Heads of Governments of Kazakhstan and Central Asia discussed trade and economic cooperation</a> (RUS)</li>
+  <li><strong>Kapital.kz</strong>: <a href="https://kapital.kz/gosudarstvo/106459/alikhan-smailov-vstretilsya-s-zamestitelem-gensekretarya-oon.html">Alikhan Smailov met with UN Under Secretary-General and UNDP Associate Administrator</a> (RUS)</li>
+  <li><strong>Kapital.kz</strong>: <a href="https://kapital.kz/economic/106463/alikhan-smailov-vstretilsya-s-kollegami-iz-uzbekistana-kyrgyzstana-i-tadzhikistana.html">Alikhan Smailov met with colleagues from Uzbekistan, Kyrgyzstan and Tajikistan</a> (RUS)</li>
+  <li><strong>Informburo.kz</strong>: <a href="https://informburo.kz/novosti/smailov-podtverdil-plany-otkryt-regionalnyi-centr-oon-v-almaty">Smailov confirmed plans to open a UN regional center in Almaty</a> (RUS)</li>
+  <li><strong>Forbes.kz</strong>: <a href="https://forbes.kz/news/2022/06/16/newsid_278140">The UN is ready to provide support for the sustainable development of Kazakhstan</a> (RUS)</li>
+  <li><strong>Inbusiness.kz</strong>: <a href="https://inbusiness.kz/ru/news/voprosy-obespecheniya-prodovolstviem-oslozhnyayutsya-klimaticheskimi-izmeneniyami-uchastniki-sammita-cur">Food security issues compounded by climate change – SDG summit attendees</a> (RUS)</li>
+  <li><strong>Inbusiness.kz</strong>: <a href="https://inbusiness.kz/ru/last/o-chem-govoril-premer-ministr-na-sammite-po-vosstanovleniyu-ca-posle-koronavirusa">What the Prime Minister said at the summit on the restoration of Central Asia after the coronavirus</a> (RUS)</li>
+  <li><strong>Gurk.kz</strong>: <a href="https://gurk.kz/news/v-g-almaty-nachal-rabotu-vtoroj-regionalnoj-sammit-po-czelyam-ustojchivogo-razvitiya-czur-stran-czentralnoj-azii-za-predelami-covid-na-puti-k-spravedlivomu-vosstanovleniyu-v-czentralnoj-azii">The Second Regional Summit on the Sustainable Development Goals (SDGs) of the countries of Central Asia “Beyond COVID - on the way to a fair recovery in Central Asia” began its work in Almaty</a> (RUS)</li>
+  <li><strong>Inalmaty.kz</strong>: <a href="https://www.inalmaty.kz/news/3408287/premer-ministr-kazahstana-podtverdil-plany-ob-otkrytii-regionalnogo-centra-oon-v-almaty">Prime Minister of Kazakhstan confirms plans to open UN regional center in Almaty</a> (RUS)</li>
+  <li><strong>KAZAKHSTAN TODAY</strong>: <a href="https://www.kt.kz/rus/analytics/_1377935170.html">Akimats are not ready to switch to a “human-centered economy.” The system of public involvement in state planning processes has failed</a> (RUS)</li>
+  <li><strong>KAZAKHSTAN TODAY</strong>: <a href="https://www.kt.kz/rus/economy/smailov_prizval_strany_tsa_ukreplyat_i_rasshiryat_torgovye_1377935236.html">Smailov called on the Central Asian countries to strengthen and expand trade relations</a> (RUS)</li>
+  <li><strong>356.info</strong>: <a href="https://365info.kz/2022/06/kazahstan-boretsya-s-bezrabotitsej-a-uzbekistan-s-bednostyu">Kazakhstan fights unemployment, Uzbekistan fights poverty</a> (RUS)</li>
+  <li><strong>Delovoy Kazakhstan</strong>: <a href="https://dknews.kz/ru/ekonomika/240851-za-predelami-covid-na-puti-k-spravedlivomu">Beyond COVID Towards Just Recovery in Central Asia</a> (RUS / ENG)</li>
+  <li><strong>Elorda.Info</strong>: <a href="https://elorda.info/ekonomika/19009-1655370006/">Smailov called on the Central Asian countries to strengthen and expand trade relations</a> (RUS)</li>
+  <li><strong>Exclusive.kz</strong>: <a href="https://exclusive.kz/ministr-naczekonomiki-vstretilsya-s-prezidentom-mastercard-po-vostochnoj-evrope/">The Minister of National Economy met with the President of MasterCard for Eastern Europe</a> (RUS)</li>
+  <li><strong>Exclusive.kz</strong>: <a href="https://exclusive.kz/akimaty-ne-gotovy-perehodit-na-chelovekoczentrichnuyu-ekonomiku/">Akimats are not ready to switch to a “human-centered economy”</a> (RUS)</li>
+  <li><strong>The Village.kz</strong>: <a href="https://www.the-village-kz.com/village/city/news-city/23273-v-almaty-planiruetsya-otkryt-tsentr-oon-po-tselyam-ustoychivogo-razvitiya">It is planned to open the UN Center for Sustainable Development Goals in Almaty</a> (RUS)</li>
+  <li><strong>Time.kz</strong>: <a href="https://time.kz/news/economics/2022/06/16/vzaimnaya-torgovlya-s-uzbekistanom-dostigla-1-4-mlrd">Mutual trade with Uzbekistan reached $1.4 billion</a> (RUS)</li>
+  <li><strong>Jayiq Press</strong>: <a href="https://zhaikpress.kz/ru/news/oon-gotova-okazyvat-podderzhku-dlya-ustojchivogo-razvitiya-kazaxstana/">The UN is ready to provide support for the sustainable development of Kazakhstan</a> (RUS)</li>
+  <li><strong>Arna Press</strong>: <a href="https://www.arnapress.kz/politika/221085-69-oproshennyh-kazahstancev-nichego-ne-znayut-ob-obshchestvennyh-sovetah">69% of surveyed Kazakhstanis know nothing about public councils</a> (RUS)</li>
+  <li><strong>Zanmedia.kz</strong>: <a href="https://zanmedia.kz/wp-content/uploads/2022/06/JuG2022-48.pdf">For sustainable development of the country</a> (RUS)</li>
+  <li><strong>Businessmir.kz</strong>: <a href="https://businessmir.kz/2022/06/15/akimaty-ne-gotovy-perehodit-na-chelovekotsentrichnuyu-ekonomiku/">Akimats are not ready to switch to a “human-centered economy”</a> (RUS)</li>
+  <li><strong>Qyzyq.kz</strong>: <a href="https://qyzyq.kz/news/world/239-strany-centralnoj-azii-i-evrosojuza-planirujut-pro.html">THE COUNTRIES OF CENTRAL ASIA AND THE EUROPEAN UNION PLAN TO HOLD A SUMMIT</a> (RUS)</li>
+  <li><strong>Gov.kz</strong>: <a href="https://www.gov.kz/memleket/entities/economy/press/news/details/389154?lang=ru">The Second Regional Summit on the Sustainable Development Goals (SDGs) of Central Asian countries “Beyond COVID – on the way to a Just recovery in Central Asia” has started in Almaty</a> (RUS)</li>
+  <li><strong>Gov.kz</strong>: <a href="https://www.gov.kz/memleket/entities/economy/press/news/details/389157?lang=ru">Alikhan Smailov met with the UN Deputy Secretary General</a> (RUS)</li>
+  <li><strong>Elitar.kz</strong>: <a href="https://elitar.kz/ru/materialy/news/kazakhstan-prilozhit-maksimum-usiliy-dlya-dostizheniya-tseli-parizhskogo-soglasheniya">Kazakhstan will make every effort to achieve the goal of the Paris Agreement</a> (RUS)</li>
+  <li><strong>Kazinform.kz</strong>: <a href="https://www.kazinform.kz/ru/prem-er-rk-obsudil-sotrudnichestvo-s-glavami-pravitel-stv-stran-central-noy-azii_a3945095">Prime Minister of Kazakhstan discussed cooperation with heads of government of Central Asian countries</a> (RUS)</li>
+  <li><strong>Kapital.kz</strong>: <a href="https://kapital.kz/economic/106453/alikhan-smailov-prizval-strany-tsa-rasshiryat-sotrudnichestvo.html">Alikhan Smailov urged the Central Asian countries to expand cooperation</a> (RUS)</li>
+  <li><strong>Liter.kz</strong>: <a href="https://liter.kz/alikhan-smailov-obsudil-sotrudnichestvo-s-premer-ministrami-uzbekistana-kyrgyzstana-i-tadzhikistana-1655389708/">Kazakhstan and Tajikistan plan to increase mutual trade turnover to $ 2 billion</a> (RUS)</li>
+  <li><strong>Kaztag.kz</strong>: <a href="https://kaztag.kz/ru/news/vzaimnaya-torgovlya-s-uzbekistanom-dostigla-1-4-mlrd">Mutual trade with Uzbekistan reached $1.4 billion</a> (RUS)</li>
+  <li><strong>Tsnik.kz</strong>: <a href="https://tsnik.kz/news/alikhan-smailov-vstretilsya-s-zamestitelem-generalnogo-sekretarya-oon/">ALIKHAN SMAILOV MET WITH THE UN DEPUTY SECRETARY GENERAL</a> (RUS)</li>
+  <li><strong>Nomad.su</strong>: <a href="https://nomad.su/?a=3-202206170034">The Prime Minister of Kazakhstan urged the Central Asian countries to strengthen and expand trade relations</a> (RUS)</li>
+  <li><strong>Smi24.kz</strong>: <a href="https://smi24.kz/ru/news/kontekst-dnya---/akimatyi-ne-gotovyi-perehodit-na-chelovekotsentrichnuyu-ekonomiku-119142/">Akimats are not ready to switch to a “human-centered economy”</a> (RUS)</li>
+  <li><strong>Kazlenta.kz</strong>: <a href="https://kazlenta.kz/51258-akimaty-ne-gotovy-perehodit-na-chelovekocentricheskuyu-ekonomiku-analitiki.html">Akimats are not ready to switch to a “human-centric economy” - analysts</a> (RUS)</li>
+  <li><strong>365info.kz</strong>: <a href="https://365info.kz/2022/06/chelovekotsentrichnaya-ekonomika-ne-dlya-akimatov">“Human-centered economy” is not for akimats</a> (RUS)</li>
+  <li><strong>Dknews.kz</strong>: <a href="https://dknews.kz/ru/v-strane/240635-akimaty-ne-gotovy-perehodit-na-chelovekocentrichnuyu">Akimats are not ready to switch to a “human-centric economy” - analysts</a> (RUS)</li>
+  <li><strong>Turantimes.kz</strong>: <a href="https://turantimes.kz/obschestvo/35495-akimaty-ne-gotovy-perehodit-na-chelovekocentrichnuju-jekonomiku.html">Akimats are not ready to switch to a “human-centric economy” - analysts</a> (RUS)</li>
+  <li><strong>16news.kz</strong>: <a href="https://16news.kz/news/economics/-Akimatyi-ne-gotovyi-perehodit-na-chelovekotsentrichnuyu-ekonomiku-3017">Akimats are not ready to switch to a “human-centric economy” – analysts</a> (RUS)</li>
+  <li><strong>Turanpress.kz</strong>: <a href="https://turanpress.kz/ekonomika/1914-akimaty-ne-gotovy-perehodit-na-chelovekocentrichnuyu-ekonomiku.html">Akimats are not ready to switch to a “human-centric economy” – analysts</a> (RUS)</li>
+  <li><strong>Finprom.kz</strong>: <a href="http://finprom.kz/ru/article/akimaty-ne-gotovy-perehodit-na-chelovekocentrichnuyu-ekonomiku">Akimats are not ready to switch to a “human-centric economy” – analysts</a> (RUS)</li>
+  <li><strong>Turanpress.kz</strong>: <a href="https://www.turanpress.kz/ekonomika/1914-akimaty-ne-gotovy-perehodit-na-chelovekocentrichnuyu-ekonomiku.html">Akimats are not ready to switch to a “human-centric economy” – analysts</a> (RUS)</li>
+  <li><strong>Etoday.kz</strong>: <a href="https://etoday.kz/business-and-economy/106608-akimaty-ne-gotovy-perehodit-na-chelovekoczentrichnuyu-ekonomiku">Akimats are not ready to switch to a “human-centric economy” – analysts</a> (RUS)</li>
+  <li><strong>Kt.kz</strong>: <a href="https://www.kt.kz/rus/analytics/defitsit_sahara_vseriez_biet_po_naseleniyu_i_biznesu_1377935563.html">Akimats are not ready to switch to a “human-centric economy” – analysts</a> (RUS)</li>
+  <li><strong>Atameken TV</strong>: <a href="https://www.youtube.com/watch?v=rc1BEA04pB4">Digitalization of services. Experience of Halyk Bank</a> (RUS)</li>
+  <li><strong>Sputnik</strong>: <a href="https://ru.sputnik.kz/20220617/kazakhstan-mastercard-25586725.html">Kazakhstan conducts negotiations with MasterCard on digitalization of payments and programs for business</a> (RUS)</li>
+  <li><strong>Egemen Kazakhstan</strong>: <a href="https://egemen.kz/article/315599-aymaqtyq-dialogqa-qatysty-algha-umtylularynhyzdy-qoldaymyz-eo-komissary">We support your progress in regional dialogue - EU Commissioner</a> (KAZ)</li>
+  <li><strong>Egemen Kazakhstan</strong>: <a href="https://egemen.kz/article/315568-ortalyq-aziya-elderininh-turaqty-damu-salasyndaghy-maqsattary-boyynsha-sammit-ba">Summit on Sustainable Development Goals of Central Asian countries has started</a> (KAZ)</li>
+  <li><strong>Informburo 31</strong>: <a href="https://www.youtube.com/watch?v=qQS0p5nXO5c">Summit of Central Asian countries on Sustainable Development Goals has started in Almaty</a> (KAZ)</li>
+  <li><strong>BAQ.kz</strong>: <a href="https://baq.kz/smayylov-turaqty-damu-maqsattary-boyynsha-ekinshi-onirlik-sammitke-qatysady-280914/">Smailov to participate in second regional summit on Sustainable Development Goals</a> (KAZ)</li>
+  <li><strong>Primeminister.kz</strong>: <a href="https://primeminister.kz/kz/news/reviews/covid-ten-keyin-kalpyna-keltiru-almatyda-tdm-boyynsha-sammit-otip-zhatyr-1754142">Recovery after COVID. Summit on SDGs held in Almaty</a> (KAZ)</li>
+  <li><strong>Kazgazeta.kz</strong>: <a href="https://kazgazeta.kz/news/126537">Sustainable Development Goals to be discussed at Central Asian summit</a> (KAZ)</li>
+  <li><strong>Stan.kz</strong>: <a href="https://stan.kz/news-366077/">“Kazakhstan gives priority to local cooperation with Central Asian countries”: Almaty hosts summit on Sustainable Development Goals</a> (KAZ)</li>
+  <li><strong>Ortcom.kz</strong>: <a href="https://ortcom.kz/kk/novosti/1655368763">Alikhan Smailov discussed issues of bilateral cooperation with Prime Ministers of Uzbekistan, Kyrgyzstan and Tajikistan</a> (KAZ)</li>
+  <li><strong>Egemen.kz</strong>: <a href="https://egemen.kz/article/315723-qazaqstan-mastercard-pen-kelissoz-dgurgizip-dgatyr">Kazakhstan negotiates with MasterCard</a> (KAZ)</li>
+  <li><strong>Inform.kz</strong>: <a href="https://www.inform.kz/kz/buu-koldauymen-turakty-damu-bagytynda-zhuyeli-sharalar-kabyldandy-vice-ministr_a3945091">Systematic measures for Sustainable Development taken with UN support-vice minister</a> (KAZ)</li>
+  <li><strong>Ministry of National economy</strong>: <a href="https://www.gov.kz/memleket/entities/economy/press/news/details/390128?lang=kk">Kazakhstan making effort to achieve the goals of the Paris Agreement</a> (KAZ)</li>
+  <li><strong>Kazakhstan Today</strong>: <a href="https://www.kt.kz/kaz/economy/_1377935260.html">Smailov called on the Central Asian countries to strengthen and expand trade relations.</a> (KAZ)</li>
+  <li><strong>Qazaqstan TV</strong>: <a href="https://qazaqstan.tv/news/159785/">Prime minister urged Central Asian countries to strengthen trade relations</a> (KAZ)</li>
+  <li><strong>BAQ.kz</strong>: <a href="https://baq.kz/pandemiya-ortalyq-aziya-elderi-ekonomikasynyn-osal-tustaryn-ashyp-berdi-buu-280951/">Pandemic reveals vulnerabilities of Central Asian economies-UN</a> (KAZ)</li>
+  <li><strong>TAGNews</strong>: <a href="https://kaztag.kz/kz/news/zbekstanmen-zara-sauda-1-4-milliard-dollar-a-zhetti">Mutual trade with Uzbekistan reached 1 1.4 billion</a> (KAZ)</li>
+  <li><strong>Almaty Akshamy</strong>: <a href="https://almaty-akshamy.kz/aelikhan-smayilov-bizdin-intimaktastik-orkendegen-ortalik-aziya-kyruga-ikpal-etetinine-senimdimin">Alikhan Smailov: I am sure that our cooperation will contribute to building a prosperous Central Asia</a> (KAZ)</li>
+  <li><strong>Qazradio</strong>: <a href="https://qazradio.fm/kz/news/23493/">Prime Minister of Kazakhstan urged Central Asian countries to strengthen and expand trade relations</a> (KAZ)</li>
+  <li><strong>Turaninfo.kz</strong>: <a href="https://turaninfo.kz/r-premer-ministri-ortaly-aziya-elderin-sauda-atynastaryn-ny-ajtu-a-zh-ne-ke-ejtuge-sha-yrdy/">Prime Minister of Kazakhstan urged Central Asian countries to strengthen and expand trade relations</a> (KAZ)</li>
+  <li><strong>Egemen Kazakhstan</strong>: <a href="https://egemen.kz/article/315599-aymaqtyq-dialogqa-qatysty-algha-umtylularynhyzdy-qoldaymyz-eo-komissary">We support your progress in regional dialogue - EU Commissioner</a> (KAZ)</li>
+  <li><strong>Egemen Kazakhstan</strong>: <a href="https://egemen.kz/article/315568-ortalyq-aziya-elderininh-turaqty-damu-salasyndaghy-maqsattary-boyynsha-sammit-ba">Summit on Sustainable Development Goals of Central Asian countries has started</a> (KAZ)</li>
+  <li><strong>Informburo 31</strong>: <a href="https://www.youtube.com/watch?v=qQS0p5nXO5c">Summit of Central Asian countries on Sustainable Development Goals has started in Almaty</a> (KAZ)</li>
+  <li><strong>Undp.org</strong>: <a href="https://www.undp.org/kk/kazakhstan/press-releases/орталық-азия-елдері-алматыда-өткен-жоғары-деңгейдегі-саммитте-тұрақты-даму-мақсаттарына-қол-жеткізудегі-прогресті-талқылады">Central Asian countries discussed progress in achieving Sustainable Development Goals at high-level summit in Almaty</a> (KAZ)</li>
+  <li><strong>Baq.kz</strong>: <a href="https://baq.kz/almatyda-ortalyq-aziya-elderinin-turaqty-damu-maqsattary-boyynsha-ekinshi-sammiti-bastaldy-280921/">Second summit of Central Asian countries on sustainable development goals kicked off in Almaty</a> (KAZ)</li>
+  <li><strong>Kt.kz</strong>: <a href="https://www.kt.kz/kaz/economy/_1377935260.html">Smailov called on the Central Asian countries to strengthen and expand trade relations.</a> (KAZ)</li>
+  <li><strong>Dknews.kz</strong>: <a href="https://dknews.kz/kz/alem-zhanalyktary/240852-covid-ten-tys-zherde-ortalyk-aziyany-adildik">Outside of COVID – on the way to restoring Central Asia on the basis of Justice</a> (KAZ)</li>
+  <li><strong>Ortcom.kz</strong>: <a href="https://ortcom.kz/kk/novosti/1655355746">Prime Minister of Kazakhstan urged Central Asian countries to strengthen and expand trade relations</a> (KAZ)</li>
+  <li><strong>Inform.kz</strong>: <a href="https://www.inform.kz/en/inklyuziv-bolashak-kuru-men-aymaktyk-dialogty-ilgeriletude-ortalyk-aziyany-koldaymyz-euroodak-komissary_a3945014/amp">EU commissioner: we support Central Asia in building inclusive future and promoting regional dialogue</a> (KAZ)</li>
+  <li><strong>24.kz</strong>: <a href="https://24.kz/kz/zha-aly-tar/sayasat/item/550142-aza-stan-ortaly-aziya-yntyma-tasty-y-ny-ayady">Kazakh - Central Asian cooperation to be strengthened</a> (KAZ)</li>
+  <li><strong>Azattyq-ruhy.kz</strong>: <a href="https://azattyq-ruhy.kz/news/39608-likhan-smaiylov-buu-bas-khatshysynyn-orynbasarymen-kezdesti">Alikhan Smailov met with UN Deputy Secretary General</a> (KAZ)</li>
+  <li><strong>Petropavltv.kz</strong>: <a href="https://petropavltv.kz/kz/news/society/esmaiylov-sauda-katynastaryn-nygaituga-shakyrdy-1">A. SMAILOV URGED TO STRENGTHEN TRADE RELATIONS</a> (KAZ)</li>
+  <li><strong>Inbusiness.kz</strong>: <a href="https://inbusiness.kz/kz/last/almatyda-ortalyk-aziya-men-auganstan-ushin-buu-nyn-tdm-bojynsha-ortalygyn-ashu-zhosparlangan">UN SDGs Center for Central Asia and Afghanistan to be opened in Almaty</a> (KAZ)</li>
+  <li><strong>Qazmonitor</strong>: <a href="https://qazmonitor.com/state/482/almaty-hosts-second-regional-sdg-summit">Almaty Hosts Second Regional SDG Summit</a> (ENG)</li>
+</ul>
+
+<h3 id="-kyrgyzstan-media"><img src="/www/assets/flags/KGZ_flag_h20.png" alt="Flag of Kyrgyzstan" /> Kyrgyzstan media</h3>
+<ul>
+  <li><strong>Kaktus.Media</strong>: <a href="https://kaktus.media/doc/461772_akylbek_japarov_otpravitsia_na_sammit_v_almaty_s_komandoy_chinovnikov.html">Akylbek Zhaparov will go to the summit in Almaty with a team of officials</a> (RUS)</li>
+  <li><strong>AkiPress.org</strong>: <a href="https://kg.akipress.org/news:1786899/?from=kgnews&amp;place=maincats">A delegation of 10 people from Kyrgyzstan will go to the II Regional Summit on the Sustainable Development Goals of the Central Asian countries</a> (RUS)</li>
+  <li><strong>Infomir.kg</strong>: <a href="http://infomir.kg/2022/06/14/akylbek-zhaparov-otpravitsya-na-sammit-v-almaty-s-komandoj-chinovnikov/">Akylbek Zhaparov will go to the summit in Almaty with a team of officials</a> (RUS)</li>
+  <li><strong>MaralFm.kg</strong>: <a href="https://maralfm.kg/archives/590505">Tomorrow Akylbek Zhaparov will visit Kazakhstan</a> (KG)</li>
+  <li><strong>Kabar.kg</strong>: <a href="http://www.kabar.kg/news/akylbek-zhaparov-primet-uchastie-v-rabote-sammita-po-tcur-v-almaty/">Akylbek Zhaparov will take part in the work of the SDG summit in Almaty</a> (KG)</li>
+  <li><strong>Kabar.kg</strong>: <a href="http://kg.kabar.kg/news/ministrler-kabinetinin-t-ragasy-akylbek-zhaparov-kazakstanga-barat/">Chairman of the Cabinet of Ministers Akylbek Zhaparov will visit Kazakhstan</a> (KG)</li>
+  <li><strong>Kaktus.Media</strong>: <a href="https://kaktus.media/doc/461910_akylbek_japarov_edet_v_kazahstan.html">Akylbek Zhaparov goes to Kazakhstan</a> (RUS)</li>
+  <li><strong>Akipress.org</strong>: <a href="https://zdorovie.akipress.org/news:1787332">Akylbek Zhaparov will take part in the summit on the problems of recovery after COVID-19 in Central Asia</a> (RUS)</li>
+  <li><strong>Koom.Press</strong>: <a href="https://koom.press/ministrler-kabinetinin-tөragasy-akylbek-zhaparov-kazakstanga-barat/">Chairman of the Cabinet of Ministers Akylbek Zhaparov will visit Kazakhstan</a> (KG)</li>
+  <li><strong>Kabar.kg</strong>: <a href="http://en.kabar.kg/news/akylbek-zhaparov-to-take-part-in-sdg-summit-in-almaty/">Akylbek Zhaparov to take part in SDG Summit in Almaty</a> (ENG)</li>
+  <li><strong>KgInform.kg</strong>: <a href="https://kginform.com/ru/news/20220616/52476.html">Akylbek Zhaparov will take part in the second regional summit on SDGs in Almaty</a> (RUS)</li>
+  <li><strong>Snob.kg</strong>: <a href="http://snob.kg/pro-novosti/item/4111-akylbek-zhaparov-vstretilsya-s-zamestitelem-generalnogo-sekretarya-oon-usha-rao-monari">Akylbek Zhaparov met with UN Deputy Secretary General Asha Rao-Monari</a> (RUS)</li>
+  <li><strong>Media-Center.kg</strong>: <a href="https://media-center.kg/kg/news/Akilbek-ZHaparov-bugun-Almati-shaarina-sammitke-katishuu-uchun-barat-1201203007">Akylbek Zhaparov will visit Almaty today to participate in the summit</a> (KG)</li>
+  <li><strong>Akipress.org</strong>: <a href="https://kg.akipress.org/news:1787404/">A.Zhaparov takes part in the SDG summit “Beyond COVID – on the way to a fair recovery in Central Asia” in Almaty</a> (RUS)</li>
+  <li><strong>Kant.kg</strong>: <a href="https://kant.kg/2022-06-16/akylbek-zhaparov-primet-uchastie-v-rabote-sammita-po-czur-za-predelami-covid-na-puti-k-spravedlivomu-vosstanovleniyu-v-czentralnoj-azii-v-almaty/">Akylbek Zhaparov will take part in the SDG summit “Beyond COVID – on the way to a just recovery in Central Asia” in Almaty</a> (RUS)</li>
+  <li><strong>Akipress.org</strong>: <a href="https://kg.akipress.org/news:1787606/?from=kgnews&amp;place=maintopbefore">The Cabinet of Ministers held a meeting with UN Deputy Secretary General Asha Rao-Monari</a> (RUS)</li>
+  <li><strong>Vesti.kg</strong>: <a href="https://vesti.kg/politika/item/101129-akylbek-zhaparov-vstretilsya-s-zamestitelem-genseka-oon-ushoj-rao-monari.html">Akylbek Zhaparov met with UN Deputy Secretary General Usha Rao-Monari</a> (RUS)</li>
+  <li><strong>Kabar.kg</strong>: <a href="http://www.kabar.kg/news/oon-gotova-okazat-sodeistvie-kyrgyzstanu-v-voprosakh-razvitiia-zelenoi-ekonomiki/">The UN is ready to assist Kyrgyzstan in the development of the green economy</a> (RUS)</li>
+  <li><strong>Kabar.kg</strong>: <a href="http://en.kabar.kg/news/un-ready-to-assist-kyrgyzstan-in-development-of-green-economy/">UN ready to assist Kyrgyzstan in development of green economy</a> (ENG)</li>
+  <li><strong>Skeptik.kg</strong>: <a href="https://skeptik.kg/akylbek-japarov-vstretilsia-s-zamestitelem-genseka-oon-yshoi-rao-monari.html">Akylbek Zhaparov met with UN Deputy Secretary General Usha Rao-Monari</a> (RUS)</li>
+  <li><strong>Timesca.com</strong>: <a href="https://timesca.com/index.php/news/24966-central-asian-countries-discuss-progress-in-achieving-sustainable-development-goals-at-a-high-level-summit-in-kazakhstan">Central Asian countries discuss progress in achieving Sustainable Development Goals at a high-level summit in Kazakhstan</a> (ENG)</li>
+  <li><strong>Kant.kg</strong>: <a href="https://kant.kg/2022-06-17/akylbek-zhaparov-vstretilsya-s-zamestitelem-generalnogo-sekretarya-oon-usha-rao-monari/">Akylbek Zhaparov met with UN Deputy Secretary General Asha Rao-Monari</a> (RUS)</li>
+  <li><strong>KTRK.kg</strong>: <a href="https://www.ktrk.kg/ru/news/s/70793">Akylbek Zhaparov will take part in the summit on the problems of recovery after COVID-19 in Central Asia</a> (RUS)</li>
+  <li><strong>Piramida.TV</strong>: <a href="https://www.youtube.com/watch?v=JWaPQdIkZxw">Kyrgyzstan Will Fully Meet The UN Targets</a> (KG)</li>
+  <li><strong>Piramida.TV</strong>: <a href="https://youtu.be/ylDQj38S4MI">Statements By Akylbek Zhaparov At The Regional Summit In Almaty</a> (RUS)</li>
+  <li><strong>5th Channel Kyrgyzstan</strong>: <a href="https://www.youtube.com/watch?v=7tGvSKVzZPM">International Summit To Discuss The Post-Pandemic Situation</a> (KG)</li>
+  <li><strong>STV</strong>: <a href="https://www.youtube.com/watch?v=Y4uiaH1ZGQ8">Kyrgyzstan Will Direct Its Efforts To Protect Mountain Ecosystems And Climate</a> (RUS)</li>
+  <li><strong>KTRK</strong>: <a href="https://youtu.be/BEoIqwxDcHY">Akylbek Zhaparov met with Deputy Secretary General of the United Nations Usha Rao-Monari</a> (KG)</li>
+  <li><strong>KTRK</strong>: <a href="https://youtu.be/d9WNqcrgO4c">Akylbek Zhaparov will take part in the summit on the problems of recovery after COVID-19 in Central Asia</a> (RUS)</li>
+  <li><strong>VB.kg</strong>: <a href="https://www.vb.kg/doc/419412_golos_molodeji_kyrgyzstana_byl_predstavlen_na_mejdynarodnoy_konferencii.html">The voice of the youth of Kyrgyzstan was presented at the international conference</a> (RUS)</li>
+  <li><strong>Talas TV</strong>: <a href="https://youtu.be/pQZqhcxrAag">Against religious extremism and terrorism!</a> (KG)</li>
+  <li><strong>24.kg</strong>: <a href="https://24.kg/vlast/237159_akyilbek_japarov_nasammite_potselyam_ustoychivogo_razvitiya_zagovoril_olednikah/">Akylbek Zhaparov spoke about glaciers at the summit on Sustainable Development Goals</a> (RUS)</li>
+  <li><strong>Myseldon.com)</strong>: <a href="https://news.myseldon.com/ru/news/index/270003824">Deputy Toraga ZhK KR Jamilya Isaeva took part in the II Regional Summit on Sustainable Development Goals in Almaty</a> (RUS)</li>
+  <li><strong>Tazabek.kg</strong>: <a href="https://www.tazabek.kg/news:1787922">Measures to counteract the pandemic have had a negative impact on agriculture, trade and other sectors of the economy, - the deputy</a> (RUS)</li>
+  <li><strong>Tmembassy.gov.tm</strong>: <a href="https://kyrgyzstan.tmembassy.gov.tm/ru/news/98476">THE DELEGATION OF TURKMENISTAN TAKES PART IN THE WORK OF THE REGIONAL SUMMIT ON SDGS IN ALMATY</a> (RUS)</li>
+  <li><strong>Sng.fm</strong>: <a href="https://sng.fm/21614-na-sammite-v-almaty-bishkek-oboznachil-vazhnost-uchastija-zhenschin-v-politicheskoj-i-jekonomicheskoj-zhizni.html">At the summit in Almaty, Bishkek highlighted the importance of women’s participation in political and economic life</a> (RUS)</li>
+  <li><strong>Kenesh.kg</strong>: <a href="http://kenesh.kg/ru/news/show/13154/zamestitely-toraga-zhk-kr-dzhamilya-isaeva-prinyala-uchastie-vo-ii-regionalynom-sammite-po-tselyam-ustoychivogo-razvitiya-v-g-almati">Deputy Toraga ZhK KR Jamilya Isaeva took part in the II Regional Summit on Sustainable Development Goals in Almaty</a> (RUS)</li>
+  <li><strong>Vesti.kg</strong>: <a href="https://vesti.kg/zxc/item/101170-akylbek-zhaparov-kyrgyzstan-nameren-poetapno-perekhodit-ot-karbonovykh-nositelej-k-vozobnovlyaemym-istochnikam-energii.html">Akylbek Zhaparov: Kyrgyzstan intends to gradually switch from carbon carriers to renewable energy sources</a> (RUS)</li>
+  <li><strong>Infomir.kg</strong>: <a href="https://infomir.kg/2022/06/16/dostigli-50-akylbek-zhaparov-rasskazal-o-prodvizhenii-k-tselyam-ustojchivogo-razvitiya/">“Reached 50%.” Akylbek Zhaparov spoke about the progress towards the Sustainable Development Goals</a> (RUS)</li>
+  <li><strong>Gov.kg</strong>: <a href="https://www.gov.kg/ky/post/s/21513-akylbek-zhaparov-almatyda-covidden-tyshkary-borborduk-aziyadagy-adilett-kalybyna-keltirg-karay-zhol-turuktuu-ng-maksattary-boyuncha-sammittin-ishine-katyshat">Akylbek Zhaparov will take part in the Summit on Sustainable Development Goals “Beyond the CIS – the path to a just recovery in Central Asia” in Almaty</a> (KG)</li>
+  <li><strong>Economist.kg</strong>: <a href="https://economist.kg/kyrgyzcha/2022/06/10/borborduk-aziya-lk-l-r-shamal-zhana-k-n-energiyasyn-pajdalanuu-bojuncha-d-jn-l-k-kubattuuluktun-5-yna-ee/">Central Asian countries have 5% of the world’s wind and solar energy capacity</a> (KG)</li>
+  <li><strong>Kyrgyztoday.org</strong>: <a href="https://kyrgyztoday.org/archives/465125">BISHKEK AND EBRD COOPERATE ON MODERNIZATION OF ENERGY INFRASTRUCTURE IN CENTRAL ASIA</a> (KG)</li>
+  <li><strong>Vzglyadriv.kg</strong>: <a href="https://www.vzglyadriv.kg/main/26028-akylbek-zhaparov-zhana-alihan-smailov-kyrgyz-kazak-kyzmattashtygyn-nktrn-talkuulashty.html">Akylbek Zhaparov and Alikhan Smailov discussed the development of Kyrgyz-Kazakh cooperation</a> (KG)</li>
+  <li><strong>Bishkek24.kg</strong>: <a href="https://bishkek24.kg/kg/politika-kg/akylbek-zhaparov-ish-sapar-menen-kazakstanga-barat/">Akylbek Zhaparov will pay a working visit to Kazakhstan</a> (KG)</li>
+  <li><strong>Maralfm.kg</strong>: <a href="https://maralfm.kg/archives/590505">Tomorrow Akylbek Zhaparov will visit Kazakhstan</a> (KG)</li>
+  <li><strong>Pyramida.kg</strong>: <a href="https://pyramida.kg/kyrgyzstan-buu-tarabynan-belgilengen-k-rs-tk-cht-rd-toluk-atkarat/">KYRGYZSTAN WILL FULLY MEET THE UN TARGETS</a> (KG)</li>
+  <li><strong>Ktrk.kg</strong>: <a href="https://www.ktrk.kg/kg/post/70709/kg">Akylbek Zhaparov visited Tokmok International University of Central Asia</a> (KG)</li>
+</ul>
+
+<h3 id="-tajikistan-media"><img src="/www/assets/flags/TJK_flag_h20.png" alt="Flag of Tajikistan" /> Tajikistan media</h3>
+<ul>
+  <li><strong>Sadoidushanbe.tj</strong>: <a href="https://sadoidushanbe.tj/archives/13603">The Sustainable Development Goals of the regional summit he attended in the second half</a> (TJK)</li>
+  <li><strong>Khovar.tj</strong>: <a href="https://khovar.tj/rus/2022/06/23premer-ministr-respubliki-tadzhikistan-kohir-rasulzoda-prinyal-uchastie-i-vystupil-vo-vtorom-regionalnom-sammite-po-tselyam-ustojchivogo-razvitiya/">The Prime Minister of the Republic of Tajikistan Kokhir Rasulzoda took part and spoke at the Second Regional Summit on the Sustainable Development Goals</a> (RUS)</li>
+  <li><strong>Dsc.tj</strong>: <a href="http://dsc.tj/2022/06/23/иштироки-саъдӣ-самадзод-директори-кв/">Participation of Saadi Samadzoda, Director of the State Unitary Enterprise “Smart City” of the executive body of state power Nurri Dushanbe at the second regional summit on Sustainable Development Goals in Almaty, Republic of Kazakhstan</a> (TJK)</li>
+  <li><strong>Tajsohtmon.tj</strong>: <a href="https://tajsohtmon.tj/ru/tajikistan_ru/11628-premer-ministr-respubliki-tadzhikistan-kohir-rasulzoda-prinyal-uchastie-i-vystupil-na-vtorom-regionalnom-sammite-po-celyam-ustoychivogo-razvitiya.html">Prime Minister of the Republic of Tajikistan Kohir Rasulzoda took part and spoke at the Second Regional Summit on Sustainable Development Goals</a> (RUS)</li>
+</ul>
+
+<h3 id="-turkmenistan-media"><img src="/www/assets/flags/TKM_flag_h20.png" alt="Flag of Turkmenistan" /> Turkmenistan media</h3>
+<ul>
+  <li><strong>Ministry of Foreign Affairs of Turkmenistan</strong>: <a href="https://www.mfa.gov.tm/ru/news/3210">The delegation of Turkmenistan participates in the Regional SDG Summit in Almaty</a> (RUS / ENG)</li>
+  <li><strong>ORIENT.tm</strong>: <a href="https://orient.tm/ru/post/38260/vice-premer-turkmenistana-vystupil-na-otkrytii-regionalnogo-sammita-po-cur-v-almaty">Deputy Prime Minister of Turkmenistan spoke at the opening of the regional summit on the SDGs in Almaty</a> (RUS)</li>
+  <li><strong>State news agency of Turkmenistan</strong>: <a href="https://turkmenistan.gov.tm/ru/post/64159/turkmenistan-uchastvuet-v-sammite-po-ustojchivomu-razvitiyu-v-centralnoj-azii-posle-pandemii">Turkmenistan participates in the summit on sustainable development in Central Asia after the pandemic</a> (RUS / ENG)</li>
+  <li><strong>Trend News Agency</strong>: <a href="https://www.trend.az/casia/turkmenistan/3610751.html">Turkmenistan took part in the second regional summit on SDGs</a> (RUS)</li>
+  <li><strong>InfoAbad</strong>: <a href="https://www.infoabad.com/1210-turkmenistan-prinimaet-uchastie-v-regionalnom-sammite-po-cur.html">Turkmenistan took part in the second regional summit on SDGs</a> (RUS)</li>
+  <li><strong>Arzuw NEWS</strong>: <a href="https://arzuw.news/vice-premer-turkmenistana-m-muhammedov-vystupil-na-sammite-v-almaty">Deputy Prime Minister of Turkmenistan M. Mukhammedov spoke at the summit in Almaty</a> (RUS)</li>
+  <li><strong>Salamnews.tm</strong>: <a href="https://salamnews.tm/ru/section/syyasat/halkara-hyzmatdaslyk/turkmenskaya-delegaciya-prinimaet-uchastie-vo-ii-regionalnom-sammite-po-cur-v-stranah-centralnoj-azii-d125cf">THE SECOND REGIONAL SUMMIT ON SDGS COMPLETES ITS WORK IN ALMATY</a> (RUS)</li>
+  <li><strong>Russia.tmembassy.gov.tm</strong>: <a href="https://russia.tmembassy.gov.tm/ru/news/98459">THE DELEGATION OF TURKMENISTAN TAKES PART IN THE WORK OF THE REGIONAL SUMMIT ON SDGS IN ALMATY</a> (RUS)</li>
+  <li><strong>Atavatan-turkmenistan.com</strong>: <a href="https://www.atavatan-turkmenistan.com/ru/туркменистан-участвует-в-саммите-по-у/">Turkmenistan participates in the post-pandemic Summit on Sustainable Development in Central Asia</a> (RUS)</li>
+  <li><strong>Atavatan-turkmenistan.com</strong>: <a href="https://www.atavatan-turkmenistan.com/turkmenistan-durnukly-osus-boyunca-sebit-sammitine-gatnasyar/">Turkmenistan participates in the post-pandemic Summit on Sustainable Development in Central Asia</a> (TM)</li>
+  <li><strong>Turkmenistan.gov.tm</strong>: <a href="https://turkmenistan.gov.tm/tk/habar/64161/turkmenistanyn-wekiliyeti-almatyda-durnukly-osus-maksatlary-boyunca-sebitleyin-sammitin-isine-gatnasyar">In Turkmenistan, there are constant cases about continuing work in Alma-Ata.</a> (TM)</li>
+  <li><strong>Hronikatm.com</strong>: <a href="https://www.hronikatm.com/2022/06/women-discrimination-comment/">An official from Turkmenistan for the first time commented on the ban on cosmetic procedures for women</a> (RUS)</li>
+  <li><strong>kazakhstan.tmembassy.gov.tm</strong>: <a href="https://kazakhstan.tmembassy.gov.tm/ru/news/98463">The delegation of Turkmenistan takes part in the work of the regional summit on SDGs in Almaty</a> (RUS)</li>
+</ul>
+
+<h3 id="-uzbekistan-media"><img src="/www/assets/flags/UZB_flag_h20.png" alt="Flag of Uzbekistan" /> Uzbekistan media</h3>
+<ul>
+  <li><strong>Kun.uz</strong>: <a href="https://kun.uz/ru/news/2022/06/16/abdulla-aripov-prinyal-uchastiye-v-sammite-na-puti-vosstanovleniya-tsa-bez-covid">Abdulla Aripov took part in the summit “On the way to restoring Central Asia without COVID”</a> (RUS)</li>
+  <li><strong>Davr24.uz</strong>: <a href="https://davr24.uz/archives/8663">Soon, Almaota will open a UN Center for Sustainable Development Goals (MDGs) for Central Asia and Afghanistan.</a> (UZ)</li>
+  <li><strong>Uzdaily.uz</strong>: <a href="https://www.uzdaily.uz/ru/post/69698">Abdulla Aripov and Alikhan Smailov discussed issues of industrial cooperation</a> (RUS)</li>
+  <li><strong>Gazeta.uz</strong>: <a href="https://www.gazeta.uz/ru/2022/06/16/green-energy/">Uzbekistan intends to build 8 GW renewable energy generation in the coming years</a> (RUS)</li>
+  <li><strong>UZdaily</strong>: <a href="https://www.uzdaily.uz/ru/post/69698">Abdulla Aripov and Alikhan Smailov discussed issues of industrial cooperation</a> (RUS)</li>
+  <li><strong>Uz.sputniknews.ru</strong>: <a href="https://uz.sputniknews.ru/20220617/premery-uzbekistana-i-kazaxstana-obsudili-obem-vzaimnoy-torgovli-mejdu-stranami--25398461.html">The prime ministers of Uzbekistan and Kazakhstan discussed mutual trade between the countries</a> (RUS)</li>
+  <li><strong>Uz.sputniknews.ru</strong>: <a href="https://uz.sputniknews.ru/20220616/uzbekistan-postroit-generatsiyu-vozobnovlyaemyx-istochnikov-energii-na-8-gvt---aripov-25365163.html">Uzbekistan to build “green” power plants for 8 GW - Aripov</a> (RUS)</li>
+  <li><strong>UzA</strong>: <a href="https://uza.uz/ru/posts/obsuzhdeny-celi-ustoychivogo-razvitiya_381933">Sustainable Development Goals were discussed</a> (RUS)</li>
+</ul>
+
+
+
+
+    </div>
+</div>
+
+<footer role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="footerLinks">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/www/contact-us">Contact us</a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://twitter.com/UNDPEurasia" target="_blank">Twitter</a>
+                            
+                        </li>
+                        <li>
+                            <a href="/www/about/cookies-and-privacy/">Cookies</a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://www.undp.org/" target="_blank"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP </a>
+                            
+                        </li>
+                        <li>
+                            
+                            <a href="https://european-union.europa.eu/index_en" target="_blank"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU </a>
+                            
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/www/config">Configuration</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+<script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+
+
+
+
+
+  <script >
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'G-YGNPYR18HS', 'auto');
+ga('require', 'eventTracker', {
+    attributePrefix: 'data-'
+});
+// anonymize user IPs (chops off the last IP triplet)
+ga('set', 'anonymizeIp', true);
+// forces SSL even if the page were somehow loaded over http://
+ga('set', 'forceSSL', true);
+ga('send', 'pageview');
+</script>
+
+
+
+<script>translations['general'] = translations['general'] || {};
+    translations['general']['hide'] = 'hide';</script>
+
+<script>translations['search'] = translations['search'] || {};
+    translations['search']['search'] = 'Search';</script>
+
+<script src='/www/assets/js/sdg.js?v=20240308175642'></script>
+
+
+    
+    
+    <script src="/www/assets/js/custom.js?v=20240308175642"></script><script>
+    new indicatorInit();
+    new accessibilitySwitcher();
+</script>
+
+
+</body>
+</html>
