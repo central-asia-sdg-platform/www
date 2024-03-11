@@ -14,6 +14,22 @@
           "status": "complete"
         },
         {
+          "id": "1-1-1-POVLMIC",
+          "title": "regional_indicators.1-1-1-POVLMIC-title",
+          "description": "",
+          "keywords": "",
+          "href": "/www/ru/1-1-1-POVLMIC/",
+          "status": "complete"
+        },
+        {
+          "id": "1-1-1-SI_POV_LMIC",
+          "title": "regional_indicators.1-1-1-SI_POV_LMIC-title",
+          "description": "",
+          "keywords": "",
+          "href": "/www/ru/1-1-1-SI_POV_LMIC/",
+          "status": "complete"
+        },
+        {
           "id": "1-1-1-a",
           "title": "Proportion of population below international poverty lines (%)",
           "description": "",
@@ -39,7 +55,7 @@
         },
         {
           "id": "1-1-1-gsa",
-          "title": "regional_indicators.1-1-1-gsa-title",
+          "title": "global_indicators.1-1-1-gsa-title",
           "description": "",
           "keywords": "",
           "href": "/www/ru/1-1-1-gsa/",
