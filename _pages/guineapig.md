@@ -87,3 +87,6 @@ Do you know all 17 SDGs?
 ![Map of Kazakhstan, 2020]({{ site.baseurl }}/assets/images/map_kazakhstan_un_2020_800px.jpg)
 
 ![Flag of Kazakhstan]({{ site.baseurl }}/assets/images/KAZ_flag_h240.png)
+
+
+
