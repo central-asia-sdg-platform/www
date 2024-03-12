@@ -15,7 +15,7 @@
         },
         {
           "id": "1-1-1-POVLMIC",
-          "title": "regional_indicators.1-1-1-POVLMIC-title",
+          "title": "Poverty rates at LMIC and UMIC lines POVLMIC",
           "description": "",
           "keywords": "",
           "href": "/www/1-1-1-POVLMIC/",
@@ -23,7 +23,7 @@
         },
         {
           "id": "1-1-1-SI_POV_LMIC",
-          "title": "regional_indicators.1-1-1-SI_POV_LMIC-title",
+          "title": "Poverty rates at LMIC and UMIC lines SI_POV_LMIC",
           "description": "",
           "keywords": "",
           "href": "/www/1-1-1-SI_POV_LMIC/",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-1-1-gs1",
-          "title": "global_indicators.1-1-1-gs1-title",
+          "title": "Working Poverty rates",
           "description": "",
           "keywords": "",
           "href": "/www/1-1-1-gs1/",

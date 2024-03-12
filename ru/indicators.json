@@ -15,7 +15,7 @@
         },
         {
           "id": "1-1-1-POVLMIC",
-          "title": "regional_indicators.1-1-1-POVLMIC-title",
+          "title": "Уровень бедности ниже черты LMIC и UMIC POVLMIC",
           "description": "",
           "keywords": "",
           "href": "/www/ru/1-1-1-POVLMIC/",
@@ -23,7 +23,7 @@
         },
         {
           "id": "1-1-1-SI_POV_LMIC",
-          "title": "regional_indicators.1-1-1-SI_POV_LMIC-title",
+          "title": "Уровень бедности ниже черты LMIC и UMIC SI_POV_LMIC",
           "description": "",
           "keywords": "",
           "href": "/www/ru/1-1-1-SI_POV_LMIC/",
@@ -47,7 +47,7 @@
         },
         {
           "id": "1-1-1-gs1",
-          "title": "global_indicators.1-1-1-gs1-title",
+          "title": "Уровень бедности среди работающих",
           "description": "",
           "keywords": "",
           "href": "/www/ru/1-1-1-gs1/",
