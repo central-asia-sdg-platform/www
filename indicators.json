@@ -14,36 +14,20 @@
           "status": "complete"
         },
         {
-          "id": "1-1-1-POVLMIC",
-          "title": "Poverty rates at LMIC and UMIC lines POVLMIC",
-          "description": "",
-          "keywords": "",
-          "href": "/www/1-1-1-POVLMIC/",
-          "status": "complete"
-        },
-        {
-          "id": "1-1-1-SI_POV_LMIC",
-          "title": "Poverty rates at LMIC and UMIC lines SI_POV_LMIC",
-          "description": "",
-          "keywords": "",
-          "href": "/www/1-1-1-SI_POV_LMIC/",
-          "status": "complete"
-        },
-        {
           "id": "1-1-1-a",
-          "title": "Proportion of population below international poverty lines (%)",
+          "title": "meta.name-1-1-1-a",
           "description": "",
           "keywords": "",
           "href": "/www/1-1-1-a/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-1-1-b",
-          "title": "Employed population below international poverty line (%)",
+          "title": "meta.name-1-1-1-b",
           "description": "",
           "keywords": "",
           "href": "/www/1-1-1-b/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "1-1-1-cmp",
@@ -54,24 +38,8 @@
           "status": "complete"
         },
         {
-          "id": "1-1-1-gs1",
-          "title": "Working Poverty rates",
-          "description": "",
-          "keywords": "",
-          "href": "/www/1-1-1-gs1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-1-1-gsa",
-          "title": "global_indicators.1-1-1-gsa-title",
-          "description": "",
-          "keywords": "",
-          "href": "/www/1-1-1-gsa/",
-          "status": "complete"
-        },
-        {
           "id": "1-2-1",
-          "title": "Proportion of population living below the national poverty line, by sex and age",
+          "title": "meta.name-1-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/1-2-1/",
@@ -86,12 +54,140 @@
           "status": "notstarted"
         },
         {
+          "id": "1-2-2-SD_MDP_ANDI",
+          "title": "meta.name-1-2-2-SD_MDP_ANDI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-2-2-SD_MDP_ANDI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2-SD_MDP_CSMP",
+          "title": "meta.name-1-2-2-SD_MDP_CSMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-2-2-SD_MDP_CSMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2-SD_MDP_MUHC",
+          "title": "meta.name-1-2-2-SD_MDP_MUHC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-2-2-SD_MDP_MUHC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-2-SD_MDP_MUHHC",
+          "title": "meta.name-1-2-2-SD_MDP_MUHHC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-2-2-SD_MDP_MUHHC/",
+          "status": "notstarted"
+        },
+        {
           "id": "1-3-1",
           "title": "Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",
           "description": "",
           "keywords": "",
           "href": "/www/1-3-1/",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_BENFTS",
+          "title": "meta.name-1-3-1-SI_COV_BENFTS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_BENFTS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_CHLD",
+          "title": "meta.name-1-3-1-SI_COV_CHLD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_CHLD/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_DISAB",
+          "title": "meta.name-1-3-1-SI_COV_DISAB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_DISAB/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_LMKT",
+          "title": "meta.name-1-3-1-SI_COV_LMKT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_LMKT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_MATNL",
+          "title": "meta.name-1-3-1-SI_COV_MATNL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_MATNL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_PENSN",
+          "title": "meta.name-1-3-1-SI_COV_PENSN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_PENSN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_POOR",
+          "title": "meta.name-1-3-1-SI_COV_POOR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_POOR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_SOCAST",
+          "title": "meta.name-1-3-1-SI_COV_SOCAST",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_SOCAST/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_SOCINS",
+          "title": "meta.name-1-3-1-SI_COV_SOCINS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_SOCINS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_UEMP",
+          "title": "meta.name-1-3-1-SI_COV_UEMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_UEMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_VULN",
+          "title": "meta.name-1-3-1-SI_COV_VULN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_VULN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-3-1-SI_COV_WKINJRY",
+          "title": "meta.name-1-3-1-SI_COV_WKINJRY",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-3-1-SI_COV_WKINJRY/",
+          "status": "notstarted"
         },
         {
           "id": "1-4-1",
@@ -99,6 +195,22 @@
           "description": "",
           "keywords": "",
           "href": "/www/1-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-1-SP_ACS_BSRVH2O",
+          "title": "meta.name-1-4-1-SP_ACS_BSRVH2O",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-4-1-SP_ACS_BSRVH2O/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-1-SP_ACS_BSRVSAN",
+          "title": "meta.name-1-4-1-SP_ACS_BSRVSAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-4-1-SP_ACS_BSRVSAN/",
           "status": "notstarted"
         },
         {
@@ -110,11 +222,115 @@
           "status": "notstarted"
         },
         {
+          "id": "1-4-2-SP_LGL_LNDDOC",
+          "title": "meta.name-1-4-2-SP_LGL_LNDDOC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-4-2-SP_LGL_LNDDOC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-2-SP_LGL_LNDSEC",
+          "title": "meta.name-1-4-2-SP_LGL_LNDSEC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-4-2-SP_LGL_LNDSEC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-4-2-SP_LGL_LNDSTR",
+          "title": "meta.name-1-4-2-SP_LGL_LNDSTR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-4-2-SP_LGL_LNDSTR/",
+          "status": "notstarted"
+        },
+        {
           "id": "1-5-1",
           "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
           "description": "",
           "keywords": "",
           "href": "/www/1-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_AFFCT",
+          "title": "meta.name-1-5-1-VC_DSR_AFFCT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_AFFCT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_DAFF",
+          "title": "meta.name-1-5-1-VC_DSR_DAFF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_DAFF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_IJILN",
+          "title": "meta.name-1-5-1-VC_DSR_IJILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_IJILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_MISS",
+          "title": "meta.name-1-5-1-VC_DSR_MISS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_MISS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_MMHN",
+          "title": "meta.name-1-5-1-VC_DSR_MMHN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_MMHN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_MORT",
+          "title": "meta.name-1-5-1-VC_DSR_MORT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_MORT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_MTMP",
+          "title": "meta.name-1-5-1-VC_DSR_MTMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_MTMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_PDAN",
+          "title": "meta.name-1-5-1-VC_DSR_PDAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_PDAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_PDLN",
+          "title": "meta.name-1-5-1-VC_DSR_PDLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_PDLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-1-VC_DSR_PDYN",
+          "title": "meta.name-1-5-1-VC_DSR_PDYN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-1-VC_DSR_PDYN/",
           "status": "notstarted"
         },
         {
@@ -126,11 +342,67 @@
           "status": "notstarted"
         },
         {
+          "id": "1-5-2-VC_DSR_AGLH",
+          "title": "meta.name-1-5-2-VC_DSR_AGLH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-2-VC_DSR_AGLH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2-VC_DSR_CHLN",
+          "title": "meta.name-1-5-2-VC_DSR_CHLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-2-VC_DSR_CHLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2-VC_DSR_CILN",
+          "title": "meta.name-1-5-2-VC_DSR_CILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-2-VC_DSR_CILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2-VC_DSR_DDPA",
+          "title": "meta.name-1-5-2-VC_DSR_DDPA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-2-VC_DSR_DDPA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2-VC_DSR_GDPLS",
+          "title": "meta.name-1-5-2-VC_DSR_GDPLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-2-VC_DSR_GDPLS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-2-VC_DSR_LSGP",
+          "title": "meta.name-1-5-2-VC_DSR_LSGP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-2-VC_DSR_LSGP/",
+          "status": "notstarted"
+        },
+        {
           "id": "1-5-3",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
           "keywords": "",
           "href": "/www/1-5-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-3-SG_DSR_LGRGSR",
+          "title": "meta.name-1-5-3-SG_DSR_LGRGSR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-3-SG_DSR_LGRGSR/",
           "status": "notstarted"
         },
         {
@@ -142,11 +414,43 @@
           "status": "notstarted"
         },
         {
+          "id": "1-5-4-SG_DSR_SILN",
+          "title": "meta.name-1-5-4-SG_DSR_SILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-4-SG_DSR_SILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-5-4-SG_DSR_SILS",
+          "title": "meta.name-1-5-4-SG_DSR_SILS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-5-4-SG_DSR_SILS/",
+          "status": "notstarted"
+        },
+        {
           "id": "1-a-1",
           "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
           "description": "",
           "keywords": "",
           "href": "/www/1-a-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-a-1-DC_ODA_POVDLG",
+          "title": "meta.name-1-a-1-DC_ODA_POVDLG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-a-1-DC_ODA_POVDLG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-a-1-DC_ODA_POVLG",
+          "title": "meta.name-1-a-1-DC_ODA_POVLG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-a-1-DC_ODA_POVLG/",
           "status": "notstarted"
         },
         {
@@ -159,7 +463,7 @@
         },
         {
           "id": "1-b-1",
-          "title": "Pro-poor public social spending",
+          "title": "meta.name-1-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/1-b-1/",
@@ -175,7 +479,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Prevalence of undernourishment",
+          "title": "meta.name-2-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/2-1-1/",
@@ -183,7 +487,7 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
+          "title": "meta.name-2-1-2",
           "description": "",
           "keywords": "",
           "href": "/www/2-1-2/",
@@ -191,7 +495,7 @@
         },
         {
           "id": "2-2-1",
-          "title": "Prevalence of stunting (height for age <-2 standard deviation from the median of the World Health Organization (WHO) Child Growth Standards) among children under 5 years of age",
+          "title": "meta.name-2-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/2-2-1/",
@@ -199,7 +503,7 @@
         },
         {
           "id": "2-2-2",
-          "title": "Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)",
+          "title": "meta.name-2-2-2",
           "description": "",
           "keywords": "",
           "href": "/www/2-2-2/",
@@ -207,7 +511,7 @@
         },
         {
           "id": "2-2-3",
-          "title": "Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",
+          "title": "meta.name-2-2-3",
           "description": "",
           "keywords": "",
           "href": "/www/2-2-3/",
@@ -215,7 +519,7 @@
         },
         {
           "id": "2-3-1",
-          "title": "Volume of production per labour unit by classes of farming/pastoral/forestry enterprise size",
+          "title": "meta.name-2-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/2-3-1/",
@@ -223,7 +527,7 @@
         },
         {
           "id": "2-3-2",
-          "title": "Average income of small-scale food producers, by sex and indigenous status",
+          "title": "meta.name-2-3-2",
           "description": "",
           "keywords": "",
           "href": "/www/2-3-2/",
@@ -231,10 +535,98 @@
         },
         {
           "id": "2-4-1",
-          "title": "Proportion of agricultural area under productive and sustainable agriculture",
+          "title": "meta.name-2-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/2-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_AGRBIO",
+          "title": "meta.name-2-4-1-a-AG_LND_AGRBIO",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_AGRBIO/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_AGRWAG",
+          "title": "meta.name-2-4-1-a-AG_LND_AGRWAG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_AGRWAG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_FERTMG",
+          "title": "meta.name-2-4-1-a-AG_LND_FERTMG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_FERTMG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_FIES",
+          "title": "meta.name-2-4-1-a-AG_LND_FIES",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_FIES/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_FOVH",
+          "title": "meta.name-2-4-1-a-AG_LND_FOVH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_FOVH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_H2OAVAIL",
+          "title": "meta.name-2-4-1-a-AG_LND_H2OAVAIL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_H2OAVAIL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_LNDSTR",
+          "title": "meta.name-2-4-1-a-AG_LND_LNDSTR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_LNDSTR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_NFI",
+          "title": "meta.name-2-4-1-a-AG_LND_NFI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_NFI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_PSTCDSMG",
+          "title": "meta.name-2-4-1-a-AG_LND_PSTCDSMG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_PSTCDSMG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_RMM",
+          "title": "meta.name-2-4-1-a-AG_LND_RMM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_RMM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-4-1-a-AG_LND_SDGRD",
+          "title": "meta.name-2-4-1-a-AG_LND_SDGRD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-4-1-a-AG_LND_SDGRD/",
           "status": "notstarted"
         },
         {
@@ -246,8 +638,48 @@
           "status": "notstarted"
         },
         {
+          "id": "2-5-1-ER_GRF_ANIMKPT",
+          "title": "meta.name-2-5-1-ER_GRF_ANIMKPT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-5-1-ER_GRF_ANIMKPT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-1-ER_GRF_ANIMKPT_TRB",
+          "title": "meta.name-2-5-1-ER_GRF_ANIMKPT_TRB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-5-1-ER_GRF_ANIMKPT_TRB/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-1-ER_GRF_ANIMRCNTN",
+          "title": "meta.name-2-5-1-ER_GRF_ANIMRCNTN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-5-1-ER_GRF_ANIMRCNTN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-1-ER_GRF_ANIMRCNTN_TRB",
+          "title": "meta.name-2-5-1-ER_GRF_ANIMRCNTN_TRB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-5-1-ER_GRF_ANIMRCNTN_TRB/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-5-1-ER_GRF_PLNTSTOR",
+          "title": "meta.name-2-5-1-ER_GRF_PLNTSTOR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-5-1-ER_GRF_PLNTSTOR/",
+          "status": "notstarted"
+        },
+        {
           "id": "2-5-2",
-          "title": "Proportion of local breeds classified as being at risk of extinction",
+          "title": "meta.name-2-5-2",
           "description": "",
           "keywords": "",
           "href": "/www/2-5-2/",
@@ -262,8 +694,32 @@
           "status": "notstarted"
         },
         {
+          "id": "2-a-1-AG_PRD_AGVAS",
+          "title": "meta.name-2-a-1-AG_PRD_AGVAS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-a-1-AG_PRD_AGVAS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-a-1-AG_PRD_ORTIND",
+          "title": "meta.name-2-a-1-AG_PRD_ORTIND",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-a-1-AG_PRD_ORTIND/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-a-1-AG_XPD_AGSGB",
+          "title": "meta.name-2-a-1-AG_XPD_AGSGB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-a-1-AG_XPD_AGSGB/",
+          "status": "notstarted"
+        },
+        {
           "id": "2-a-2",
-          "title": "Total official flows (official development assistance plus other official flows) to the agriculture sector",
+          "title": "meta.name-2-a-2",
           "description": "",
           "keywords": "",
           "href": "/www/2-a-2/",
@@ -271,7 +727,7 @@
         },
         {
           "id": "2-b-1",
-          "title": "Agricultural export subsidies",
+          "title": "meta.name-2-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/2-b-1/",
@@ -283,6 +739,22 @@
           "description": "",
           "keywords": "",
           "href": "/www/2-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-c-1-AG_FPA_CFPI",
+          "title": "meta.name-2-c-1-AG_FPA_CFPI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-c-1-AG_FPA_CFPI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-c-1-AG_FPA_COMM",
+          "title": "meta.name-2-c-1-AG_FPA_COMM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/2-c-1-AG_FPA_COMM/",
           "status": "notstarted"
         }]
     }
@@ -302,11 +774,27 @@
           "status": "notstarted"
         },
         {
+          "id": "3-1-1-SH_STA_MORT",
+          "title": "meta.name-3-1-1-SH_STA_MORT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-1-1-SH_STA_MORT/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-1-2",
           "title": "Proportion of births attended by skilled health personnel",
           "description": "",
           "keywords": "",
           "href": "/www/3-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-1-2-SH_STA_BRTC",
+          "title": "meta.name-3-1-2-SH_STA_BRTC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-1-2-SH_STA_BRTC/",
           "status": "notstarted"
         },
         {
@@ -318,8 +806,24 @@
           "status": "notstarted"
         },
         {
+          "id": "3-2-1-a",
+          "title": "meta.name-3-2-1-a",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-2-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-2-1-b",
+          "title": "meta.name-3-2-1-b",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-2-1-b/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-2-2",
-          "title": "Neonatal mortality rate",
+          "title": "meta.name-3-2-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-2-2/",
@@ -327,7 +831,7 @@
         },
         {
           "id": "3-3-1",
-          "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
+          "title": "meta.name-3-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-3-1/",
@@ -335,7 +839,7 @@
         },
         {
           "id": "3-3-2",
-          "title": "Tuberculosis incidence per 100,000 population",
+          "title": "meta.name-3-3-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-3-2/",
@@ -343,7 +847,7 @@
         },
         {
           "id": "3-3-3",
-          "title": "Malaria incidence per 1,000 population",
+          "title": "meta.name-3-3-3",
           "description": "",
           "keywords": "",
           "href": "/www/3-3-3/",
@@ -351,7 +855,7 @@
         },
         {
           "id": "3-3-4",
-          "title": "Hepatitis B incidence per 100,000 population",
+          "title": "meta.name-3-3-4",
           "description": "",
           "keywords": "",
           "href": "/www/3-3-4/",
@@ -359,7 +863,7 @@
         },
         {
           "id": "3-3-5",
-          "title": "Number of people requiring interventions against neglected tropical diseases",
+          "title": "meta.name-3-3-5",
           "description": "",
           "keywords": "",
           "href": "/www/3-3-5/",
@@ -367,7 +871,7 @@
         },
         {
           "id": "3-4-1",
-          "title": "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease",
+          "title": "meta.name-3-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-4-1/",
@@ -383,7 +887,7 @@
         },
         {
           "id": "3-4-2",
-          "title": "Suicide mortality rate",
+          "title": "meta.name-3-4-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-4-2/",
@@ -398,8 +902,24 @@
           "status": "notstarted"
         },
         {
+          "id": "3-5-1-SH_SUD_ALCOL",
+          "title": "meta.name-3-5-1-SH_SUD_ALCOL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-5-1-SH_SUD_ALCOL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-5-1-SH_SUD_TREAT",
+          "title": "meta.name-3-5-1-SH_SUD_TREAT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-5-1-SH_SUD_TREAT/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-5-2",
-          "title": "Alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol",
+          "title": "meta.name-3-5-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-5-2/",
@@ -407,7 +927,7 @@
         },
         {
           "id": "3-6-1",
-          "title": "Death rate due to road traffic injuries",
+          "title": "meta.name-3-6-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-6-1/",
@@ -415,7 +935,7 @@
         },
         {
           "id": "3-7-1",
-          "title": "Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods",
+          "title": "meta.name-3-7-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-7-1/",
@@ -423,7 +943,7 @@
         },
         {
           "id": "3-7-2",
-          "title": "Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",
+          "title": "meta.name-3-7-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-7-2/",
@@ -431,7 +951,7 @@
         },
         {
           "id": "3-8-1",
-          "title": "Coverage of essential health services",
+          "title": "meta.name-3-8-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-8-1/",
@@ -439,7 +959,7 @@
         },
         {
           "id": "3-8-2",
-          "title": "Proportion of population with large household expenditures on health as a share of total household expenditure or income",
+          "title": "meta.name-3-8-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-8-2/",
@@ -447,7 +967,7 @@
         },
         {
           "id": "3-9-1",
-          "title": "Mortality rate attributed to household and ambient air pollution",
+          "title": "meta.name-3-9-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-9-1/",
@@ -455,7 +975,7 @@
         },
         {
           "id": "3-9-2",
-          "title": "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)",
+          "title": "meta.name-3-9-2",
           "description": "",
           "keywords": "",
           "href": "/www/3-9-2/",
@@ -463,7 +983,7 @@
         },
         {
           "id": "3-9-3",
-          "title": "Mortality rate attributed to unintentional poisoning",
+          "title": "meta.name-3-9-3",
           "description": "",
           "keywords": "",
           "href": "/www/3-9-3/",
@@ -471,7 +991,7 @@
         },
         {
           "id": "3-a-1",
-          "title": "Age-standardized prevalence of current tobacco use among persons aged 15 years and older",
+          "title": "meta.name-3-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-a-1/",
@@ -479,7 +999,7 @@
         },
         {
           "id": "3-b-1",
-          "title": "Proportion of the target population covered by all vaccines included in their national programme",
+          "title": "meta.name-3-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-b-1/",
@@ -494,8 +1014,24 @@
           "status": "notstarted"
         },
         {
+          "id": "3-b-2-DC_TOF_HLTHL",
+          "title": "meta.name-3-b-2-DC_TOF_HLTHL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-b-2-DC_TOF_HLTHL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-b-2-DC_TOF_HLTHNT",
+          "title": "meta.name-3-b-2-DC_TOF_HLTHNT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-b-2-DC_TOF_HLTHNT/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-b-3",
-          "title": "Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis",
+          "title": "meta.name-3-b-3",
           "description": "",
           "keywords": "",
           "href": "/www/3-b-3/",
@@ -510,8 +1046,24 @@
           "status": "notstarted"
         },
         {
+          "id": "3-c-1-SH_MED_DEN",
+          "title": "meta.name-3-c-1-SH_MED_DEN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-c-1-SH_MED_DEN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-c-1-SH_MED_HWRKDIS",
+          "title": "meta.name-3-c-1-SH_MED_HWRKDIS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-c-1-SH_MED_HWRKDIS/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-d-1",
-          "title": "International Health Regulations (IHR) capacity and health emergency preparedness",
+          "title": "meta.name-3-d-1",
           "description": "",
           "keywords": "",
           "href": "/www/3-d-1/",
@@ -524,6 +1076,22 @@
           "keywords": "",
           "href": "/www/3-d-2/",
           "status": "notstarted"
+        },
+        {
+          "id": "3-d-2-SH_BLD_ECOLI",
+          "title": "meta.name-3-d-2-SH_BLD_ECOLI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-d-2-SH_BLD_ECOLI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "3-d-2-SH_BLD_MRSA",
+          "title": "meta.name-3-d-2-SH_BLD_MRSA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-d-2-SH_BLD_MRSA/",
+          "status": "notstarted"
         }]
     }
   },
@@ -535,7 +1103,7 @@
         
         {
           "id": "4-1-1",
-          "title": "Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",
+          "title": "meta.name-4-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-1-1/",
@@ -543,7 +1111,7 @@
         },
         {
           "id": "4-1-2",
-          "title": "Completion rate (primary education, lower secondary education, upper secondary education)",
+          "title": "meta.name-4-1-2",
           "description": "",
           "keywords": "",
           "href": "/www/4-1-2/",
@@ -551,7 +1119,7 @@
         },
         {
           "id": "4-2-1",
-          "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sexi",
+          "title": "meta.name-4-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-2-1/",
@@ -559,7 +1127,7 @@
         },
         {
           "id": "4-2-2",
-          "title": "Participation rate in organized learning (one year before the official primary entry age), by sex",
+          "title": "meta.name-4-2-2",
           "description": "",
           "keywords": "",
           "href": "/www/4-2-2/",
@@ -567,7 +1135,7 @@
         },
         {
           "id": "4-3-1",
-          "title": "Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",
+          "title": "meta.name-4-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-3-1/",
@@ -575,7 +1143,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill",
+          "title": "meta.name-4-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-4-1/",
@@ -590,8 +1158,128 @@
           "status": "notstarted"
         },
         {
+          "id": "4-5-1-SE_AGP_CPRA",
+          "title": "meta.name-4-5-1-SE_AGP_CPRA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_AGP_CPRA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_ALP_CPLR",
+          "title": "meta.name-4-5-1-SE_ALP_CPLR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_ALP_CPLR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_AWP_CPRA",
+          "title": "meta.name-4-5-1-SE_AWP_CPRA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_AWP_CPRA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_GPI_ICTS",
+          "title": "meta.name-4-5-1-SE_GPI_ICTS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_GPI_ICTS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_GPI_PART",
+          "title": "meta.name-4-5-1-SE_GPI_PART",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_GPI_PART/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_GPI_PTNPRE",
+          "title": "meta.name-4-5-1-SE_GPI_PTNPRE",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_GPI_PTNPRE/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_GPI_TCAQ",
+          "title": "meta.name-4-5-1-SE_GPI_TCAQ",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_GPI_TCAQ/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_IMP_FPOF",
+          "title": "meta.name-4-5-1-SE_IMP_FPOF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_IMP_FPOF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_LGP_ACHI",
+          "title": "meta.name-4-5-1-SE_LGP_ACHI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_LGP_ACHI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_NAP_ACHI",
+          "title": "meta.name-4-5-1-SE_NAP_ACHI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_NAP_ACHI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_TOT_GPI",
+          "title": "meta.name-4-5-1-SE_TOT_GPI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_TOT_GPI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_TOT_GPI_FS",
+          "title": "meta.name-4-5-1-SE_TOT_GPI_FS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_TOT_GPI_FS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_TOT_RUPI",
+          "title": "meta.name-4-5-1-SE_TOT_RUPI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_TOT_RUPI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_TOT_SESPI",
+          "title": "meta.name-4-5-1-SE_TOT_SESPI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_TOT_SESPI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1-SE_TOT_SESPI_FS",
+          "title": "meta.name-4-5-1-SE_TOT_SESPI_FS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-5-1-SE_TOT_SESPI_FS/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-6-1",
-          "title": "Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",
+          "title": "meta.name-4-6-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-6-1/",
@@ -599,7 +1287,7 @@
         },
         {
           "id": "4-7-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "meta.name-4-7-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-7-1/",
@@ -614,8 +1302,64 @@
           "status": "notstarted"
         },
         {
+          "id": "4-a-1-SE_ACC_HNDWSH",
+          "title": "meta.name-4-a-1-SE_ACC_HNDWSH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_ACC_HNDWSH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-SE_ACS_CMPTR",
+          "title": "meta.name-4-a-1-SE_ACS_CMPTR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_ACS_CMPTR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-SE_ACS_ELECT",
+          "title": "meta.name-4-a-1-SE_ACS_ELECT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_ACS_ELECT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-SE_ACS_H2O",
+          "title": "meta.name-4-a-1-SE_ACS_H2O",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_ACS_H2O/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-SE_ACS_INTNT",
+          "title": "meta.name-4-a-1-SE_ACS_INTNT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_ACS_INTNT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-SE_ACS_SANIT",
+          "title": "meta.name-4-a-1-SE_ACS_SANIT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_ACS_SANIT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-a-1-SE_INF_DSBL",
+          "title": "meta.name-4-a-1-SE_INF_DSBL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/4-a-1-SE_INF_DSBL/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-b-1",
-          "title": "Volume of official development assistance flows for scholarships by sector and type of study",
+          "title": "meta.name-4-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-b-1/",
@@ -623,7 +1367,7 @@
         },
         {
           "id": "4-c-1",
-          "title": "Proportion of teachers with the minimum required qualifications, by education leveli",
+          "title": "meta.name-4-c-1",
           "description": "",
           "keywords": "",
           "href": "/www/4-c-1/",
@@ -639,7 +1383,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Whether or not legal frameworks are in place to promote, enforce and monitor equality and non‑discrimination on the basis of sex",
+          "title": "meta.name-5-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/5-1-1/",
@@ -647,7 +1391,7 @@
         },
         {
           "id": "5-2-1",
-          "title": "Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",
+          "title": "meta.name-5-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/5-2-1/",
@@ -663,7 +1407,7 @@
         },
         {
           "id": "5-3-1",
-          "title": "Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18",
+          "title": "meta.name-5-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/5-3-1/",
@@ -686,11 +1430,51 @@
           "status": "notstarted"
         },
         {
+          "id": "5-4-1-SL_DOM_TSPD",
+          "title": "meta.name-5-4-1-SL_DOM_TSPD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-4-1-SL_DOM_TSPD/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1-SL_DOM_TSPDCW",
+          "title": "meta.name-5-4-1-SL_DOM_TSPDCW",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-4-1-SL_DOM_TSPDCW/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1-SL_DOM_TSPDDC",
+          "title": "meta.name-5-4-1-SL_DOM_TSPDDC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-4-1-SL_DOM_TSPDDC/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-5-1",
           "title": "Proportion of seats held by women in (a) national parliaments and (b) local governments",
           "description": "",
           "keywords": "",
           "href": "/www/5-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1-SG_GEN_LOCGELS",
+          "title": "meta.name-5-5-1-SG_GEN_LOCGELS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-5-1-SG_GEN_LOCGELS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1-SG_GEN_PARL",
+          "title": "meta.name-5-5-1-SG_GEN_PARL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-5-1-SG_GEN_PARL/",
           "status": "notstarted"
         },
         {
@@ -702,11 +1486,75 @@
           "status": "notstarted"
         },
         {
+          "id": "5-5-2-IC_GEN_MGTL",
+          "title": "meta.name-5-5-2-IC_GEN_MGTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-5-2-IC_GEN_MGTL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-2-IC_GEN_MGTL_19ICLS",
+          "title": "meta.name-5-5-2-IC_GEN_MGTL_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-5-2-IC_GEN_MGTL_19ICLS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-2-IC_GEN_MGTN",
+          "title": "meta.name-5-5-2-IC_GEN_MGTN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-5-2-IC_GEN_MGTN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-2-IC_GEN_MGTN_19ICLS",
+          "title": "meta.name-5-5-2-IC_GEN_MGTN_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-5-2-IC_GEN_MGTN_19ICLS/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-6-1",
           "title": "Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",
           "description": "",
           "keywords": "",
           "href": "/www/5-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-1-SH_FPL_INFM",
+          "title": "meta.name-5-6-1-SH_FPL_INFM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-1-SH_FPL_INFM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-1-SH_FPL_INFMCU",
+          "title": "meta.name-5-6-1-SH_FPL_INFMCU",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-1-SH_FPL_INFMCU/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-1-SH_FPL_INFMRH",
+          "title": "meta.name-5-6-1-SH_FPL_INFMRH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-1-SH_FPL_INFMRH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-1-SH_FPL_INFMSR",
+          "title": "meta.name-5-6-1-SH_FPL_INFMSR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-1-SH_FPL_INFMSR/",
           "status": "notstarted"
         },
         {
@@ -718,6 +1566,150 @@
           "status": "notstarted"
         },
         {
+          "id": "5-6-2-SH_LGR_ACSRHE",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHE",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHE/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC1",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC1",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC10",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC10",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC10/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC11",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC11",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC11/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC12",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC12",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC12/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC13",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC13",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC13/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC2",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC2",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC3",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC3",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC4",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC4",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC5",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC5",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC6",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC6",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC6/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC7",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC7",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC7/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC8",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC8",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC8/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHEC9",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHEC9",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHEC9/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHES1",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHES1",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHES1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHES2",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHES2",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHES2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHES3",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHES3",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHES3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-6-2-SH_LGR_ACSRHES4",
+          "title": "meta.name-5-6-2-SH_LGR_ACSRHES4",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-6-2-SH_LGR_ACSRHES4/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-a-1",
           "title": "(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",
           "description": "",
@@ -726,8 +1718,24 @@
           "status": "notstarted"
         },
         {
+          "id": "5-a-1-SP_GNP_WNOWNS",
+          "title": "meta.name-5-a-1-SP_GNP_WNOWNS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-a-1-SP_GNP_WNOWNS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-a-1-SP_LGL_LNDAGSEC",
+          "title": "meta.name-5-a-1-SP_LGL_LNDAGSEC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/5-a-1-SP_LGL_LNDAGSEC/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-a-2",
-          "title": "Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control",
+          "title": "meta.name-5-a-2",
           "description": "",
           "keywords": "",
           "href": "/www/5-a-2/",
@@ -735,7 +1743,7 @@
         },
         {
           "id": "5-b-1",
-          "title": "Proportion of individuals who own a mobile telephone, by sex",
+          "title": "meta.name-5-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/5-b-1/",
@@ -743,7 +1751,7 @@
         },
         {
           "id": "5-c-1",
-          "title": "Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment",
+          "title": "meta.name-5-c-1",
           "description": "",
           "keywords": "",
           "href": "/www/5-c-1/",
@@ -759,7 +1767,7 @@
         
         {
           "id": "6-1-1",
-          "title": "Proportion of population using safely managed drinking water services",
+          "title": "meta.name-6-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/6-1-1/",
@@ -774,8 +1782,32 @@
           "status": "notstarted"
         },
         {
+          "id": "6-2-1-SH_SAN_DEFECT",
+          "title": "meta.name-6-2-1-SH_SAN_DEFECT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-2-1-SH_SAN_DEFECT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-1-SH_SAN_HNDWSH",
+          "title": "meta.name-6-2-1-SH_SAN_HNDWSH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-2-1-SH_SAN_HNDWSH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-2-1-SH_SAN_SAFE",
+          "title": "meta.name-6-2-1-SH_SAN_SAFE",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-2-1-SH_SAN_SAFE/",
+          "status": "notstarted"
+        },
+        {
           "id": "6-3-1",
-          "title": "Proportion of domestic and industrial wastewater flows safely treated",
+          "title": "meta.name-6-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/6-3-1/",
@@ -783,7 +1815,7 @@
         },
         {
           "id": "6-3-2",
-          "title": "Proportion of bodies of water with good ambient water quality",
+          "title": "meta.name-6-3-2",
           "description": "",
           "keywords": "",
           "href": "/www/6-3-2/",
@@ -791,7 +1823,7 @@
         },
         {
           "id": "6-4-1",
-          "title": "Change in water-use efficiency over time",
+          "title": "meta.name-6-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/6-4-1/",
@@ -806,11 +1838,59 @@
           "status": "notstarted"
         },
         {
+          "id": "6-4-2-ER_H2O_STRESS",
+          "title": "meta.name-6-4-2-ER_H2O_STRESS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-4-2-ER_H2O_STRESS/",
+          "status": "notstarted"
+        },
+        {
           "id": "6-5-1",
           "title": "Degree of integrated water resources management",
           "description": "",
           "keywords": "",
           "href": "/www/6-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1-ER_H2O_IWRMD",
+          "title": "meta.name-6-5-1-ER_H2O_IWRMD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-1-ER_H2O_IWRMD/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1-ER_H2O_IWRMD_EE",
+          "title": "meta.name-6-5-1-ER_H2O_IWRMD_EE",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-1-ER_H2O_IWRMD_EE/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1-ER_H2O_IWRMD_FI",
+          "title": "meta.name-6-5-1-ER_H2O_IWRMD_FI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-1-ER_H2O_IWRMD_FI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1-ER_H2O_IWRMD_IP",
+          "title": "meta.name-6-5-1-ER_H2O_IWRMD_IP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-1-ER_H2O_IWRMD_IP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-1-ER_H2O_IWRMD_MI",
+          "title": "meta.name-6-5-1-ER_H2O_IWRMD_MI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-1-ER_H2O_IWRMD_MI/",
           "status": "notstarted"
         },
         {
@@ -822,6 +1902,30 @@
           "status": "notstarted"
         },
         {
+          "id": "6-5-2-EG_TBA_H2CO",
+          "title": "meta.name-6-5-2-EG_TBA_H2CO",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-2-EG_TBA_H2CO/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-2-EG_TBA_H2COAQ",
+          "title": "meta.name-6-5-2-EG_TBA_H2COAQ",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-2-EG_TBA_H2COAQ/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-5-2-EG_TBA_H2CORL",
+          "title": "meta.name-6-5-2-EG_TBA_H2CORL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-5-2-EG_TBA_H2CORL/",
+          "status": "notstarted"
+        },
+        {
           "id": "6-6-1",
           "title": "Change in the extent of water-related ecosystems over time",
           "description": "",
@@ -830,8 +1934,168 @@
           "status": "notstarted"
         },
         {
+          "id": "6-6-1-EN_LKRV_PWAC",
+          "title": "meta.name-6-6-1-EN_LKRV_PWAC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKRV_PWAC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKRV_PWAN",
+          "title": "meta.name-6-6-1-EN_LKRV_PWAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKRV_PWAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKRV_PWAP",
+          "title": "meta.name-6-6-1-EN_LKRV_PWAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKRV_PWAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKRV_SWAC",
+          "title": "meta.name-6-6-1-EN_LKRV_SWAC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKRV_SWAC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKRV_SWAN",
+          "title": "meta.name-6-6-1-EN_LKRV_SWAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKRV_SWAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKRV_SWAP",
+          "title": "meta.name-6-6-1-EN_LKRV_SWAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKRV_SWAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKW_QLTRB",
+          "title": "meta.name-6-6-1-EN_LKW_QLTRB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKW_QLTRB/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_LKW_QLTRST",
+          "title": "meta.name-6-6-1-EN_LKW_QLTRST",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_LKW_QLTRST/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_RSRV_MNWAN",
+          "title": "meta.name-6-6-1-EN_RSRV_MNWAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_RSRV_MNWAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_RSRV_MNWAP",
+          "title": "meta.name-6-6-1-EN_RSRV_MNWAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_RSRV_MNWAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_RSRV_MXWAN",
+          "title": "meta.name-6-6-1-EN_RSRV_MXWAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_RSRV_MXWAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_RSRV_MXWAP",
+          "title": "meta.name-6-6-1-EN_RSRV_MXWAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_RSRV_MXWAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_HMWTL",
+          "title": "meta.name-6-6-1-EN_WBE_HMWTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_HMWTL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_INWTL",
+          "title": "meta.name-6-6-1-EN_WBE_INWTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_INWTL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_MANGC",
+          "title": "meta.name-6-6-1-EN_WBE_MANGC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_MANGC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_MANGN",
+          "title": "meta.name-6-6-1-EN_WBE_MANGN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_MANGN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_NDQTGRW",
+          "title": "meta.name-6-6-1-EN_WBE_NDQTGRW",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_NDQTGRW/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_NDQTRVR",
+          "title": "meta.name-6-6-1-EN_WBE_NDQTRVR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_NDQTRVR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_WTLN",
+          "title": "meta.name-6-6-1-EN_WBE_WTLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_WTLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1-EN_WBE_WTLP",
+          "title": "meta.name-6-6-1-EN_WBE_WTLP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-6-1-EN_WBE_WTLP/",
+          "status": "notstarted"
+        },
+        {
           "id": "6-a-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a government-coordinated spending plan",
+          "title": "meta.name-6-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/6-a-1/",
@@ -844,6 +2108,38 @@
           "keywords": "",
           "href": "/www/6-b-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "6-b-1-ER_H2O_PRDU",
+          "title": "meta.name-6-b-1-ER_H2O_PRDU",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-b-1-ER_H2O_PRDU/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-b-1-ER_H2O_RURP",
+          "title": "meta.name-6-b-1-ER_H2O_RURP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-b-1-ER_H2O_RURP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-b-1-ER_WAT_PART",
+          "title": "meta.name-6-b-1-ER_WAT_PART",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-b-1-ER_WAT_PART/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-b-1-ER_WAT_PRDU",
+          "title": "meta.name-6-b-1-ER_WAT_PRDU",
+          "description": "",
+          "keywords": "",
+          "href": "/www/6-b-1-ER_WAT_PRDU/",
+          "status": "notstarted"
         }]
     }
   },
@@ -855,39 +2151,39 @@
         
         {
           "id": "7-1-1",
-          "title": "Proportion of population with access to electricity",
+          "title": "meta.name-7-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/7-1-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-1-2",
-          "title": "Proportion of population with primary reliance on clean fuels and technology",
+          "title": "meta.name-7-1-2",
           "description": "",
           "keywords": "",
           "href": "/www/7-1-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-2-1",
-          "title": "Renewable energy share in the total final energy consumption",
+          "title": "meta.name-7-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/7-2-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-3-1",
-          "title": "Energy intensity measured in terms of primary energy and GDP",
+          "title": "meta.name-7-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/7-3-1/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "7-a-1",
-          "title": "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems",
+          "title": "meta.name-7-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/7-a-1/",
@@ -895,7 +2191,7 @@
         },
         {
           "id": "7-b-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "meta.name-7-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/7-b-1/",
@@ -911,7 +2207,7 @@
         
         {
           "id": "8-1-1",
-          "title": "Annual growth rate of real GDP per capita",
+          "title": "meta.name-8-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/8-1-1/",
@@ -919,7 +2215,7 @@
         },
         {
           "id": "8-2-1",
-          "title": "Annual growth rate of real GDP per employed person",
+          "title": "meta.name-8-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/8-2-1/",
@@ -931,6 +2227,22 @@
           "description": "",
           "keywords": "",
           "href": "/www/8-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1-SL_ISV_IFEM",
+          "title": "meta.name-8-3-1-SL_ISV_IFEM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-3-1-SL_ISV_IFEM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1-SL_ISV_IFEM_19ICLS",
+          "title": "meta.name-8-3-1-SL_ISV_IFEM_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-3-1-SL_ISV_IFEM_19ICLS/",
           "status": "notstarted"
         },
         {
@@ -950,11 +2262,43 @@
           "status": "notstarted"
         },
         {
+          "id": "8-4-2-EN_MAT_DOMCMPC",
+          "title": "meta.name-8-4-2-EN_MAT_DOMCMPC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-4-2-EN_MAT_DOMCMPC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-2-EN_MAT_DOMCMPG",
+          "title": "meta.name-8-4-2-EN_MAT_DOMCMPG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-4-2-EN_MAT_DOMCMPG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-2-EN_MAT_DOMCMPT",
+          "title": "meta.name-8-4-2-EN_MAT_DOMCMPT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-4-2-EN_MAT_DOMCMPT/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-5-1",
           "title": "Average hourly earnings of employees, by sex, age, occupation and persons with disabilities",
           "description": "",
           "keywords": "",
           "href": "/www/8-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-1-SL_EMP_EARN",
+          "title": "meta.name-8-5-1-SL_EMP_EARN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-5-1-SL_EMP_EARN/",
           "status": "notstarted"
         },
         {
@@ -966,11 +2310,59 @@
           "status": "notstarted"
         },
         {
+          "id": "8-5-2-SL_TLF_UEM",
+          "title": "meta.name-8-5-2-SL_TLF_UEM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-5-2-SL_TLF_UEM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2-SL_TLF_UEMDIS",
+          "title": "meta.name-8-5-2-SL_TLF_UEMDIS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-5-2-SL_TLF_UEMDIS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2-SL_TLF_UEMDIS_19ICLS",
+          "title": "meta.name-8-5-2-SL_TLF_UEMDIS_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-5-2-SL_TLF_UEMDIS_19ICLS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2-SL_TLF_UEM_19ICLS",
+          "title": "meta.name-8-5-2-SL_TLF_UEM_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-5-2-SL_TLF_UEM_19ICLS/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-6-1",
           "title": "Proportion of youth (aged 15–24 years) not in education, employment or training",
           "description": "",
           "keywords": "",
           "href": "/www/8-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1-SL_TLF_NEET",
+          "title": "meta.name-8-6-1-SL_TLF_NEET",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-6-1-SL_TLF_NEET/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-6-1-SL_TLF_NEET_19ICLS",
+          "title": "meta.name-8-6-1-SL_TLF_NEET_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-6-1-SL_TLF_NEET_19ICLS/",
           "status": "notstarted"
         },
         {
@@ -982,6 +2374,22 @@
           "status": "notstarted"
         },
         {
+          "id": "8-7-1-SL_TLF_CHLDEA",
+          "title": "meta.name-8-7-1-SL_TLF_CHLDEA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-7-1-SL_TLF_CHLDEA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-7-1-SL_TLF_CHLDEC",
+          "title": "meta.name-8-7-1-SL_TLF_CHLDEC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-7-1-SL_TLF_CHLDEC/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-8-1",
           "title": "Fatal and non-fatal occupational injuries per 100,000 workers, by sex and migrant status",
           "description": "",
@@ -990,8 +2398,24 @@
           "status": "notstarted"
         },
         {
+          "id": "8-8-1-SL_EMP_FTLINJUR",
+          "title": "meta.name-8-8-1-SL_EMP_FTLINJUR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-8-1-SL_EMP_FTLINJUR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-1-SL_EMP_INJUR",
+          "title": "meta.name-8-8-1-SL_EMP_INJUR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-8-1-SL_EMP_INJUR/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-8-2",
-          "title": "Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",
+          "title": "meta.name-8-8-2",
           "description": "",
           "keywords": "",
           "href": "/www/8-8-2/",
@@ -999,7 +2423,7 @@
         },
         {
           "id": "8-9-1",
-          "title": "Tourism direct GDP as a proportion of total GDP and in growth rate",
+          "title": "meta.name-8-9-1",
           "description": "",
           "keywords": "",
           "href": "/www/8-9-1/",
@@ -1014,11 +2438,51 @@
           "status": "notstarted"
         },
         {
+          "id": "8-10-1-FB_ATM_TOTL",
+          "title": "meta.name-8-10-1-FB_ATM_TOTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-10-1-FB_ATM_TOTL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-1-FB_CBK_BRCH",
+          "title": "meta.name-8-10-1-FB_CBK_BRCH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-10-1-FB_CBK_BRCH/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-10-2",
           "title": "Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider",
           "description": "",
           "keywords": "",
           "href": "/www/8-10-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-2-FB_BNK_ACCSS",
+          "title": "meta.name-8-10-2-FB_BNK_ACCSS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-10-2-FB_BNK_ACCSS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-2-FB_BNK_ACCSS_ILF",
+          "title": "meta.name-8-10-2-FB_BNK_ACCSS_ILF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-10-2-FB_BNK_ACCSS_ILF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-10-2-FB_BNK_ACCSS_OLF",
+          "title": "meta.name-8-10-2-FB_BNK_ACCSS_OLF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-10-2-FB_BNK_ACCSS_OLF/",
           "status": "notstarted"
         },
         {
@@ -1030,8 +2494,40 @@
           "status": "notstarted"
         },
         {
+          "id": "8-a-1-DC_TOF_TRDCMDL",
+          "title": "meta.name-8-a-1-DC_TOF_TRDCMDL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-a-1-DC_TOF_TRDCMDL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-a-1-DC_TOF_TRDCML",
+          "title": "meta.name-8-a-1-DC_TOF_TRDCML",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-a-1-DC_TOF_TRDCML/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-a-1-DC_TOF_TRDDBMDL",
+          "title": "meta.name-8-a-1-DC_TOF_TRDDBMDL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-a-1-DC_TOF_TRDDBMDL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-a-1-DC_TOF_TRDDBML",
+          "title": "meta.name-8-a-1-DC_TOF_TRDDBML",
+          "description": "",
+          "keywords": "",
+          "href": "/www/8-a-1-DC_TOF_TRDDBML/",
+          "status": "notstarted"
+        },
+        {
           "id": "8-b-1",
-          "title": "Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy",
+          "title": "meta.name-8-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/8-b-1/",
@@ -1047,7 +2543,7 @@
         
         {
           "id": "9-1-1",
-          "title": "Proportion of the rural population who live within 2 km of an all-season road",
+          "title": "meta.name-9-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/9-1-1/",
@@ -1062,11 +2558,59 @@
           "status": "notstarted"
         },
         {
+          "id": "9-1-2-IS_RDP_FRGVOL",
+          "title": "meta.name-9-1-2-IS_RDP_FRGVOL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-1-2-IS_RDP_FRGVOL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-2-IS_RDP_PFVOL",
+          "title": "meta.name-9-1-2-IS_RDP_PFVOL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-1-2-IS_RDP_PFVOL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-1-2-IS_RDP_PORFVOL",
+          "title": "meta.name-9-1-2-IS_RDP_PORFVOL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-1-2-IS_RDP_PORFVOL/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-2-1",
           "title": "Manufacturing value added as a proportion of GDP and per capita",
           "description": "",
           "keywords": "",
           "href": "/www/9-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1-NV_IND_MANF",
+          "title": "meta.name-9-2-1-NV_IND_MANF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-2-1-NV_IND_MANF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1-NV_IND_MANFPC",
+          "title": "meta.name-9-2-1-NV_IND_MANFPC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-2-1-NV_IND_MANFPC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-1-NV_IND_MANF_CD",
+          "title": "meta.name-9-2-1-NV_IND_MANF_CD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-2-1-NV_IND_MANF_CD/",
           "status": "notstarted"
         },
         {
@@ -1078,8 +2622,24 @@
           "status": "notstarted"
         },
         {
+          "id": "9-2-2-SL_TLF_MANF",
+          "title": "meta.name-9-2-2-SL_TLF_MANF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-2-2-SL_TLF_MANF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-2-2-SL_TLF_MANF_19ICLS",
+          "title": "meta.name-9-2-2-SL_TLF_MANF_19ICLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-2-2-SL_TLF_MANF_19ICLS/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-3-1",
-          "title": "Proportion of small-scale industries in total industry value added",
+          "title": "meta.name-9-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/9-3-1/",
@@ -1087,7 +2647,7 @@
         },
         {
           "id": "9-3-2",
-          "title": "Proportion of small-scale industries with a loan or line of credit",
+          "title": "meta.name-9-3-2",
           "description": "",
           "keywords": "",
           "href": "/www/9-3-2/",
@@ -1102,8 +2662,32 @@
           "status": "notstarted"
         },
         {
+          "id": "9-4-1-EN_ATM_CO2",
+          "title": "meta.name-9-4-1-EN_ATM_CO2",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-4-1-EN_ATM_CO2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-1-EN_ATM_CO2GDP",
+          "title": "meta.name-9-4-1-EN_ATM_CO2GDP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-4-1-EN_ATM_CO2GDP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-4-1-EN_ATM_CO2MVA",
+          "title": "meta.name-9-4-1-EN_ATM_CO2MVA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/9-4-1-EN_ATM_CO2MVA/",
+          "status": "notstarted"
+        },
+        {
           "id": "9-5-1",
-          "title": "Research and development expenditure as a proportion of GDP",
+          "title": "meta.name-9-5-1",
           "description": "",
           "keywords": "",
           "href": "/www/9-5-1/",
@@ -1111,7 +2695,7 @@
         },
         {
           "id": "9-5-2",
-          "title": "Researchers (in full-time equivalent) per million inhabitants",
+          "title": "meta.name-9-5-2",
           "description": "",
           "keywords": "",
           "href": "/www/9-5-2/",
@@ -1119,7 +2703,7 @@
         },
         {
           "id": "9-a-1",
-          "title": "Total official international support (official development assistance plus other official flows) to infrastructure",
+          "title": "meta.name-9-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/9-a-1/",
@@ -1127,7 +2711,7 @@
         },
         {
           "id": "9-b-1",
-          "title": "Proportion of medium and high-tech industry value added in total value added",
+          "title": "meta.name-9-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/9-b-1/",
@@ -1135,7 +2719,7 @@
         },
         {
           "id": "9-c-1",
-          "title": "Proportion of population covered by a mobile network, by technology",
+          "title": "meta.name-9-c-1",
           "description": "",
           "keywords": "",
           "href": "/www/9-c-1/",
@@ -1151,7 +2735,7 @@
         
         {
           "id": "10-1-1",
-          "title": "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population",
+          "title": "meta.name-10-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/10-1-1/",
@@ -1159,7 +2743,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "meta.name-10-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/10-2-1/",
@@ -1167,7 +2751,7 @@
         },
         {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "meta.name-10-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/10-3-1/",
@@ -1175,7 +2759,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "meta.name-10-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/10-4-1/",
@@ -1183,7 +2767,7 @@
         },
         {
           "id": "10-4-2",
-          "title": "Redistributive impact of fiscal policy",
+          "title": "meta.name-10-4-2",
           "description": "",
           "keywords": "",
           "href": "/www/10-4-2/",
@@ -1191,10 +2775,58 @@
         },
         {
           "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
+          "title": "meta.name-10-5-1",
           "description": "",
           "keywords": "",
           "href": "/www/10-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1-FI_FSI_FSERA",
+          "title": "meta.name-10-5-1-FI_FSI_FSERA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-5-1-FI_FSI_FSERA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1-FI_FSI_FSKA",
+          "title": "meta.name-10-5-1-FI_FSI_FSKA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-5-1-FI_FSI_FSKA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1-FI_FSI_FSKNL",
+          "title": "meta.name-10-5-1-FI_FSI_FSKNL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-5-1-FI_FSI_FSKNL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1-FI_FSI_FSKRTC",
+          "title": "meta.name-10-5-1-FI_FSI_FSKRTC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-5-1-FI_FSI_FSKRTC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1-FI_FSI_FSLS",
+          "title": "meta.name-10-5-1-FI_FSI_FSLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-5-1-FI_FSI_FSLS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-5-1-FI_FSI_FSSNO",
+          "title": "meta.name-10-5-1-FI_FSI_FSSNO",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-5-1-FI_FSI_FSSNO/",
           "status": "notstarted"
         },
         {
@@ -1203,6 +2835,22 @@
           "description": "",
           "keywords": "",
           "href": "/www/10-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-6-1-SG_INT_MBRDEV",
+          "title": "meta.name-10-6-1-SG_INT_MBRDEV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-6-1-SG_INT_MBRDEV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-6-1-SG_INT_VRTDEV",
+          "title": "meta.name-10-6-1-SG_INT_VRTDEV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-6-1-SG_INT_VRTDEV/",
           "status": "notstarted"
         },
         {
@@ -1222,8 +2870,16 @@
           "status": "notstarted"
         },
         {
+          "id": "10-7-2-SG_CPA_MIGRS",
+          "title": "meta.name-10-7-2-SG_CPA_MIGRS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-7-2-SG_CPA_MIGRS/",
+          "status": "notstarted"
+        },
+        {
           "id": "10-7-3",
-          "title": "Number of people who died or disappeared in the process of migration towards an international destinationi",
+          "title": "meta.name-10-7-3",
           "description": "",
           "keywords": "",
           "href": "/www/10-7-3/",
@@ -1231,7 +2887,7 @@
         },
         {
           "id": "10-7-4",
-          "title": "Proportion of the population who are refugees, by country of origin",
+          "title": "meta.name-10-7-4",
           "description": "",
           "keywords": "",
           "href": "/www/10-7-4/",
@@ -1239,7 +2895,7 @@
         },
         {
           "id": "10-a-1",
-          "title": "Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff",
+          "title": "meta.name-10-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/10-a-1/",
@@ -1254,11 +2910,59 @@
           "status": "notstarted"
         },
         {
+          "id": "10-b-1-DC_TRF_TOTDL",
+          "title": "meta.name-10-b-1-DC_TRF_TOTDL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-b-1-DC_TRF_TOTDL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-b-1-DC_TRF_TOTL",
+          "title": "meta.name-10-b-1-DC_TRF_TOTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-b-1-DC_TRF_TOTL/",
+          "status": "notstarted"
+        },
+        {
           "id": "10-c-1",
           "title": "Remittance costs as a proportion of the amount remitted",
           "description": "",
           "keywords": "",
           "href": "/www/10-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-c-1-SI_RMT_COST",
+          "title": "meta.name-10-c-1-SI_RMT_COST",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-c-1-SI_RMT_COST/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-c-1-SI_RMT_COST_BC",
+          "title": "meta.name-10-c-1-SI_RMT_COST_BC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-c-1-SI_RMT_COST_BC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-c-1-SI_RMT_COST_SC",
+          "title": "meta.name-10-c-1-SI_RMT_COST_SC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-c-1-SI_RMT_COST_SC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-c-1-SI_RMT_COST_SND",
+          "title": "meta.name-10-c-1-SI_RMT_COST_SND",
+          "description": "",
+          "keywords": "",
+          "href": "/www/10-c-1-SI_RMT_COST_SND/",
           "status": "notstarted"
         }]
     }
@@ -1271,7 +2975,7 @@
         
         {
           "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
+          "title": "meta.name-11-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-1-1/",
@@ -1279,7 +2983,7 @@
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "meta.name-11-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-2-1/",
@@ -1287,7 +2991,7 @@
         },
         {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "meta.name-11-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-3-1/",
@@ -1303,7 +3007,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",
+          "title": "meta.name-11-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-4-1/",
@@ -1318,11 +3022,139 @@
           "status": "notstarted"
         },
         {
+          "id": "11-5-1-VC_DSR_AFFCT",
+          "title": "meta.name-11-5-1-VC_DSR_AFFCT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_AFFCT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_DAFF",
+          "title": "meta.name-11-5-1-VC_DSR_DAFF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_DAFF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_IJILN",
+          "title": "meta.name-11-5-1-VC_DSR_IJILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_IJILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_MISS",
+          "title": "meta.name-11-5-1-VC_DSR_MISS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_MISS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_MMHN",
+          "title": "meta.name-11-5-1-VC_DSR_MMHN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_MMHN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_MORT",
+          "title": "meta.name-11-5-1-VC_DSR_MORT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_MORT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_MTMP",
+          "title": "meta.name-11-5-1-VC_DSR_MTMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_MTMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_PDAN",
+          "title": "meta.name-11-5-1-VC_DSR_PDAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_PDAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_PDLN",
+          "title": "meta.name-11-5-1-VC_DSR_PDLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_PDLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-1-VC_DSR_PDYN",
+          "title": "meta.name-11-5-1-VC_DSR_PDYN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-1-VC_DSR_PDYN/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-5-2",
           "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
           "description": "",
           "keywords": "",
           "href": "/www/11-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2-VC_DSR_AGLH",
+          "title": "meta.name-11-5-2-VC_DSR_AGLH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-2-VC_DSR_AGLH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2-VC_DSR_CHLN",
+          "title": "meta.name-11-5-2-VC_DSR_CHLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-2-VC_DSR_CHLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2-VC_DSR_CILN",
+          "title": "meta.name-11-5-2-VC_DSR_CILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-2-VC_DSR_CILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2-VC_DSR_DDPA",
+          "title": "meta.name-11-5-2-VC_DSR_DDPA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-2-VC_DSR_DDPA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2-VC_DSR_GDPLS",
+          "title": "meta.name-11-5-2-VC_DSR_GDPLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-2-VC_DSR_GDPLS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-2-VC_DSR_LSGP",
+          "title": "meta.name-11-5-2-VC_DSR_LSGP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-2-VC_DSR_LSGP/",
           "status": "notstarted"
         },
         {
@@ -1334,8 +3166,72 @@
           "status": "notstarted"
         },
         {
+          "id": "11-5-3-VC_DSR_BSDN",
+          "title": "meta.name-11-5-3-VC_DSR_BSDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_BSDN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_CDAN",
+          "title": "meta.name-11-5-3-VC_DSR_CDAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_CDAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_CDYN",
+          "title": "meta.name-11-5-3-VC_DSR_CDYN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_CDYN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_EFDN",
+          "title": "meta.name-11-5-3-VC_DSR_EFDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_EFDN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_ESDN",
+          "title": "meta.name-11-5-3-VC_DSR_ESDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_ESDN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_HFDN",
+          "title": "meta.name-11-5-3-VC_DSR_HFDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_HFDN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_HSDN",
+          "title": "meta.name-11-5-3-VC_DSR_HSDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_HSDN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-5-3-VC_DSR_OBDN",
+          "title": "meta.name-11-5-3-VC_DSR_OBDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-5-3-VC_DSR_OBDN/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-6-1",
-          "title": "Proportion of municipal solid waste collected and managed in controlled facilities out of total municipal waste generated, by cities",
+          "title": "meta.name-11-6-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-6-1/",
@@ -1343,7 +3239,7 @@
         },
         {
           "id": "11-6-2",
-          "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
+          "title": "meta.name-11-6-2",
           "description": "",
           "keywords": "",
           "href": "/www/11-6-2/",
@@ -1351,7 +3247,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "meta.name-11-7-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-7-1/",
@@ -1359,7 +3255,7 @@
         },
         {
           "id": "11-7-2",
-          "title": "Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",
+          "title": "meta.name-11-7-2",
           "description": "",
           "keywords": "",
           "href": "/www/11-7-2/",
@@ -1367,7 +3263,7 @@
         },
         {
           "id": "11-a-1",
-          "title": "Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space",
+          "title": "meta.name-11-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/11-a-1/",
@@ -1382,11 +3278,43 @@
           "status": "notstarted"
         },
         {
+          "id": "11-b-1-SG_DSR_LGRGSR",
+          "title": "meta.name-11-b-1-SG_DSR_LGRGSR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-b-1-SG_DSR_LGRGSR/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-b-2",
           "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
           "description": "",
           "keywords": "",
           "href": "/www/11-b-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-2-SG_DSR_SILN",
+          "title": "meta.name-11-b-2-SG_DSR_SILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-b-2-SG_DSR_SILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-2-SG_DSR_SILS",
+          "title": "meta.name-11-b-2-SG_DSR_SILS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-b-2-SG_DSR_SILS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-b-2-SG_GOV_LOGV",
+          "title": "meta.name-11-b-2-SG_GOV_LOGV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/11-b-2-SG_GOV_LOGV/",
           "status": "notstarted"
         }]
     }
@@ -1406,6 +3334,30 @@
           "status": "notstarted"
         },
         {
+          "id": "12-1-1-SG_SCP_CNTRY",
+          "title": "meta.name-12-1-1-SG_SCP_CNTRY",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-1-1-SG_SCP_CNTRY/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-1-1-SG_SCP_POLINS",
+          "title": "meta.name-12-1-1-SG_SCP_POLINS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-1-1-SG_SCP_POLINS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-1-1-SG_SCP_TOTLN",
+          "title": "meta.name-12-1-1-SG_SCP_TOTLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-1-1-SG_SCP_TOTLN/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-2-1",
           "title": "Material footprint, material footprint per capita, and material footprint per GDP",
           "description": "",
@@ -1422,11 +3374,51 @@
           "status": "notstarted"
         },
         {
+          "id": "12-2-2-EN_MAT_DOMCMPC",
+          "title": "meta.name-12-2-2-EN_MAT_DOMCMPC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-2-2-EN_MAT_DOMCMPC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-2-EN_MAT_DOMCMPG",
+          "title": "meta.name-12-2-2-EN_MAT_DOMCMPG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-2-2-EN_MAT_DOMCMPG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-2-EN_MAT_DOMCMPT",
+          "title": "meta.name-12-2-2-EN_MAT_DOMCMPT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-2-2-EN_MAT_DOMCMPT/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-3-1",
           "title": "(a) Food loss index and (b) food waste index",
           "description": "",
           "keywords": "",
           "href": "/www/12-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-3-1-AG_FOOD_WST",
+          "title": "meta.name-12-3-1-AG_FOOD_WST",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-3-1-AG_FOOD_WST/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-3-1-AG_FOOD_WST_PC",
+          "title": "meta.name-12-3-1-AG_FOOD_WST_PC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-3-1-AG_FOOD_WST_PC/",
           "status": "notstarted"
         },
         {
@@ -1438,11 +3430,211 @@
           "status": "notstarted"
         },
         {
+          "id": "12-4-1-SG_HAZ_CMRBASEL",
+          "title": "meta.name-12-4-1-SG_HAZ_CMRBASEL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-1-SG_HAZ_CMRBASEL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1-SG_HAZ_CMRMNMT",
+          "title": "meta.name-12-4-1-SG_HAZ_CMRMNMT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-1-SG_HAZ_CMRMNMT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1-SG_HAZ_CMRMNTRL",
+          "title": "meta.name-12-4-1-SG_HAZ_CMRMNTRL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-1-SG_HAZ_CMRMNTRL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1-SG_HAZ_CMRROTDAM",
+          "title": "meta.name-12-4-1-SG_HAZ_CMRROTDAM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-1-SG_HAZ_CMRROTDAM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1-SG_HAZ_CMRSTHOLM",
+          "title": "meta.name-12-4-1-SG_HAZ_CMRSTHOLM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-1-SG_HAZ_CMRSTHOLM/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-4-2",
           "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment",
           "description": "",
           "keywords": "",
           "href": "/www/12-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_EWT_COLLPCAP",
+          "title": "meta.name-12-4-2-EN_EWT_COLLPCAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_EWT_COLLPCAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_EWT_COLLR",
+          "title": "meta.name-12-4-2-EN_EWT_COLLR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_EWT_COLLR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_EWT_COLLV",
+          "title": "meta.name-12-4-2-EN_EWT_COLLV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_EWT_COLLV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_EWT_GENPCAP",
+          "title": "meta.name-12-4-2-EN_EWT_GENPCAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_EWT_GENPCAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_EWT_GENV",
+          "title": "meta.name-12-4-2-EN_EWT_GENV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_EWT_GENV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_EXP",
+          "title": "meta.name-12-4-2-EN_HAZ_EXP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_EXP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_GENGDP",
+          "title": "meta.name-12-4-2-EN_HAZ_GENGDP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_GENGDP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_GENV",
+          "title": "meta.name-12-4-2-EN_HAZ_GENV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_GENV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_IMP",
+          "title": "meta.name-12-4-2-EN_HAZ_IMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_IMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_PCAP",
+          "title": "meta.name-12-4-2-EN_HAZ_PCAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_PCAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_TREATV",
+          "title": "meta.name-12-4-2-EN_HAZ_TREATV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_TREATV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_TRTDISR",
+          "title": "meta.name-12-4-2-EN_HAZ_TRTDISR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_TRTDISR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_HAZ_TRTDISV",
+          "title": "meta.name-12-4-2-EN_HAZ_TRTDISV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_HAZ_TRTDISV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_MWT_COLLV",
+          "title": "meta.name-12-4-2-EN_MWT_COLLV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_MWT_COLLV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_MWT_EXP",
+          "title": "meta.name-12-4-2-EN_MWT_EXP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_MWT_EXP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_MWT_GENV",
+          "title": "meta.name-12-4-2-EN_MWT_GENV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_MWT_GENV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_MWT_IMP",
+          "title": "meta.name-12-4-2-EN_MWT_IMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_MWT_IMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_MWT_TREATR",
+          "title": "meta.name-12-4-2-EN_MWT_TREATR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_MWT_TREATR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_MWT_TREATV",
+          "title": "meta.name-12-4-2-EN_MWT_TREATV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_MWT_TREATV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2-EN_TWT_GENV",
+          "title": "meta.name-12-4-2-EN_TWT_GENV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-4-2-EN_TWT_GENV/",
           "status": "notstarted"
         },
         {
@@ -1454,11 +3646,59 @@
           "status": "notstarted"
         },
         {
+          "id": "12-5-1-EN_EWT_RCYPCAP",
+          "title": "meta.name-12-5-1-EN_EWT_RCYPCAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-5-1-EN_EWT_RCYPCAP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-1-EN_EWT_RCYR",
+          "title": "meta.name-12-5-1-EN_EWT_RCYR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-5-1-EN_EWT_RCYR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-1-EN_EWT_RCYV",
+          "title": "meta.name-12-5-1-EN_EWT_RCYV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-5-1-EN_EWT_RCYV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-1-EN_MWT_RCYR",
+          "title": "meta.name-12-5-1-EN_MWT_RCYR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-5-1-EN_MWT_RCYR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-1-EN_MWT_RCYV",
+          "title": "meta.name-12-5-1-EN_MWT_RCYV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-5-1-EN_MWT_RCYV/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-6-1",
           "title": "Number of companies publishing sustainability reports",
           "description": "",
           "keywords": "",
           "href": "/www/12-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-6-1-EN_SCP_FRMN",
+          "title": "meta.name-12-6-1-EN_SCP_FRMN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-6-1-EN_SCP_FRMN/",
           "status": "notstarted"
         },
         {
@@ -1470,8 +3710,32 @@
           "status": "notstarted"
         },
         {
+          "id": "12-7-1-SG_SCP_PROCN",
+          "title": "meta.name-12-7-1-SG_SCP_PROCN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-7-1-SG_SCP_PROCN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-7-1-SG_SCP_PROCN_HS",
+          "title": "meta.name-12-7-1-SG_SCP_PROCN_HS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-7-1-SG_SCP_PROCN_HS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-7-1-SG_SCP_PROCN_LS",
+          "title": "meta.name-12-7-1-SG_SCP_PROCN_LS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-7-1-SG_SCP_PROCN_LS/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-8-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "meta.name-12-8-1",
           "description": "",
           "keywords": "",
           "href": "/www/12-8-1/",
@@ -1479,7 +3743,7 @@
         },
         {
           "id": "12-a-1",
-          "title": "Installed renewable energy-generating capacity in developing countries (in watts per capita)",
+          "title": "meta.name-12-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/12-a-1/",
@@ -1494,11 +3758,59 @@
           "status": "notstarted"
         },
         {
+          "id": "12-b-1-ST_EEV_ACCSEEA",
+          "title": "meta.name-12-b-1-ST_EEV_ACCSEEA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-b-1-ST_EEV_ACCSEEA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-b-1-ST_EEV_ACCTSA",
+          "title": "meta.name-12-b-1-ST_EEV_ACCTSA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-b-1-ST_EEV_ACCTSA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-b-1-ST_EEV_STDACCT",
+          "title": "meta.name-12-b-1-ST_EEV_STDACCT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-b-1-ST_EEV_STDACCT/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-c-1",
           "title": "Amount of fossil-fuel subsidies per unit of GDP (production and consumption)",
           "description": "",
           "keywords": "",
           "href": "/www/12-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-c-1-ER_FFS_CMPT_CD",
+          "title": "meta.name-12-c-1-ER_FFS_CMPT_CD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-c-1-ER_FFS_CMPT_CD/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-c-1-ER_FFS_CMPT_GDP",
+          "title": "meta.name-12-c-1-ER_FFS_CMPT_GDP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-c-1-ER_FFS_CMPT_GDP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-c-1-ER_FFS_CMPT_PC_CD",
+          "title": "meta.name-12-c-1-ER_FFS_CMPT_PC_CD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/12-c-1-ER_FFS_CMPT_PC_CD/",
           "status": "notstarted"
         }]
     }
@@ -1518,6 +3830,86 @@
           "status": "notstarted"
         },
         {
+          "id": "13-1-1-VC_DSR_AFFCT",
+          "title": "meta.name-13-1-1-VC_DSR_AFFCT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_AFFCT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_DAFF",
+          "title": "meta.name-13-1-1-VC_DSR_DAFF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_DAFF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_IJILN",
+          "title": "meta.name-13-1-1-VC_DSR_IJILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_IJILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_MISS",
+          "title": "meta.name-13-1-1-VC_DSR_MISS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_MISS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_MMHN",
+          "title": "meta.name-13-1-1-VC_DSR_MMHN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_MMHN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_MORT",
+          "title": "meta.name-13-1-1-VC_DSR_MORT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_MORT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_MTMP",
+          "title": "meta.name-13-1-1-VC_DSR_MTMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_MTMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_PDAN",
+          "title": "meta.name-13-1-1-VC_DSR_PDAN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_PDAN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_PDLN",
+          "title": "meta.name-13-1-1-VC_DSR_PDLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_PDLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-1-VC_DSR_PDYN",
+          "title": "meta.name-13-1-1-VC_DSR_PDYN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-1-VC_DSR_PDYN/",
+          "status": "notstarted"
+        },
+        {
           "id": "13-1-2",
           "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
@@ -1526,11 +3918,43 @@
           "status": "notstarted"
         },
         {
+          "id": "13-1-2-SG_DSR_LGRGSR",
+          "title": "meta.name-13-1-2-SG_DSR_LGRGSR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-2-SG_DSR_LGRGSR/",
+          "status": "notstarted"
+        },
+        {
           "id": "13-1-3",
           "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
           "description": "",
           "keywords": "",
           "href": "/www/13-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-3-SG_DSR_SILN",
+          "title": "meta.name-13-1-3-SG_DSR_SILN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-3-SG_DSR_SILN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-3-SG_DSR_SILS",
+          "title": "meta.name-13-1-3-SG_DSR_SILS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-3-SG_DSR_SILS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-3-SG_GOV_LOGV",
+          "title": "meta.name-13-1-3-SG_GOV_LOGV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-1-3-SG_GOV_LOGV/",
           "status": "notstarted"
         },
         {
@@ -1550,8 +3974,24 @@
           "status": "notstarted"
         },
         {
+          "id": "13-2-2-EN_ATM_GHGT_AIP",
+          "title": "meta.name-13-2-2-EN_ATM_GHGT_AIP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-2-2-EN_ATM_GHGT_AIP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-2-2-EN_ATM_GHGT_NAIP",
+          "title": "meta.name-13-2-2-EN_ATM_GHGT_NAIP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/13-2-2-EN_ATM_GHGT_NAIP/",
+          "status": "notstarted"
+        },
+        {
           "id": "13-3-1",
-          "title": "Extent to which (i) global citizenship education and (ii) education for sustainable development are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment",
+          "title": "meta.name-13-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/13-3-1/",
@@ -1590,8 +4030,72 @@
           "status": "notstarted"
         },
         {
+          "id": "14-1-1-EN_MAR_BEALITSQ",
+          "title": "meta.name-14-1-1-EN_MAR_BEALITSQ",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_BEALITSQ/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_BEALIT_BP",
+          "title": "meta.name-14-1-1-EN_MAR_BEALIT_BP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_BEALIT_BP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_BEALIT_BV",
+          "title": "meta.name-14-1-1-EN_MAR_BEALIT_BV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_BEALIT_BV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_BEALIT_EXP",
+          "title": "meta.name-14-1-1-EN_MAR_BEALIT_EXP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_BEALIT_EXP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_BEALIT_OP",
+          "title": "meta.name-14-1-1-EN_MAR_BEALIT_OP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_BEALIT_OP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_BEALIT_OV",
+          "title": "meta.name-14-1-1-EN_MAR_BEALIT_OV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_BEALIT_OV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_CHLANM",
+          "title": "meta.name-14-1-1-EN_MAR_CHLANM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_CHLANM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-1-1-EN_MAR_CHLDEV",
+          "title": "meta.name-14-1-1-EN_MAR_CHLDEV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/14-1-1-EN_MAR_CHLDEV/",
+          "status": "notstarted"
+        },
+        {
           "id": "14-2-1",
-          "title": "Number of countries using ecosystem-based approaches to managing marine areas",
+          "title": "meta.name-14-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-2-1/",
@@ -1599,7 +4103,7 @@
         },
         {
           "id": "14-3-1",
-          "title": "Average marine acidity (pH) measured at agreed suite of representative sampling stations",
+          "title": "meta.name-14-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-3-1/",
@@ -1607,7 +4111,7 @@
         },
         {
           "id": "14-4-1",
-          "title": "Proportion of fish stocks within biologically sustainable levels",
+          "title": "meta.name-14-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-4-1/",
@@ -1615,7 +4119,7 @@
         },
         {
           "id": "14-5-1",
-          "title": "Coverage of protected areas in relation to marine areas",
+          "title": "meta.name-14-5-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-5-1/",
@@ -1623,7 +4127,7 @@
         },
         {
           "id": "14-6-1",
-          "title": "Degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing",
+          "title": "meta.name-14-6-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-6-1/",
@@ -1631,7 +4135,7 @@
         },
         {
           "id": "14-7-1",
-          "title": "Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries",
+          "title": "meta.name-14-7-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-7-1/",
@@ -1639,7 +4143,7 @@
         },
         {
           "id": "14-a-1",
-          "title": "Proportion of total research budget allocated to research in the field of marine technology",
+          "title": "meta.name-14-a-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-a-1/",
@@ -1647,7 +4151,7 @@
         },
         {
           "id": "14-b-1",
-          "title": "Degree of application of a legal/regulatory/ policy/institutional framework which recognizes and protects access rights for small-scale fisheries",
+          "title": "meta.name-14-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-b-1/",
@@ -1655,7 +4159,7 @@
         },
         {
           "id": "14-c-1",
-          "title": "Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources",
+          "title": "meta.name-14-c-1",
           "description": "",
           "keywords": "",
           "href": "/www/14-c-1/",
@@ -1671,7 +4175,7 @@
         
         {
           "id": "15-1-1",
-          "title": "Forest area as a proportion of total land area",
+          "title": "meta.name-15-1-1",
           "description": "",
           "keywords": "",
           "href": "/www/15-1-1/",
@@ -1686,6 +4190,22 @@
           "status": "notstarted"
         },
         {
+          "id": "15-1-2-ER_PTD_FRHWTR",
+          "title": "meta.name-15-1-2-ER_PTD_FRHWTR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-1-2-ER_PTD_FRHWTR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-1-2-ER_PTD_TERR",
+          "title": "meta.name-15-1-2-ER_PTD_TERR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-1-2-ER_PTD_TERR/",
+          "status": "notstarted"
+        },
+        {
           "id": "15-2-1",
           "title": "Progress towards sustainable forest management",
           "description": "",
@@ -1694,8 +4214,48 @@
           "status": "notstarted"
         },
         {
+          "id": "15-2-1-AG_LND_FRSTBIOPHA",
+          "title": "meta.name-15-2-1-AG_LND_FRSTBIOPHA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-2-1-AG_LND_FRSTBIOPHA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-2-1-AG_LND_FRSTCERT",
+          "title": "meta.name-15-2-1-AG_LND_FRSTCERT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-2-1-AG_LND_FRSTCERT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-2-1-AG_LND_FRSTCHG",
+          "title": "meta.name-15-2-1-AG_LND_FRSTCHG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-2-1-AG_LND_FRSTCHG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-2-1-AG_LND_FRSTMGT",
+          "title": "meta.name-15-2-1-AG_LND_FRSTMGT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-2-1-AG_LND_FRSTMGT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-2-1-AG_LND_FRSTPRCT",
+          "title": "meta.name-15-2-1-AG_LND_FRSTPRCT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-2-1-AG_LND_FRSTPRCT/",
+          "status": "notstarted"
+        },
+        {
           "id": "15-3-1",
-          "title": "Proportion of land that is degraded over total land area",
+          "title": "meta.name-15-3-1",
           "description": "",
           "keywords": "",
           "href": "/www/15-3-1/",
@@ -1703,7 +4263,7 @@
         },
         {
           "id": "15-4-1",
-          "title": "Coverage by protected areas of important sites for mountain biodiversity",
+          "title": "meta.name-15-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/15-4-1/",
@@ -1718,8 +4278,48 @@
           "status": "notstarted"
         },
         {
+          "id": "15-4-2-ER_MTN_DGRDA",
+          "title": "meta.name-15-4-2-ER_MTN_DGRDA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-4-2-ER_MTN_DGRDA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-2-ER_MTN_DGRDP",
+          "title": "meta.name-15-4-2-ER_MTN_DGRDP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-4-2-ER_MTN_DGRDP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-2-ER_MTN_GRNCOV",
+          "title": "meta.name-15-4-2-ER_MTN_GRNCOV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-4-2-ER_MTN_GRNCOV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-2-ER_MTN_GRNCVI",
+          "title": "meta.name-15-4-2-ER_MTN_GRNCVI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-4-2-ER_MTN_GRNCVI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-4-2-ER_MTN_TOTL",
+          "title": "meta.name-15-4-2-ER_MTN_TOTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-4-2-ER_MTN_TOTL/",
+          "status": "notstarted"
+        },
+        {
           "id": "15-5-1",
-          "title": "Red List Index",
+          "title": "meta.name-15-5-1",
           "description": "",
           "keywords": "",
           "href": "/www/15-5-1/",
@@ -1731,6 +4331,46 @@
           "description": "",
           "keywords": "",
           "href": "/www/15-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1-ER_CBD_ABSCLRHS",
+          "title": "meta.name-15-6-1-ER_CBD_ABSCLRHS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-6-1-ER_CBD_ABSCLRHS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1-ER_CBD_NAGOYA",
+          "title": "meta.name-15-6-1-ER_CBD_NAGOYA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-6-1-ER_CBD_NAGOYA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1-ER_CBD_ORSPGRFA",
+          "title": "meta.name-15-6-1-ER_CBD_ORSPGRFA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-6-1-ER_CBD_ORSPGRFA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1-ER_CBD_PTYPGRFA",
+          "title": "meta.name-15-6-1-ER_CBD_PTYPGRFA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-6-1-ER_CBD_PTYPGRFA/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-6-1-ER_CBD_SMTA",
+          "title": "meta.name-15-6-1-ER_CBD_SMTA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-6-1-ER_CBD_SMTA/",
           "status": "notstarted"
         },
         {
@@ -1750,11 +4390,59 @@
           "status": "notstarted"
         },
         {
+          "id": "15-8-1-ER_IAS_GLOFUN",
+          "title": "meta.name-15-8-1-ER_IAS_GLOFUN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-8-1-ER_IAS_GLOFUN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-8-1-ER_IAS_LEGIS",
+          "title": "meta.name-15-8-1-ER_IAS_LEGIS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-8-1-ER_IAS_LEGIS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-8-1-ER_IAS_NATBUD",
+          "title": "meta.name-15-8-1-ER_IAS_NATBUD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-8-1-ER_IAS_NATBUD/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-8-1-ER_IAS_NBSAP",
+          "title": "meta.name-15-8-1-ER_IAS_NBSAP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-8-1-ER_IAS_NBSAP/",
+          "status": "notstarted"
+        },
+        {
           "id": "15-9-1",
           "title": "(a) Number of countries that have established national targets in accordance with or similar to Aichi Biodiversity Target 2 of the Strategic Plan for Biodiversity 2011–2020 in their national biodiversity strategy and action plans and the progress r",
           "description": "",
           "keywords": "",
           "href": "/www/15-9-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-9-1-ER_BDY_ABT2NP",
+          "title": "meta.name-15-9-1-ER_BDY_ABT2NP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-9-1-ER_BDY_ABT2NP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-9-1-ER_BDY_SEEA",
+          "title": "meta.name-15-9-1-ER_BDY_SEEA",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-9-1-ER_BDY_SEEA/",
           "status": "notstarted"
         },
         {
@@ -1766,11 +4454,43 @@
           "status": "notstarted"
         },
         {
+          "id": "15-a-1-DC_ODA_BDVDL",
+          "title": "meta.name-15-a-1-DC_ODA_BDVDL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-a-1-DC_ODA_BDVDL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-a-1-DC_ODA_BDVL",
+          "title": "meta.name-15-a-1-DC_ODA_BDVL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-a-1-DC_ODA_BDVL/",
+          "status": "notstarted"
+        },
+        {
           "id": "15-b-1",
           "title": "(a) Official development assistance on conservation and sustainable use of biodiversity; and (b) revenue generated and finance mobilized from biodiversity-relevant economic instruments",
           "description": "",
           "keywords": "",
           "href": "/www/15-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-b-1-DC_ODA_BDVDL",
+          "title": "meta.name-15-b-1-DC_ODA_BDVDL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-b-1-DC_ODA_BDVDL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-b-1-DC_ODA_BDVL",
+          "title": "meta.name-15-b-1-DC_ODA_BDVL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/15-b-1-DC_ODA_BDVL/",
           "status": "notstarted"
         },
         {
@@ -1798,6 +4518,22 @@
           "status": "notstarted"
         },
         {
+          "id": "16-1-1-VC_IHR_PSRC",
+          "title": "meta.name-16-1-1-VC_IHR_PSRC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-1-1-VC_IHR_PSRC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-1-VC_IHR_PSRCN",
+          "title": "meta.name-16-1-1-VC_IHR_PSRCN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-1-1-VC_IHR_PSRCN/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-1-2",
           "title": "Conflict-related deaths per 100,000 population, by sex, age and cause",
           "description": "",
@@ -1814,8 +4550,32 @@
           "status": "notstarted"
         },
         {
+          "id": "16-1-3-VC_VOV_PHYL",
+          "title": "meta.name-16-1-3-VC_VOV_PHYL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-1-3-VC_VOV_PHYL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3-VC_VOV_ROBB",
+          "title": "meta.name-16-1-3-VC_VOV_ROBB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-1-3-VC_VOV_ROBB/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3-VC_VOV_SEXL",
+          "title": "meta.name-16-1-3-VC_VOV_SEXL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-1-3-VC_VOV_SEXL/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-1-4",
-          "title": "Proportion of population that feel safe walking alone around the area they live",
+          "title": "meta.name-16-1-4",
           "description": "",
           "keywords": "",
           "href": "/www/16-1-4/",
@@ -1823,7 +4583,7 @@
         },
         {
           "id": "16-2-1",
-          "title": "Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month",
+          "title": "meta.name-16-2-1",
           "description": "",
           "keywords": "",
           "href": "/www/16-2-1/",
@@ -1838,8 +4598,88 @@
           "status": "notstarted"
         },
         {
+          "id": "16-2-2-VC_HTF_DETV",
+          "title": "meta.name-16-2-2-VC_HTF_DETV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVFL",
+          "title": "meta.name-16-2-2-VC_HTF_DETVFL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVFL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVFLR",
+          "title": "meta.name-16-2-2-VC_HTF_DETVFLR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVFLR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVOG",
+          "title": "meta.name-16-2-2-VC_HTF_DETVOG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVOG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVOGR",
+          "title": "meta.name-16-2-2-VC_HTF_DETVOGR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVOGR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVOP",
+          "title": "meta.name-16-2-2-VC_HTF_DETVOP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVOP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVOPR",
+          "title": "meta.name-16-2-2-VC_HTF_DETVOPR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVOPR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVR",
+          "title": "meta.name-16-2-2-VC_HTF_DETVR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVSX",
+          "title": "meta.name-16-2-2-VC_HTF_DETVSX",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVSX/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-2-2-VC_HTF_DETVSXR",
+          "title": "meta.name-16-2-2-VC_HTF_DETVSXR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-2-2-VC_HTF_DETVSXR/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-2-3",
-          "title": "Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18",
+          "title": "meta.name-16-2-3",
           "description": "",
           "keywords": "",
           "href": "/www/16-2-3/",
@@ -1854,24 +4694,40 @@
           "status": "notstarted"
         },
         {
+          "id": "16-3-1-VC_PRR_PHYV",
+          "title": "meta.name-16-3-1-VC_PRR_PHYV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-3-1-VC_PRR_PHYV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1-VC_PRR_ROBB",
+          "title": "meta.name-16-3-1-VC_PRR_ROBB",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-3-1-VC_PRR_ROBB/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1-VC_PRR_SEXV",
+          "title": "meta.name-16-3-1-VC_PRR_SEXV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-3-1-VC_PRR_SEXV/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-3-2",
-          "title": "Unsentenced detainees as a proportion of overall prison population",
+          "title": "meta.name-16-3-2",
           "description": "",
           "keywords": "",
           "href": "/www/16-3-2/",
           "status": "notstarted"
         },
         {
-          "id": "16-3-2-a",
-          "title": "Rule of Law, Estimate (WGI)",
-          "description": "",
-          "keywords": "",
-          "href": "/www/16-3-2-a/",
-          "status": "complete"
-        },
-        {
           "id": "16-3-3",
-          "title": "Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism",
+          "title": "meta.name-16-3-3",
           "description": "",
           "keywords": "",
           "href": "/www/16-3-3/",
@@ -1886,8 +4742,24 @@
           "status": "notstarted"
         },
         {
+          "id": "16-4-1-DI_ILL_IN",
+          "title": "meta.name-16-4-1-DI_ILL_IN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-4-1-DI_ILL_IN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-4-1-DI_ILL_OUT",
+          "title": "meta.name-16-4-1-DI_ILL_OUT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-4-1-DI_ILL_OUT/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-4-2",
-          "title": "Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments",
+          "title": "meta.name-16-4-2",
           "description": "",
           "keywords": "",
           "href": "/www/16-4-2/",
@@ -1895,7 +4767,7 @@
         },
         {
           "id": "16-5-1",
-          "title": "Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months",
+          "title": "meta.name-16-5-1",
           "description": "",
           "keywords": "",
           "href": "/www/16-5-1/",
@@ -1903,23 +4775,15 @@
         },
         {
           "id": "16-5-2",
-          "title": "Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months",
+          "title": "meta.name-16-5-2",
           "description": "",
           "keywords": "",
           "href": "/www/16-5-2/",
           "status": "notstarted"
         },
         {
-          "id": "16-5-2-a",
-          "title": "Control of Corruption, Estimate (WGI)",
-          "description": "",
-          "keywords": "",
-          "href": "/www/16-5-2-a/",
-          "status": "complete"
-        },
-        {
           "id": "16-6-1",
-          "title": "Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)",
+          "title": "meta.name-16-6-1",
           "description": "",
           "keywords": "",
           "href": "/www/16-6-1/",
@@ -1934,20 +4798,68 @@
           "status": "notstarted"
         },
         {
-          "id": "16-6-2-a",
-          "title": "Government Effectiveness, Estimate (WGI)",
+          "id": "16-6-2-SP_PSR_OSATIS_GOV",
+          "title": "meta.name-16-6-2-SP_PSR_OSATIS_GOV",
           "description": "",
           "keywords": "",
-          "href": "/www/16-6-2-a/",
-          "status": "complete"
+          "href": "/www/16-6-2-SP_PSR_OSATIS_GOV/",
+          "status": "notstarted"
         },
         {
-          "id": "16-6-2-b",
-          "title": "Regulatory Quality, Estimate (WGI)",
+          "id": "16-6-2-SP_PSR_OSATIS_HLTH",
+          "title": "meta.name-16-6-2-SP_PSR_OSATIS_HLTH",
           "description": "",
           "keywords": "",
-          "href": "/www/16-6-2-b/",
-          "status": "complete"
+          "href": "/www/16-6-2-SP_PSR_OSATIS_HLTH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-SP_PSR_OSATIS_PRM",
+          "title": "meta.name-16-6-2-SP_PSR_OSATIS_PRM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-6-2-SP_PSR_OSATIS_PRM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-SP_PSR_OSATIS_SEC",
+          "title": "meta.name-16-6-2-SP_PSR_OSATIS_SEC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-6-2-SP_PSR_OSATIS_SEC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-SP_PSR_SATIS_GOV",
+          "title": "meta.name-16-6-2-SP_PSR_SATIS_GOV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-6-2-SP_PSR_SATIS_GOV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-SP_PSR_SATIS_HLTH",
+          "title": "meta.name-16-6-2-SP_PSR_SATIS_HLTH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-6-2-SP_PSR_SATIS_HLTH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-SP_PSR_SATIS_PRM",
+          "title": "meta.name-16-6-2-SP_PSR_SATIS_PRM",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-6-2-SP_PSR_SATIS_PRM/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-6-2-SP_PSR_SATIS_SEC",
+          "title": "meta.name-16-6-2-SP_PSR_SATIS_SEC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-6-2-SP_PSR_SATIS_SEC/",
+          "status": "notstarted"
         },
         {
           "id": "16-7-1",
@@ -1955,6 +4867,150 @@
           "description": "",
           "keywords": "",
           "href": "/www/16-7-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_JDC",
+          "title": "meta.name-16-7-1-SG_DMK_JDC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_JDC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_JDC_CNS",
+          "title": "meta.name-16-7-1-SG_DMK_JDC_CNS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_JDC_CNS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_JDC_HGR",
+          "title": "meta.name-16-7-1-SG_DMK_JDC_HGR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_JDC_HGR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_JDC_LWR",
+          "title": "meta.name-16-7-1-SG_DMK_JDC_LWR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_JDC_LWR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLCC_JC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLCC_JC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLCC_JC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLCC_LC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLCC_LC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLCC_LC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLCC_UC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLCC_UC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLCC_UC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLMP_LC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLMP_LC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLMP_LC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLMP_UC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLMP_UC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLMP_UC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLSP_LC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLSP_LC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLSP_LC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLSP_UC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLSP_UC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLSP_UC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLYN_LC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLYN_LC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLYN_LC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLYN_UC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLYN_UC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLYN_UC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLYP_LC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLYP_LC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLYP_LC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLYP_UC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLYP_UC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLYP_UC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLYR_LC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLYR_LC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLYR_LC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PARLYR_UC",
+          "title": "meta.name-16-7-1-SG_DMK_PARLYR_UC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PARLYR_UC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1-SG_DMK_PSRVC",
+          "title": "meta.name-16-7-1-SG_DMK_PSRVC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-1-SG_DMK_PSRVC/",
           "status": "notstarted"
         },
         {
@@ -1966,6 +5022,30 @@
           "status": "notstarted"
         },
         {
+          "id": "16-7-2-IU_DMK_ICRS",
+          "title": "meta.name-16-7-2-IU_DMK_ICRS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-2-IU_DMK_ICRS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-2-IU_DMK_INCL",
+          "title": "meta.name-16-7-2-IU_DMK_INCL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-2-IU_DMK_INCL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-2-IU_DMK_RESP",
+          "title": "meta.name-16-7-2-IU_DMK_RESP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-7-2-IU_DMK_RESP/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-8-1",
           "title": "Proportion of members and voting rights of developing countries in international organizations",
           "description": "",
@@ -1974,8 +5054,24 @@
           "status": "notstarted"
         },
         {
+          "id": "16-8-1-SG_INT_MBRDEV",
+          "title": "meta.name-16-8-1-SG_INT_MBRDEV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-8-1-SG_INT_MBRDEV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-8-1-SG_INT_VRTDEV",
+          "title": "meta.name-16-8-1-SG_INT_VRTDEV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-8-1-SG_INT_VRTDEV/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-9-1",
-          "title": "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age",
+          "title": "meta.name-16-9-1",
           "description": "",
           "keywords": "",
           "href": "/www/16-9-1/",
@@ -1990,28 +5086,12 @@
           "status": "notstarted"
         },
         {
-          "id": "16-10-1-a",
-          "title": "Political Stability and Absence of Violence/Terrorism, Estimate (WGI)",
-          "description": "",
-          "keywords": "",
-          "href": "/www/16-10-1-a/",
-          "status": "complete"
-        },
-        {
           "id": "16-10-2",
-          "title": "Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information",
+          "title": "meta.name-16-10-2",
           "description": "",
           "keywords": "",
           "href": "/www/16-10-2/",
           "status": "notstarted"
-        },
-        {
-          "id": "16-10-2-a",
-          "title": "Voice and Accountability, Estimate (WGI)",
-          "description": "",
-          "keywords": "",
-          "href": "/www/16-10-2-a/",
-          "status": "complete"
         },
         {
           "id": "16-a-1",
@@ -2022,8 +5102,40 @@
           "status": "notstarted"
         },
         {
+          "id": "16-a-1-SG_NHR_IMPLN",
+          "title": "meta.name-16-a-1-SG_NHR_IMPLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-a-1-SG_NHR_IMPLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-a-1-SG_NHR_INTEXSTN",
+          "title": "meta.name-16-a-1-SG_NHR_INTEXSTN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-a-1-SG_NHR_INTEXSTN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-a-1-SG_NHR_NOAPPLN",
+          "title": "meta.name-16-a-1-SG_NHR_NOAPPLN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-a-1-SG_NHR_NOAPPLN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-a-1-SG_NHR_NOSTUSN",
+          "title": "meta.name-16-a-1-SG_NHR_NOSTUSN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/16-a-1-SG_NHR_NOSTUSN/",
+          "status": "notstarted"
+        },
+        {
           "id": "16-b-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "meta.name-16-b-1",
           "description": "",
           "keywords": "",
           "href": "/www/16-b-1/",
@@ -2046,8 +5158,24 @@
           "status": "notstarted"
         },
         {
+          "id": "17-1-1-GR_G14_GDP",
+          "title": "meta.name-17-1-1-GR_G14_GDP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-1-1-GR_G14_GDP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-1-1-GR_G14_XDC",
+          "title": "meta.name-17-1-1-GR_G14_XDC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-1-1-GR_G14_XDC/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
+          "title": "meta.name-17-1-2",
           "description": "",
           "keywords": "",
           "href": "/www/17-1-2/",
@@ -2062,6 +5190,86 @@
           "status": "notstarted"
         },
         {
+          "id": "17-2-1-DC_ODA_LDCG",
+          "title": "meta.name-17-2-1-DC_ODA_LDCG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_LDCG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_LDCS",
+          "title": "meta.name-17-2-1-DC_ODA_LDCS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_LDCS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_LLDC",
+          "title": "meta.name-17-2-1-DC_ODA_LLDC",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_LLDC/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_LLDCG",
+          "title": "meta.name-17-2-1-DC_ODA_LLDCG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_LLDCG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_SIDS",
+          "title": "meta.name-17-2-1-DC_ODA_SIDS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_SIDS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_SIDSG",
+          "title": "meta.name-17-2-1-DC_ODA_SIDSG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_SIDSG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_TOTG",
+          "title": "meta.name-17-2-1-DC_ODA_TOTG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_TOTG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_TOTGGE",
+          "title": "meta.name-17-2-1-DC_ODA_TOTGGE",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_TOTGGE/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_TOTL",
+          "title": "meta.name-17-2-1-DC_ODA_TOTL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_TOTL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-2-1-DC_ODA_TOTLGE",
+          "title": "meta.name-17-2-1-DC_ODA_TOTLGE",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-2-1-DC_ODA_TOTLGE/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-3-1",
           "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income",
           "description": "",
@@ -2070,8 +5278,56 @@
           "status": "notstarted"
         },
         {
+          "id": "17-3-1-DC_OSSD_GRT",
+          "title": "meta.name-17-3-1-DC_OSSD_GRT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-3-1-DC_OSSD_GRT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1-DC_OSSD_MPF",
+          "title": "meta.name-17-3-1-DC_OSSD_MPF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-3-1-DC_OSSD_MPF/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1-DC_OSSD_OFFCL",
+          "title": "meta.name-17-3-1-DC_OSSD_OFFCL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-3-1-DC_OSSD_OFFCL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1-DC_OSSD_OFFNL",
+          "title": "meta.name-17-3-1-DC_OSSD_OFFNL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-3-1-DC_OSSD_OFFNL/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1-DC_OSSD_PRVGRT",
+          "title": "meta.name-17-3-1-DC_OSSD_PRVGRT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-3-1-DC_OSSD_PRVGRT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-3-1-GF_FRN_FDI",
+          "title": "meta.name-17-3-1-GF_FRN_FDI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-3-1-GF_FRN_FDI/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "title": "meta.name-17-3-2",
           "description": "",
           "keywords": "",
           "href": "/www/17-3-2/",
@@ -2079,7 +5335,7 @@
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "meta.name-17-4-1",
           "description": "",
           "keywords": "",
           "href": "/www/17-4-1/",
@@ -2102,6 +5358,22 @@
           "status": "notstarted"
         },
         {
+          "id": "17-6-1-IT_NET_BBND",
+          "title": "meta.name-17-6-1-IT_NET_BBND",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-6-1-IT_NET_BBND/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-6-1-IT_NET_BBNDN",
+          "title": "meta.name-17-6-1-IT_NET_BBNDN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-6-1-IT_NET_BBNDN/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-7-1",
           "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
           "description": "",
@@ -2110,8 +5382,56 @@
           "status": "notstarted"
         },
         {
+          "id": "17-7-1-DC_ENVTECH_EXP",
+          "title": "meta.name-17-7-1-DC_ENVTECH_EXP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-7-1-DC_ENVTECH_EXP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1-DC_ENVTECH_IMP",
+          "title": "meta.name-17-7-1-DC_ENVTECH_IMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-7-1-DC_ENVTECH_IMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1-DC_ENVTECH_INV",
+          "title": "meta.name-17-7-1-DC_ENVTECH_INV",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-7-1-DC_ENVTECH_INV/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1-DC_ENVTECH_REXP",
+          "title": "meta.name-17-7-1-DC_ENVTECH_REXP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-7-1-DC_ENVTECH_REXP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1-DC_ENVTECH_RIMP",
+          "title": "meta.name-17-7-1-DC_ENVTECH_RIMP",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-7-1-DC_ENVTECH_RIMP/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-7-1-DC_ENVTECH_TT",
+          "title": "meta.name-17-7-1-DC_ENVTECH_TT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-7-1-DC_ENVTECH_TT/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
+          "title": "meta.name-17-8-1",
           "description": "",
           "keywords": "",
           "href": "/www/17-8-1/",
@@ -2134,11 +5454,59 @@
           "status": "notstarted"
         },
         {
+          "id": "17-10-1-TM_TAX_WMFN",
+          "title": "meta.name-17-10-1-TM_TAX_WMFN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-10-1-TM_TAX_WMFN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-10-1-TM_TAX_WMPS",
+          "title": "meta.name-17-10-1-TM_TAX_WMPS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-10-1-TM_TAX_WMPS/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-11-1",
           "title": "Developing countries’ and least developed countries’ share of global exports",
           "description": "",
           "keywords": "",
           "href": "/www/17-11-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1-TX_EXP_GBMRCH",
+          "title": "meta.name-17-11-1-TX_EXP_GBMRCH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-11-1-TX_EXP_GBMRCH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1-TX_EXP_GBSVR",
+          "title": "meta.name-17-11-1-TX_EXP_GBSVR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-11-1-TX_EXP_GBSVR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1-TX_IMP_GBMRCH",
+          "title": "meta.name-17-11-1-TX_IMP_GBMRCH",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-11-1-TX_IMP_GBMRCH/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1-TX_IMP_GBSVR",
+          "title": "meta.name-17-11-1-TX_IMP_GBSVR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-11-1-TX_IMP_GBSVR/",
           "status": "notstarted"
         },
         {
@@ -2150,6 +5518,22 @@
           "status": "notstarted"
         },
         {
+          "id": "17-12-1-TM_TAX_DMFN",
+          "title": "meta.name-17-12-1-TM_TAX_DMFN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-12-1-TM_TAX_DMFN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-12-1-TM_TAX_DPRF",
+          "title": "meta.name-17-12-1-TM_TAX_DPRF",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-12-1-TM_TAX_DPRF/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-13-1",
           "title": "Macroeconomic Dashboard",
           "description": "",
@@ -2158,8 +5542,168 @@
           "status": "notstarted"
         },
         {
+          "id": "17-13-1-BN_CAB_XOKA_GD_ZS",
+          "title": "meta.name-17-13-1-BN_CAB_XOKA_GD_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-BN_CAB_XOKA_GD_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-BN_KLT_PTXL_CD",
+          "title": "meta.name-17-13-1-BN_KLT_PTXL_CD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-BN_KLT_PTXL_CD/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-BX_KLT_DINV_WD_GD_ZS",
+          "title": "meta.name-17-13-1-BX_KLT_DINV_WD_GD_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-BX_KLT_DINV_WD_GD_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-DP_DOD_DLD2_CR_CG_Z1",
+          "title": "meta.name-17-13-1-DP_DOD_DLD2_CR_CG_Z1",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-DP_DOD_DLD2_CR_CG_Z1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-DT_DOD_DECT_GN_ZS",
+          "title": "meta.name-17-13-1-DT_DOD_DECT_GN_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-DT_DOD_DECT_GN_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-FB_BNK_CAPA_ZS",
+          "title": "meta.name-17-13-1-FB_BNK_CAPA_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-FB_BNK_CAPA_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-FI_RES_TOTL_MO",
+          "title": "meta.name-17-13-1-FI_RES_TOTL_MO",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-FI_RES_TOTL_MO/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-FM_LBL_BMNY_IR_ZS",
+          "title": "meta.name-17-13-1-FM_LBL_BMNY_IR_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-FM_LBL_BMNY_IR_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-FM_LBL_BMNY_ZG",
+          "title": "meta.name-17-13-1-FM_LBL_BMNY_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-FM_LBL_BMNY_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-FP_CPI_TOTL_ZG",
+          "title": "meta.name-17-13-1-FP_CPI_TOTL_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-FP_CPI_TOTL_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-GC_BAL_CASH_GD_ZS",
+          "title": "meta.name-17-13-1-GC_BAL_CASH_GD_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-GC_BAL_CASH_GD_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-GC_TAX_TOTL_GD_ZS",
+          "title": "meta.name-17-13-1-GC_TAX_TOTL_GD_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-GC_TAX_TOTL_GD_ZS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-NE_CON_GOVT_KD_ZG",
+          "title": "meta.name-17-13-1-NE_CON_GOVT_KD_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-NE_CON_GOVT_KD_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-NE_CON_PRVT_KD_ZG",
+          "title": "meta.name-17-13-1-NE_CON_PRVT_KD_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-NE_CON_PRVT_KD_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-NE_EXP_GNFS_KD_ZG",
+          "title": "meta.name-17-13-1-NE_EXP_GNFS_KD_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-NE_EXP_GNFS_KD_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-NE_GDI_TOTL_KD_ZG",
+          "title": "meta.name-17-13-1-NE_GDI_TOTL_KD_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-NE_GDI_TOTL_KD_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-NE_IMP_GNFS_KD_ZG",
+          "title": "meta.name-17-13-1-NE_IMP_GNFS_KD_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-NE_IMP_GNFS_KD_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-NY_GDP_MKTP_KD_ZG",
+          "title": "meta.name-17-13-1-NY_GDP_MKTP_KD_ZG",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-NY_GDP_MKTP_KD_ZG/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-PA_NUS_ATLS",
+          "title": "meta.name-17-13-1-PA_NUS_ATLS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-PA_NUS_ATLS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-13-1-TG_VAL_TOTL_GD_ZS",
+          "title": "meta.name-17-13-1-TG_VAL_TOTL_GD_ZS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-13-1-TG_VAL_TOTL_GD_ZS/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
+          "title": "meta.name-17-14-1",
           "description": "",
           "keywords": "",
           "href": "/www/17-14-1/",
@@ -2174,11 +5718,91 @@
           "status": "notstarted"
         },
         {
+          "id": "17-15-1-SG_PLN_PRPOLRES",
+          "title": "meta.name-17-15-1-SG_PLN_PRPOLRES",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_PRPOLRES/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_PRVNDI",
+          "title": "meta.name-17-15-1-SG_PLN_PRVNDI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_PRVNDI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_PRVRICTRY",
+          "title": "meta.name-17-15-1-SG_PLN_PRVRICTRY",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_PRVRICTRY/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_PRVRIMON",
+          "title": "meta.name-17-15-1-SG_PLN_PRVRIMON",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_PRVRIMON/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_RECNDI",
+          "title": "meta.name-17-15-1-SG_PLN_RECNDI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_RECNDI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_RECRICTRY",
+          "title": "meta.name-17-15-1-SG_PLN_RECRICTRY",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_RECRICTRY/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_RECRIMON",
+          "title": "meta.name-17-15-1-SG_PLN_RECRIMON",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_RECRIMON/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-15-1-SG_PLN_REPOLRES",
+          "title": "meta.name-17-15-1-SG_PLN_REPOLRES",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-15-1-SG_PLN_REPOLRES/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-16-1",
           "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
           "description": "",
           "keywords": "",
           "href": "/www/17-16-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-16-1-SG_PLN_MSTKSDG_P",
+          "title": "meta.name-17-16-1-SG_PLN_MSTKSDG_P",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-16-1-SG_PLN_MSTKSDG_P/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-16-1-SG_PLN_MSTKSDG_R",
+          "title": "meta.name-17-16-1-SG_PLN_MSTKSDG_R",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-16-1-SG_PLN_MSTKSDG_R/",
           "status": "notstarted"
         },
         {
@@ -2190,6 +5814,22 @@
           "status": "notstarted"
         },
         {
+          "id": "17-17-1-GF_COM_PPPI",
+          "title": "meta.name-17-17-1-GF_COM_PPPI",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-17-1-GF_COM_PPPI/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-17-1-GF_COM_PPPI_KD",
+          "title": "meta.name-17-17-1-GF_COM_PPPI_KD",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-17-1-GF_COM_PPPI_KD/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-18-1",
           "title": "Statistical capacity indicator for Sustainable Development Goal monitoring",
           "description": "",
@@ -2198,8 +5838,32 @@
           "status": "notstarted"
         },
         {
+          "id": "17-18-1-IQ_SPI_PIL4",
+          "title": "meta.name-17-18-1-IQ_SPI_PIL4",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-1-IQ_SPI_PIL4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-1-IQ_SPI_PIL5",
+          "title": "meta.name-17-18-1-IQ_SPI_PIL5",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-1-IQ_SPI_PIL5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-1-SG_STT_ODIN",
+          "title": "meta.name-17-18-1-SG_STT_ODIN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-1-SG_STT_ODIN/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
+          "title": "meta.name-17-18-2",
           "description": "",
           "keywords": "",
           "href": "/www/17-18-2/",
@@ -2214,8 +5878,48 @@
           "status": "notstarted"
         },
         {
+          "id": "17-18-3-SG_STT_NSDSFDDNR",
+          "title": "meta.name-17-18-3-SG_STT_NSDSFDDNR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-3-SG_STT_NSDSFDDNR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-3-SG_STT_NSDSFDGVT",
+          "title": "meta.name-17-18-3-SG_STT_NSDSFDGVT",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-3-SG_STT_NSDSFDGVT/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-3-SG_STT_NSDSFDOTHR",
+          "title": "meta.name-17-18-3-SG_STT_NSDSFDOTHR",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-3-SG_STT_NSDSFDOTHR/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-3-SG_STT_NSDSFND",
+          "title": "meta.name-17-18-3-SG_STT_NSDSFND",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-3-SG_STT_NSDSFND/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-18-3-SG_STT_NSDSIMPL",
+          "title": "meta.name-17-18-3-SG_STT_NSDSIMPL",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-18-3-SG_STT_NSDSIMPL/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
+          "title": "meta.name-17-19-1",
           "description": "",
           "keywords": "",
           "href": "/www/17-19-1/",
@@ -2227,6 +5931,54 @@
           "description": "",
           "keywords": "",
           "href": "/www/17-19-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2-SG_REG_BRTH90",
+          "title": "meta.name-17-19-2-SG_REG_BRTH90",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-19-2-SG_REG_BRTH90/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2-SG_REG_BRTH90N",
+          "title": "meta.name-17-19-2-SG_REG_BRTH90N",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-19-2-SG_REG_BRTH90N/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2-SG_REG_CENSUS",
+          "title": "meta.name-17-19-2-SG_REG_CENSUS",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-19-2-SG_REG_CENSUS/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2-SG_REG_CENSUSN",
+          "title": "meta.name-17-19-2-SG_REG_CENSUSN",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-19-2-SG_REG_CENSUSN/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2-SG_REG_DETH75",
+          "title": "meta.name-17-19-2-SG_REG_DETH75",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-19-2-SG_REG_DETH75/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-19-2-SG_REG_DETH75N",
+          "title": "meta.name-17-19-2-SG_REG_DETH75N",
+          "description": "",
+          "keywords": "",
+          "href": "/www/17-19-2-SG_REG_DETH75N/",
           "status": "notstarted"
         }]
     }
