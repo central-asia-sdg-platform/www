@@ -61,6 +61,15 @@ en:
     16-10-1-a-title : 'Political Stability and Absence of Violence/Terrorism, Estimate (WGI)'
     16-10-2-a-title : 'Voice and Accountability, Estimate (WGI)'
 
+  frontpage :
+    intro_title : Central Asia SDG Platform
+    intro_body : >
+      The countries of Central Asia have committed to achieve the 2030 Agenda and integrate Sustainable Development Goals (SDGs) into their national plans. This Platfrom has been developed to contribute to sustainable development through a knowledge-sharing and collaboration in Central Asia (project [implemented by UNDP](https://www.undp.org/eurasia), [funded by EU](https://www.eeas.europa.eu/eeas/central-asia_en)). The platform supporting countries in [tracking progress in SDGs](https://central-asia-sdg-platform.github.io/www/goals), [tracking  key socio-economic policies](https://central-asia-sdg-platform.github.io/www/policies), [modelling scenarios for SDG pathways](https://central-asia-sdg-platform.github.io/www/sdg-scenarios), identifying [accelartion points through systemic view](https://central-asia-sdg-platform.github.io/www/systems), and promoiting [integrated approaches for SDGs financing](https://central-asia-sdg-platform.github.io/www/finances).
+      Achieveing SDGs is a joint effors, requiring partnerships and whole-of-society approach. [Parliaments](https://central-asia-sdg-platform.github.io/www/parliaments) and Governments, [Private Sector](https://central-asia-sdg-platform.github.io/www/private-sector) and [Academia](https://central-asia-sdg-platform.github.io/www/academia), [Civil Society](https://central-asia-sdg-platform.github.io/www/cso-and-ngo) have a role to play in achieveing SDGs. Most of the progress happens at local level, in towns and communities, that's why [Localization of SDGs](https://central-asia-sdg-platform.github.io/www/sdg-local) is a task.
+      Countries of Central Asia are actively taking stock of progress through [Voluntary National Reviews](https://central-asia-sdg-platform.github.io/www/vnr) and a number of [Voluntary Local Reviews](https://sdgs.un.org/topics/voluntary-local-reviews) are currently in prepartion.
+      This rich body of knowlegde and commong and often shared problems is Central Asia call for cooperation and knowldege exchange. 
+
+
 # Russian
 ru:
   about:
@@ -122,3 +131,10 @@ ru:
     16-6-2-b-title : 'Regulatory Quality, Estimate (WGI)'
     16-10-1-a-title : 'Political Stability and Absence of Violence/Terrorism, Estimate (WGI)'
     16-10-2-a-title : 'Voice and Accountability, Estimate (WGI)'
+  frontpage :
+    intro_title : Платформа ЦУР Центральной Азии
+    intro_body : >
+      Страны Центральной Азии взяли на себя обязательство реализовать Повестку дня на период до 2030 года и интегрировать Цели устойчивого развития (ЦУР) в свои национальные планы. Эта Платформа была разработана с целью внести вклад в устойчивое развитие посредством обмена знаниями и сотрудничества в Центральной Азии (проект [реализуется ПРООН](https://www.undp.org/eurasia), [финансируется ЕС](https://www.eeas.europa.eu/eeas/central-asia_en)). Платформа, поддерживающая страны в [отслеживании прогресса в достижении ЦУР](https://central-asia-sdg-platform.github.io/www/ru/goals), [отслеживании ключевых социально-экономических политик](https://central-asia-sdg-platform.github.io/www/ru/policies), [моделировании сценариев для путей достижения ЦУР] (https://central-asia-sdg-platform.github.io/www/ru/sdg-scenarios), определении [точек ускорения через системный взгляд](https://central-asia-sdg-platform.github.io/www/ru/systems) и продвижение [комплексных подходов к финансированию ЦУР](https://central-asia-sdg-platform.github.io/www/ru/finances).
+      Достижение ЦУР — это совместные усилия, требующие партнерства и вовлечения всего общества. [Парламенты](https://central-asia-sdg-platform.github.io/www/ru/parliaments) и Правительства, [частный сектор](https://central-asia-sdg-platform.github.io/www/ru/private-sector) и [академические круги](https://central-asia-sdg-platform.github.io/www/ru/academia), [гражданское общество](https://central-asia-sdg-platform.github.io/www/ru/cso-and-ngo), у каждого есть своя роль в достижении ЦУР. Большая часть прогресса происходит на местном уровне, в городах и сообществах, поэтому [Локализация ЦУР](https://central-asia-sdg-platform.github.io/www/ru/sdg-local) является важной задачей.
+      Страны Центральной Азии активно осмысливают итоги и уроки прогресса посредством [Добровольных национальных обзоров](https://central-asia-sdg-platform.github.io/www/ru/vnr) и ряда [Добровольных местных обзоров](https://sdgs.un.org/topics/voluntary-local-reviews) в настоящее время находятся в стадии подготовки.
+      Этот богатый массив знаний, а также общие и зачастую трансграничные проблемы являются призывом Центральной Азии к сотрудничеству и обмену знаниями.
