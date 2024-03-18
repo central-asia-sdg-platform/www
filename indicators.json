@@ -46,6 +46,14 @@
           "status": "complete"
         },
         {
+          "id": "1-1-1-cmp",
+          "title": "Poverty headcount ratio at international poverty lines (%)",
+          "description": "",
+          "keywords": "",
+          "href": "/www/1-1-1-cmp/",
+          "status": "complete"
+        },
+        {
           "id": "1-1-1-gs1",
           "title": "Working Poverty rates",
           "description": "",
@@ -364,6 +372,14 @@
           "keywords": "",
           "href": "/www/3-4-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "3-4-1-a",
+          "title": "Life expectancy at birth",
+          "description": "",
+          "keywords": "",
+          "href": "/www/3-4-1-a/",
+          "status": "complete"
         },
         {
           "id": "3-4-2",

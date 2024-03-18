@@ -46,6 +46,14 @@
           "status": "complete"
         },
         {
+          "id": "1-1-1-cmp",
+          "title": "Уровень бедности ниже международных черт бедности (%)",
+          "description": "",
+          "keywords": "",
+          "href": "/www/ru/1-1-1-cmp/",
+          "status": "complete"
+        },
+        {
           "id": "1-1-1-gs1",
           "title": "Уровень бедности среди работающих",
           "description": "",
@@ -364,6 +372,14 @@
           "keywords": "",
           "href": "/www/ru/3-4-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "3-4-1-a",
+          "title": "Ожидаемая продолжительность жизни при рожденнии (лет)",
+          "description": "",
+          "keywords": "",
+          "href": "/www/ru/3-4-1-a/",
+          "status": "complete"
         },
         {
           "id": "3-4-2",
