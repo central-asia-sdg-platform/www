@@ -115,13 +115,13 @@ frontpage_cards:
     button_label: Read more
     button_link: 'https://www.un.org/en/conferences/SDGSummit2023'
     rule_color: ''
-frontpage_goals_grid:
-  title: Central Asia Sustainable Development Goal indicators
-  description: Browse goals for indicator data
-# [!] Revise for translation 
 # frontpage_goals_grid:
-#  title: frontpage.heading_short
-#  description: frontpage.instructions_shorter
+#  title: Central Asia Sustainable Development Goal indicators
+#  description: Browse goals for indicator data
+# [!] Revise for translation 
+frontpage_goals_grid:
+  title: frontpage.heading_short
+  description: frontpage.instructions_shorter
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body

@@ -1,5 +1,7 @@
 # English
 en:
+  general:
+    goals: Central Asia Sustainable Development Goal indicators
   about:
     centralasia: '🌐 Central Asia'
     centralasia_kaz: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Kazakhstan"> Kazakhstan'
@@ -46,20 +48,6 @@ en:
     national: 'National'
     regional: 'Regional'
     central_asia: 'Central Asia' 
-  global_indicators:
-    1-1-1-b-title : 'Employed population below international poverty line (%)'
-    7-1-1-title: 'Proportion of population with access to electricity, by urban/rural (%)'
-    7-1-2-title: 'Proportion of population with primary reliance on clean fuels and technology (%)'
-    7-2-1-title: 'Renewable energy share in the total final energy consumption (%)'
-    7-3-1-title: 'Energy intensity level of primary energy (megajoules per constant 2017 purchasing power parity GDP)'
-  regional_indicators:
-    1-1-1-a-title : 'Proportion of population below international poverty lines (%)'
-    16-3-2-a-title : 'Rule of Law, Estimate (WGI)'
-    16-5-2-a-title : 'Control of Corruption, Estimate (WGI)'
-    16-6-2-a-title : 'Government Effectiveness, Estimate (WGI)'
-    16-6-2-b-title : 'Regulatory Quality, Estimate (WGI)'
-    16-10-1-a-title : 'Political Stability and Absence of Violence/Terrorism, Estimate (WGI)'
-    16-10-2-a-title : 'Voice and Accountability, Estimate (WGI)'
 
   frontpage :
     intro_title : Central Asia SDG Platform
@@ -68,10 +56,13 @@ en:
       Achieveing SDGs is a joint effors, requiring partnerships and whole-of-society approach. [Parliaments](https://central-asia-sdg-platform.github.io/www/parliaments) and Governments, [Private Sector](https://central-asia-sdg-platform.github.io/www/private-sector) and [Academia](https://central-asia-sdg-platform.github.io/www/academia), [Civil Society](https://central-asia-sdg-platform.github.io/www/cso-and-ngo) have a role to play in achieveing SDGs. Most of the progress happens at local level, in towns and communities, that's why [Localization of SDGs](https://central-asia-sdg-platform.github.io/www/sdg-local) is a task.
       Countries of Central Asia are actively taking stock of progress through [Voluntary National Reviews](https://central-asia-sdg-platform.github.io/www/vnr) and a number of [Voluntary Local Reviews](https://sdgs.un.org/topics/voluntary-local-reviews) are currently in prepartion.
       This rich body of knowlegde and commong and often shared problems is Central Asia call for cooperation and knowldege exchange. 
-
+  heading_short: Central Asia Sustainable Development Goal indicators
+  instructions_shorter: Browse goals top discover trands in Central Asia and beyond
 
 # Russian
 ru:
+  general:
+    goals: Индикаторы Целей устойчивого развития Центральной Азии
   about:
     centralasia: '🌐 Центральная Азия'
     centralasia_kaz: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Казахстан"> Казахстан'
@@ -117,24 +108,12 @@ ru:
     national: 'Национальный'
     regional: 'Региональный'
     central_asia: 'Центральная Азия' 
-  global_indicators:
-    1-1-1-b-title : 'Employed population below international poverty line (%)'
-    7-1-1-title: 'Доля населения, имеющего доступ к электроэнергии, город/село (%)'
-    7-1-2-title: 'Доля населения, в первую очередь полагающаяся на экологически чистые виды топлива и технологии (%)'
-    7-2-1-title: '7.2.1. Доля возобновляемых источников энергии в общем конечном потреблении энергии (%)'
-    7-3-1-title: 'Уровень энергоемкости первичной энергии (МДж на постоянный ВВП по ППС 2017)'
-  regional_indicators:
-    1-1-1-a-title : 'Proportion of population below international poverty lines (%)'
-    16-3-2-a-title : 'Rule of Law, Estimate (WGI)'
-    16-5-2-a-title : 'Control of Corruption, Estimate (WGI)'
-    16-6-2-a-title : 'Government Effectiveness, Estimate (WGI)'
-    16-6-2-b-title : 'Regulatory Quality, Estimate (WGI)'
-    16-10-1-a-title : 'Political Stability and Absence of Violence/Terrorism, Estimate (WGI)'
-    16-10-2-a-title : 'Voice and Accountability, Estimate (WGI)'
   frontpage :
     intro_title : Платформа ЦУР Центральной Азии
     intro_body : >
-      Страны Центральной Азии взяли на себя обязательство реализовать Повестку дня на период до 2030 года и интегрировать Цели устойчивого развития (ЦУР) в свои национальные планы. Эта Платформа была разработана с целью внести вклад в устойчивое развитие посредством обмена знаниями и сотрудничества в Центральной Азии (проект [реализуется ПРООН](https://www.undp.org/eurasia), [финансируется ЕС](https://www.eeas.europa.eu/eeas/central-asia_en)). Платформа, поддерживающая страны в [отслеживании прогресса в достижении ЦУР](https://central-asia-sdg-platform.github.io/www/ru/goals), [отслеживании ключевых социально-экономических политик](https://central-asia-sdg-platform.github.io/www/ru/policies), [моделировании сценариев для путей достижения ЦУР] (https://central-asia-sdg-platform.github.io/www/ru/sdg-scenarios), определении [точек ускорения через системный взгляд](https://central-asia-sdg-platform.github.io/www/ru/systems) и продвижение [комплексных подходов к финансированию ЦУР](https://central-asia-sdg-platform.github.io/www/ru/finances).
+      Страны Центральной Азии взяли на себя обязательство реализовать Повестку дня на период до 2030 года и интегрировать Цели устойчивого развития (ЦУР) в свои национальные планы. Эта Платформа была разработана с целью внести вклад в устойчивое развитие посредством обмена знаниями и сотрудничества в Центральной Азии (проект [реализуется ПРООН](https://www.undp.org/eurasia), [финансируется ЕС](https://www.eeas.europa.eu/eeas/central-asia_en)). Платформа, поддерживающая страны в [отслеживании прогресса в достижении ЦУР](https://central-asia-sdg-platform.github.io/www/ru/goals), [отслеживании ключевых социально-экономических политик](https://central-asia-sdg-platform.github.io/www/ru/policies), [моделировании сценариев для путей достижения ЦУР](https://central-asia-sdg-platform.github.io/www/ru/sdg-scenarios), определении [точек ускорения через системный взгляд](https://central-asia-sdg-platform.github.io/www/ru/systems) и продвижение [комплексных подходов к финансированию ЦУР](https://central-asia-sdg-platform.github.io/www/ru/finances).
       Достижение ЦУР — это совместные усилия, требующие партнерства и вовлечения всего общества. [Парламенты](https://central-asia-sdg-platform.github.io/www/ru/parliaments) и Правительства, [частный сектор](https://central-asia-sdg-platform.github.io/www/ru/private-sector) и [академические круги](https://central-asia-sdg-platform.github.io/www/ru/academia), [гражданское общество](https://central-asia-sdg-platform.github.io/www/ru/cso-and-ngo), у каждого есть своя роль в достижении ЦУР. Большая часть прогресса происходит на местном уровне, в городах и сообществах, поэтому [Локализация ЦУР](https://central-asia-sdg-platform.github.io/www/ru/sdg-local) является важной задачей.
       Страны Центральной Азии активно осмысливают итоги и уроки прогресса посредством [Добровольных национальных обзоров](https://central-asia-sdg-platform.github.io/www/ru/vnr) и ряда [Добровольных местных обзоров](https://sdgs.un.org/topics/voluntary-local-reviews) в настоящее время находятся в стадии подготовки.
       Этот богатый массив знаний, а также общие и зачастую трансграничные проблемы являются призывом Центральной Азии к сотрудничеству и обмену знаниями.
+    heading_short: Индикаторы Целей устойчивого развития Центральной Азии
+    instructions_shorter: Просмотрите цели и узнайте о тенденциях в Центральной Азии и за ее пределами
