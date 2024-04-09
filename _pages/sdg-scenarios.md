@@ -82,3 +82,12 @@ List of interventions by scenario
 - Integrated Recovery
     - Individual interventions from the Health First, Protecting People, Economic Response, and Social Cohesion scenarios are combined into one integrated scenario.
 
+
+Results of modelling:
+- [GDP, Billion 2011$ \[IFs Projections\]](https://central-asia-sdg-platform.github.io/www/IFS-RESULTS-GDP)
+- [GDP per capita, Thousand 2011$ \[IFs Projections\]](https://central-asia-sdg-platform.github.io/www/IFS-RESULTS-GDPPC)
+- [Human Developemnt Index \[IFs Projections\]](https://central-asia-sdg-platform.github.io/www/IFS-RESULTS-HDI)
+- [Poverty, $3.20/day (LMIC) \[IFs Projections\]](https://central-asia-sdg-platform.github.io/www/IFS-RESULTS-POV320)
+- [Poverty, $5.50/day (UMIC) \[IFs Projections\]](https://central-asia-sdg-platform.github.io/www/IFS-RESULTS-POV550)
+
+
