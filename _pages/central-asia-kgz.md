@@ -57,4 +57,4 @@ Use buttons to highlight certain paths and Focus to explore certain targets
 🌐 [Voluntary National Review 2020](https://hlpf.un.org/countries/kyrgyzstan/voluntary-national-review-2020)
 
 
-![Map of Kyrgyzstan, 2011]({{ site.baseurl }}/assets/images/map_kyrgyzstan_un_2011_800px.jpg)
+![Map of Kyrgyzstan, 2011]({{ site.baseurl }}/assets/maps/map_kyrgyzstan_un_2011_800px.jpg)

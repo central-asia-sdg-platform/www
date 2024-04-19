@@ -6,14 +6,22 @@ layout: page
 ---
 ![Flag of Turkmenistan]({{ site.baseurl }}/assets/images/TKM_flag_h240.png) 
 
-**Turkmenistan**, a desert country in Central Asia, has made progress in achieving the Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Turkmenistan has undertaken various initiatives to promote sustainable development, such as improving access to clean water and sanitation, and increasing renewable energy use. In 2019, Turkmenistan presented its first Voluntary National Review (VNR) at the United Nations High-Level Political Forum on Sustainable Development, which provided an overview of the country's progress in implementing the SDGs and identified priorities for future action.  
+**Turkmenistan** has made progress in achieving the Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Turkmenistan has undertaken various initiatives to promote sustainable development, such as improving access to clean water and sanitation, and increasing renewable energy use. In 2019, Turkmenistan presented its [first Voluntary National Review 2019](https://hlpf.un.org/countries/turkmenistan/voluntary-national-review-2019) at the United Nations High-Level Political Forum on Sustainable Development. The review  provided an overview of the country's progress in implementing the SDGs and identified priorities for future action. In 2023 Turkmenistan releases its [Second Voluntary National Review 2023](https://hlpf.un.org/countries/turkmenistan/voluntary-national-reviews-2023), which tracked progress towards SDGs and provided comprehensive overview of SDGs integration into national development programmes and budgets. 
 
 
 ### [Progress in SDGs](https://data.undp.org/sdg-push-diagnostic/TKM/sdg-trends)
 
 ![SDG Trends in Turkmenistan in 2023, based on Global SDG Indicators and Diagnostics]({{ site.baseurl }}/assets/images/TKM-SDG-trends-2023.png)  
 Based on Global SDG Indicators and Diagnostics 🟩 On Track     🟨 Mixed / For Review     🟥 Off Track     ⬛ Trends NA  
-  
+
+
+### Integration of Sustainable Development Goals into national development programmes
+In view of its comprehensive nature, the 2030 Agenda stipulates the transformation of national policies, strategies, concepts and plans for the socio-economic development of the country . This, in turn, requires the incremental implementation of SDG objectives into national policy. Concurrently, in order to effectively integrate the principles of sustainable development into national policy, a systematic audit should be conducted. 
+
+In order to determine the relevance of the SDG applicability in the context of the country, three Rapid Integrated Assessments (RIA) of existing national programmes were conducted in 2017, 2019 and 2022 with the assistance of UNDP. During the first two assessments, the policy documents adopted in the period 2010–2019 were analyzed, the implementation period of which was mainly planned until 2020 inclusive. According to the results of the assessments, a high level of integration (conceptually) of the SDG targets adopted by Turkmenistan in the current national policy documents, namely, 84% in 2017 and 85% in 2019 was revealed. In recent years, Turkmenistan has adopted a number of new long and medium term policy documents. In this regard, as part of the preparation to the Review, a third Rapid Integrated Assessment was carried out in 2022. Twenty four policy documents were selectively analyzed within the RIA. A rapid assessment of mapping the compliance of existing policies in Turkmenistan with the SDGs has shown that a level of integration of SDG targets into strategies, programmes and action plans remained as high as 85%. 
+
+<iframe src="https://central-asia-sdg-platform.github.io/xtras/TKM-RIA-Charts/TKM-RIA-Chart-ENG.html" title="TKM RIA Chart" width = "50%" height = "400 px"></iframe>
+
 
 ### SDG Accelerators
 
@@ -54,4 +62,4 @@ Use buttons to highlight certain paths and Focus to explore certain targets
 🌐 [Voluntary National Review 2019](https://hlpf.un.org/countries/turkmenistan/voluntary-national-review-2019)
 
 
-![Map of Turkmenistan, 2004]({{ site.baseurl }}/assets/images/map_turkmenistan_un_2004_800px.jpg)
+![Map of Turkmenistan, 2004]({{ site.baseurl }}/assets/maps/map_turkmenistan_un_2004_800px.jpg)

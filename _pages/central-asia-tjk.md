@@ -55,4 +55,4 @@ Use buttons to highlight certain paths and Focus to explore certain targets
 🌐 [Voluntary National Review 2017](https://hlpf.un.org/countries/tajikistan/voluntary-national-review-2017)
 
 
-![Map of Tajikistan, 2009]({{ site.baseurl }}/assets/images/map_tajikistan_un_2009_800px.jpg)
+![Map of Tajikistan, 2009]({{ site.baseurl }}/assets/maps/map_tajikistan_un_2009_800px.jpg)
