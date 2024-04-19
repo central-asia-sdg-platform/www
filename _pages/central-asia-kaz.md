@@ -6,14 +6,29 @@ layout: page
 ---
 ![Flag of Kazakhstan]({{ site.baseurl }}/assets/images/KAZ_flag_h240.png)
 
-**Kazakhstan**, the largest country in Central Asia, has made significant progress in achieving the United Nations' Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Kazakhstan has undertaken a range of measures to promote sustainable development across its economy, society, and environment. Some notable achievements include reducing poverty and inequality, improving access to healthcare and education, and promoting gender equality. In 2022, Kazakhstan presented its second Voluntary National Review (VNR) at the United Nations High-Level Political Forum on Sustainable Development, which highlighted the country's progress and identified priorities for future action. The VNR also showcased Kazakhstan's commitment to sustainable development and its efforts to align its policies with the SDGs.
+**Kazakhstan**, has made significant progress in achieving the United Nations' Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Kazakhstan has undertaken a range of measures to promote sustainable development across its economy, society, and environment. Some notable achievements include reducing poverty and inequality, improving access to healthcare and education, and promoting gender equality. In 2022, Kazakhstan presented its second Voluntary National Review (VNR) at the United Nations High-Level Political Forum on Sustainable Development, which highlighted the country's progress and identified priorities for future action. The VNR also showcased Kazakhstan's commitment to sustainable development and its efforts to align its policies with the SDGs.
 
-### [Progress in SDGs](https://data.undp.org/sdg-push-diagnostic/KAZ/sdg-trends)
+## [Progress in SDGs](https://data.undp.org/sdg-push-diagnostic/KAZ/sdg-trends)
 ![SDG Trends in Kazakhstan in 2023, based on Global SDG Indicators and Diagnostics]({{ site.baseurl }}/assets/images/KAZ-SDG-trends-2023.png)
  
 Based on Global SDG Indicators and Diagnostics 🟩 On Track     🟨 Mixed / For Review     🟥 Off Track     ⬛ Trends NA  
 
-### SDG Accelerators
+
+## Selected themes 
+### SDG7 in Kazakhstan
+[SDG7 in Kazakhstan]({{ site.baseurl }}/ru/kaz-sdg7/): Ensuring universal access to affordable, reliable, sustainable and modern energy for all is an important goal for Kazakhstan. The energy transition is essential for the sustainable future of Kazakhstan's economy and is one of the SDG Accelerators. Increasing the share of renewable energy and improving energy efficiency are the priorities of Goal 7.
+- [Problem 7.1. Access to clean energy 🟩 On Track]({{ site.baseurl }}/7-1-1/)
+- [Problem 7.2. Renewable Energy 🟥 Off Track]({{ site.baseurl }}/7-2-1/)
+- [Problem 7.3. Energy efficiency 🟥 Off Track]({{ site.baseurl }}/7-3-1/)
+
+
+## Finances for SDGs
+Kazakhsatn conducted Rapid Integrated Assessment includng budget tagging. Besides the National Budget, RIA included budgets for three regions: Almaty city, Karaganda oblast, and the North Kazakhstan Region. RIA was combined with DFA to identify types of flows and provide a comprehensive picture of finances for SDGs.
+
+![SDG Finances Dashboard for Kazakhstan]({{ site.baseurl }}/assets/files/KAZ-RIA-Finances-RUS.png)
+
+
+## SDG Accelerators
 
 🔷 **2.4: Sustainable food production systems and implement resilient agriculture.** Kazakhstan is a net exporter of food products, especially wheat. However, food production systems put serious stress on ecosystems and natural resources (Targets 12.2, 14, 15).  
 While generally water stress in Kazakhstan is lower than in some neighbouring Central Asia countries, much of the country's water resources go to agriculture (63%). Climate change will put a serious stress on food production systems through changing water flows. It will require adaptation to new conditions (Targets 13.2, 13.3).  
@@ -52,4 +67,4 @@ Use buttons to highlight certain paths and Focus to explore certain targets
 🌐 [Voluntary National Review 2019](https://hlpf.un.org/countries/kazakhstan/voluntary-national-review-2019)
 
 
-![Map of Kazakhstan, 2020]({{ site.baseurl }}/assets/images/map_kazakhstan_un_2020_800px.jpg)
+![Map of Kazakhstan, 2020]({{ site.baseurl }}/assets/maps/map_kazakhstan_un_2020_800px.jpg)
