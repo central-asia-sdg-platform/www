@@ -51,7 +51,7 @@ layout: page
 
 На динамической карте показаны ускорители достижения ЦУР в Туркменистане.
 
-<iframe src="https://embed.kumu.io/20ed8ae31ddd0d8a764441bdfeec3a20" width="100%" height="600"frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/20ed8ae31ddd0d8a764441bdfeec3a20" width="100%" height="800" frameborder="0"></iframe>
 
 Используйте кнопки, чтобы выделить определенные пути, и «Фокус», чтобы исследовать определенные цели.
 
