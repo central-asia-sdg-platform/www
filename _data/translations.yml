@@ -2,6 +2,9 @@
 en:
   general:
     goals: Central Asia Sustainable Development Goal indicators
+    twitter: Twitter
+    undpimplemented: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP '
+    eufunded : '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU '
   about:
     centralasia: '🌐 Central Asia'
     centralasia_kaz: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Kazakhstan"> Kazakhstan'
@@ -56,13 +59,19 @@ en:
       Achieveing SDGs is a joint effors, requiring partnerships and whole-of-society approach. [Parliaments](https://central-asia-sdg-platform.github.io/www/parliaments) and Governments, [Private Sector](https://central-asia-sdg-platform.github.io/www/private-sector) and [Academia](https://central-asia-sdg-platform.github.io/www/academia), [Civil Society](https://central-asia-sdg-platform.github.io/www/cso-and-ngo) have a role to play in achieveing SDGs. Most of the progress happens at local level, in towns and communities, that's why [Localization of SDGs](https://central-asia-sdg-platform.github.io/www/sdg-local) is a task.
       Countries of Central Asia are actively taking stock of progress through [Voluntary National Reviews](https://central-asia-sdg-platform.github.io/www/vnr) and a number of [Voluntary Local Reviews](https://sdgs.un.org/topics/voluntary-local-reviews) are currently in prepartion.
       This rich body of knowlegde and commong and often shared problems is Central Asia call for cooperation and knowldege exchange. 
-  heading_short: Central Asia Sustainable Development Goal indicators
-  instructions_shorter: Browse goals top discover trands in Central Asia and beyond
+    heading_short: Central Asia Sustainable Development Goal indicators
+    instructions_shorter: Browse goals top discover trands in Central Asia and beyond
+  frontpage_cards :
+    knowsdgs_title : Do you know all 17 SDGs?
+    knowsdgs_content : '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/0XTBYMfZyrM?si=d13iMiBDpsBhxgHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
 
 # Russian
 ru:
   general:
     goals: Индикаторы Целей устойчивого развития Центральной Азии
+    twitter: Твиттер
+    undpimplemented: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Проект выполнятся ПРООН'
+    eufunded : '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/EU_flag_h40.png" alt="EU flag"> Финансируется ЕС'
   about:
     centralasia: '🌐 Центральная Азия'
     centralasia_kaz: '<img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Казахстан"> Казахстан'
@@ -117,3 +126,6 @@ ru:
       Этот богатый массив знаний, а также общие и зачастую трансграничные проблемы являются призывом Центральной Азии к сотрудничеству и обмену знаниями.
     heading_short: Индикаторы Целей устойчивого развития Центральной Азии
     instructions_shorter: Просмотрите цели и узнайте о тенденциях в Центральной Азии и за ее пределами
+  frontpage_cards :
+    knowsdgs_title : Что такое Цели в области устойчивого развития?
+    knowsdgs_content : '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xdPe-5damxo?si=4HVKGT93QB9bWcD7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'

@@ -15,6 +15,11 @@ Informaton from other sites could be embedded using ```<iframe>``` html code. Ex
 Do you know all 17 SDGs?
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0XTBYMfZyrM?si=d13iMiBDpsBhxgHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+In Russian
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdPe-5damxo?si=VEEmv67XWqv83Tw5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ### Kumu
 <iframe src="https://embed.kumu.io/d376984a933c24dd474cd90ed7d0bc99" width="100%" height="600" frameborder="0"></iframe>
 
