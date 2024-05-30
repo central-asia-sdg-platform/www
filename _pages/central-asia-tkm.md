@@ -20,7 +20,7 @@ In view of its comprehensive nature, the 2030 Agenda stipulates the transformati
 
 In order to determine the relevance of the SDG applicability in the context of the country, three Rapid Integrated Assessments (RIA) of existing national programmes were conducted in 2017, 2019 and 2022 with the assistance of UNDP. During the first two assessments, the policy documents adopted in the period 2010–2019 were analyzed, the implementation period of which was mainly planned until 2020 inclusive. According to the results of the assessments, a high level of integration (conceptually) of the SDG targets adopted by Turkmenistan in the current national policy documents, namely, 84% in 2017 and 85% in 2019 was revealed. In recent years, Turkmenistan has adopted a number of new long and medium term policy documents. In this regard, as part of the preparation to the Review, a third Rapid Integrated Assessment was carried out in 2022. Twenty four policy documents were selectively analyzed within the RIA. A rapid assessment of mapping the compliance of existing policies in Turkmenistan with the SDGs has shown that a level of integration of SDG targets into strategies, programmes and action plans remained as high as 85%. 
 
-<iframe src="https://central-asia-sdg-platform.github.io/xtras/TKM-RIA-Charts/TKM-RIA-Chart-ENG.html" title="TKM RIA Chart" width = "50%" height = "400 px"></iframe>
+<iframe src="https://central-asia-sdg-platform.github.io/xtras/TKM-RIA-Charts/TKM-RIA-Chart-ENG.html" title="TKM RIA Chart" width = "50%" height = "500 px"></iframe>
 
 
 ### SDG Accelerators
