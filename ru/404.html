@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://central-asia-sdg-platform.github.io/data/ru',
+  remoteDataBaseUrl: 'https://central-asia-sdg-platform.github.io/data/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -42,7 +42,7 @@ var opensdg = {
   // Disaggregations which should be ignored on indicator pages.
   ignoredDisaggregations: null,
 
-  language: 'ru',
+  language: 'en',
 
   mapColors: {
     "default": [
@@ -117,7 +117,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Страница не найдена - Показатели Целей устойчивого развития</title>
+    <title>Страница не найдена - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -141,7 +141,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/www/assets/css/style.css?v=20240529110222">
+        <link rel="stylesheet" href="/www/assets/css/style.css?v=20240530082720">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -179,218 +179,31 @@ var translations = {
         
 
     </head>
-<body class="language-ru
-layout-page
+<body class="language-en
+layout-page-not-found
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Альфа","default_contrast":"стандартный контраст","disable_high_contrast":"Отключить высокую контрастность","disclaimer":"Это сайт находится в разработке. Мы рады вашим отзывам.","enable_high_contrast":"Включить высокую контрастность","hide_menu":"Скрыть навигационное меню","high_contrast":"высокий контраст","internet_explorer_message":"Мы обнаружили, что для посещения этого сайта вы используете Internet Explorer. В настоящее время компания Microsoft постепенно отказывается от использования Internet Explorer. В результате этот сайт больше не поддерживает ни одну из версий Internet Explorer. Некоторые функции на этом сайте не будут работать. Вам следует использовать современный браузер, такой как Edge, Chrome, Firefox или Safari. Если у вас возникли трудности с установкой или доступом к другому браузеру, обратитесь в службу ИТ-поддержки.","internet_explorer_message_title":"Этот интернет-браузер больше не поддерживается","logo_title":"Перейти на главную страницу","show_menu":"Показать навигационное меню","skip_link":"Перейти к главному содержанию","tag_line":"17 Целей, чтобы преобразовать наш мир","toggle_menu":"Переключайте меню. Нажмите, чтобы развернуть или свернуть меню.","toggle_search":"Поисковая переключатель. Нажмите, чтобы развернуть или свернуть панель поиска."};</script>
-
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Перейти к главному содержанию</a>
-<div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">Этот интернет-браузер больше не поддерживается</h2>
-    <p class="internet-explorer-message-body">Мы обнаружили, что для посещения этого сайта вы используете Internet Explorer. В настоящее время компания Microsoft постепенно отказывается от использования Internet Explorer. В результате этот сайт больше не поддерживает ни одну из версий Internet Explorer. Некоторые функции на этом сайте не будут работать. Вам следует использовать современный браузер, такой как Edge, Chrome, Firefox или Safari. Если у вас возникли трудности с установкой или доступом к другому браузеру, обратитесь в службу ИТ-поддержки.</p>
-</div>
-<div id="disclaimer">
-    
-</div>
-
-<header role="banner" class="">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/www/ru/" id="home" aria-label="Перейти на главную страницу" title="Перейти на главную страницу">
-    <img src="/www/assets/img/SDG_logo.png" alt="Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир" />
-</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Показать навигационное меню">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="d-flex flex-wrap w-100 justify-content-between">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="menu"><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-about-centralasia" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    🌐 Центральная Азия
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown-about-centralasia"><li class=" ">
-    <a class="dropdown-item" href="/www/ru/central-asia-kaz"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/KAZ_flag_h20.png" alt="Казахстан"> Казахстан</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/central-asia-kgz"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/KGZ_flag_h20.png" alt="Кыргызстан"> Кыргызстан</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/central-asia-tjk"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/TJK_flag_h20.png" alt="Таджикистан"> Таджикистан</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/central-asia-tkm"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/TKM_flag_h20.png" alt="Туркменистан"> Туркменистан</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/central-asia-uzb"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/UZB_flag_h20.png" alt="Узбекистан"> Узбекистан</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/central-asia">🌐 Центральная Азия</a>
-</li></ul>
-            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-partnership-partnership" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Партнерство для ЦУР
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-partnership-partnership"><li class=" ">
-    <a class="dropdown-item" href="/www/ru/eu4sdgs-central-asia">ЕС и ЦУР в Центральной Азии</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/parliaments/">Парламенты и ЦУР</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/private-sector">Частный сектор</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/academia">Академический сектор и Университеты</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/cso-and-ngo">Гражданское общество и НПО</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/vnr">Добровольные национальные обзоры</a>
-</li></ul>
-            </li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="dropdown-menu-actions-actions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Деятельность по достижению ЦУР
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="dropdown-menu-actions-actions"><li class=" ">
-    <a class="dropdown-item" href="/www/ru/goals">Отслеживание прогресса ЦУР</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/sdg-local">Локализация ЦУР</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/policies">Политика для достижения ЦУР</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/sdg-scenarios">Сценарии достижения ЦУР</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/systems">Системный и целостный подход</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/finances">Финансы для ЦУР</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/hotspots">Точки уязвимости в Центральной Азии</a>
-</li><li class=" ">
-    <a class="dropdown-item" href="/www/ru/gender">Гендер для ускорения прогресса ЦУР</a>
-</li></ul>
-            </li><li class="nav-item ">
-    <a class="nav-link" href="/www/ru/sdg-stories">Истории из Центральной Азии</a>
-</li></ul>
-    
-                </div>
-                <div class="header-search-bar">
-                    <form class="align-self-lg-end" id="search" action="/www/ru/search/">
-    <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Поиск</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Поиск">
-        <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Поиск по сайту" id="search-btn" type="submit">
-                <i class="fa fa-search"></i>
-            </button>
-        </span>
-    </div>
-</form>
-
-                </div>
-                <div class="header-toggles d-flex">
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown  dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fa fa-globe"></i>
-      Pусский
-    </button>
-    <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/www/404.html">
-              English
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
-    <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
-            <a class="language-toggle-link" href="/www/404.html">
-                English
-            </a>
-        </li></ul>
-</div></span><a title="Включить высокую контрастность" aria-label="Включить высокую контрастность"
-    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="high"
->A</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-</header>
-<div id="top" tabindex=-1></div>
-
-
-<div class="container">
-    <nav>
-    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
-        <li class="breadcrumb-item" >
-            <a href="/www/ru/">Главная</a>
-        </li>
-        <li class="breadcrumb-item active">Страница не найдена</li>
-    </ol>
-</nav>
-</div>
+<img class="page-not-found-image" src="/www/assets/img/SDG Wheel_Transparent-01.png" alt="Sustainable Development Goals logo" />
 <div id="main-content" class="container" role="main">
     <div>
         <h1>Страница не найдена</h1>
-        
+        <p>К сожалению, мы не можем найти страницу, которую вы ищете.</p>
 
+<p>Если вы ввели веб-адрес, проверьте его правильность.</p>
 
-    
+<p>Если вы вставили веб-адрес, убедитесь, что вы скопировали весь адрес.</p>
 
+<p>Если веб-адрес указан правильно или вы выбрали ссылку или кнопку, то <a href="/www/ru/contact-us/">свяжитесь с нами</a>, похоже, что-то пошло не так.</p>
+
+<p>А пока вы можете узнать, как страны <a href="/www/ru/central-asia/">Центральной Азии</a> реализуют ЦУР: <img src="/www/assets/flags/KAZ_flag_h20.png" alt="Флаг Казахстана" /> <a href="/www/ru/central-asia-kaz/">Казахстан</a>, <img src="/www/assets/flags/KGZ_flag_h20.png" alt="Флаг Кыргызстана" /> <a href="/www/ru/central-asia-kgz/"> Кыргызстан</a>, <img src="/www/assets/flags/TJK_flag_h20.png" alt="Флаг Таджикистана" /> <a href="/www/ru/central-asia-tjk/">Таджикистан</a>, <img src="/www/assets/flags/TKM_flag_h20.png" alt="Флаг Туркменистана" /> <a href="/www/ru/central-asia-tkm/">Туркменистан</a> и <img src="/www/assets/flags/UZB_flag_h20.png" alt="Флаг Узбекистана" /> <a href="/www/ru/central-asia-uzb/">Узбекистан</a></p>
+
+<p><img src="/www/assets/img/cat-404.jpg" alt="Страница не найдена" />
+^<a href="https://www.freepik.com/free-photo/adorable-kitty-looking-like-it-want-hunt_20083067.htm#fromView=search&amp;page=1&amp;position=34&amp;uuid=da492585-fa27-4b60-b8d7-e1dfe26634ea">Image by freepik</a>^</p>
 
 
     </div>
 </div>
-
-<footer role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="footerLinks">
-                    <ul>
-                        <li>
-                            <a href="https://open-sdg.org">Построен с использованием Open SDG</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/www/ru/contact-us">Свяжитесь с нами</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://twitter.com/UNDPEurasia" target="_blank">Твиттеру</a>
-                            
-                        </li>
-                        <li>
-                            <a href="/www/ru/about/cookies-and-privacy/">Cookies</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://www.undp.org/" target="_blank"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/UNDP_logo_h40.png" alt="UNDP logo"> Implemented by UNDP </a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://european-union.europa.eu/index_en" target="_blank"><img src="https://central-asia-sdg-platform.github.io/www/assets/images/EU_flag_h40.png" alt="EU flag"> Funded by EU </a>
-                            
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/www/ru/config">Configuration</a>
-                        </li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</footer>
-
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
@@ -429,21 +242,20 @@ ga('send', 'pageview');
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'скрывать';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Поиск';</script>
+    translations['search']['search'] = 'Search';</script>
 
-<script src='/www/assets/js/sdg.js?v=20240529110222'></script>
+<script src='/www/assets/js/sdg.js?v=20240530082720'></script>
 
 
     
     
-    <script src="/www/assets/js/custom.js?v=20240529110222"></script><script>
+    <script src="/www/assets/js/custom.js?v=20240530082720"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
-
 
 </body>
 </html>
