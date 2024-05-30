@@ -66,17 +66,23 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/UNDPEurasia'
-    translation_key: general.twitter
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
-  - path: https://www.undp.org/
-    translation_key: general.undpimplemented
+#  - path: 'https://twitter.com/UNDPEurasia'
+#    translation_key: general.twitter
   - path: https://european-union.europa.eu/index_en
     translation_key: general.eufunded
+  - path: https://www.undp.org/
+    translation_key: general.undpimplemented
+  - path: /about/cookies-and-privacy/
+    translation_key: menu.cookies
 frontpage_cards:
   - title: frontpage_cards.knowsdgs_title
     content: frontpage_cards.knowsdgs_content
+  - title: frontpage_cards.accelerators_title
+    content: frontpage_cards.accelerators_content
+  - title: frontpage_cards.eu4sdgs_title
+    content: frontpage_cards.eu4sdgs_content
+  - title: frontpage_cards.intro_title
+    content: frontpage_cards.intro_body
 
 #  - title: frontpage.download_all
 #    content: ''
@@ -300,7 +306,7 @@ repository_url_site: 'https://github.com/central-asia-sdg-platform/www'
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/_data
   translation_link: ''
@@ -312,3 +318,12 @@ time_series_attributes:
 validate_indicator_config: false
 validate_site_config: false
 x_axis_label: ''
+
+
+logos:
+  - language: en
+    src: assets/img/SDG_logo_eng.png
+    alt: SDGs in Central Asia 
+  - language: ru
+    src: assets/img/SDG_logo_rus.png
+    alt: ЦУР в Центральной Азии
