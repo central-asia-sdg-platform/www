@@ -7,7 +7,7 @@ layout: page
 
 ![Flag of Uzbekistan]({{ site.baseurl }}/assets/images/UZB_flag_h240.png)
 
-**Uzbekistan**, has made significant progress in achieving the United Nations' Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Kazakhstan has undertaken a range of measures to promote sustainable development across its economy, society, and environment. Some notable achievements include reducing poverty and inequality, improving access to healthcare and education, and promoting gender equality. In 2022, Kazakhstan presented its second Voluntary National Review (VNR) at the United Nations High-Level Political Forum on Sustainable Development, which highlighted the country's progress and identified priorities for future action. The VNR also showcased Kazakhstan's commitment to sustainable development and its efforts to align its policies with the SDGs.
+**Uzbekistan**, has made significant progress in achieving the United Nations' Sustainable Development Goals (SDGs) since adopting the agenda in 2015. Uzbekistan has undertaken a range of measures to promote sustainable development across its economy, society, and environment. Some notable achievements include reducing poverty and inequality, improving access to healthcare and education, and promoting gender equality. In 2023, Uzbekistan presented its second Voluntary National Review (VNR) at the United Nations High-Level Political Forum on Sustainable Development, which highlighted the country's progress and identified priorities for future action. The VNR also showcased Uzbekistan's commitment to sustainable development and its efforts to align its policies with the SDGs.
 
 ### [Progress in SDGs](https://data.undp.org/sdg-push-diagnostic/UZB/sdg-trends)
 

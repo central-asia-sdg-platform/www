@@ -10,11 +10,7 @@ The European Union (EU) plays a pivotal role in advancing Sustainable Developmen
 
 
 ## Overview of EU projects in Central Asia and SDGs
-<iframe width="100%" height="450" src="https://lookerstudio.google.com/embed/reporting/298a8f23-c682-4140-ab5f-6c13d224a6e6/page/2it1D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-
-
-<iframe src="https://embed.kumu.io/1f00c9532894c3e1879f90414da2e60b" width="100%" height="600" frameborder="0"></iframe>
-
+<iframe width="50%" height="450" src="https://lookerstudio.google.com/embed/reporting/298a8f23-c682-4140-ab5f-6c13d224a6e6/page/2it1D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe><iframe src="https://embed.kumu.io/1f00c9532894c3e1879f90414da2e60b" width="50%" height="450" frameborder="0"></iframe>
 
 
 ## Contribution of EU projects towards achievement of SDGs 
@@ -46,21 +42,13 @@ Climate change poses significant challenges to the sustainable development agend
 
 It's important to note that the EU's contribution to SDGs in Central Asia is closely linked to [country-specific accelerators](https://sdgdiagnostics.data.undp.org/), which serve as catalysts for progress across various sectors. Through targeted interventions and strategic partnerships, EU is  committed to advancing the SDGs agenda and fostering sustainable development for the benefit of present and future generations in Central Asia.
 
-| SDG Loops | ![KAZ]({{ site.baseurl }}/assets/images/KAZ_flag_h20.png) Kazakhstan | ![KGZ]({{ site.baseurl }}/assets/images/KGZ_flag_h20.png) Kyrgzystan | ![TJK]({{ site.baseurl }}/assets/images/TJK_flag_h20.png) Tajikistan | ![TKM]({{ site.baseurl }}/assets/images/TKM_flag_h20.png) Turkmenistan | ![UZB]({{ site.baseurl }}/assets/images/UZB_flag_h20.png) Uzbekistan | ![EU]({{ site.baseurl }}/assets/images/EU_flag_h20.png) EU contribution |
+| SDG Loops | ![EU]({{ site.baseurl }}/assets/images/EU_flag_h20.png) EU contribution | ![KAZ]({{ site.baseurl }}/assets/images/KAZ_flag_h20.png) Kazakhstan | ![KGZ]({{ site.baseurl }}/assets/images/KGZ_flag_h20.png) Kyrgzystan | ![TJK]({{ site.baseurl }}/assets/images/TJK_flag_h20.png) Tajikistan | ![TKM]({{ site.baseurl }}/assets/images/TKM_flag_h20.png) Turkmenistan | ![UZB]({{ site.baseurl }}/assets/images/UZB_flag_h20.png) Uzbekistan |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Education Loop (R5):** | 🔷 4.4: Skills for employment | 🔷 4.3. Quality education for everyone | 🔷 4.3. Quality education for everyone | 🔷 4.4. Skills for employment | 🔷 4.3. Quality education for everyone | Erasmus+ programme, Horizon 2020 |
-| **Resilient Agriculture Loop (R1):** | 🔷 2.4: Sustainable food production systems and implement resilient agriculture | 🔷 2.2. Ensure food security | 🔷 2.2. Ensure food security | 🔷 2.3. The agricultural productivity and rural development | 🔷 12.2. The sustainable management and efficient use of natural resources (Green Economy) | Central Asia Nexus Dialogue Project: Fostering Water, Energy and Food Security Nexus and Multi-Sector Investment, SWITCH-Asia and Central Asia II - Promoting Sustainable Consumption and Production |  
-| **Decent Job Creation Loop (R3):** | 🔷 10.4: Adopt policies for greater equality | 🔷 8.6. Youth employment and education | 🔷 9.2. Promote inclusive and sustainable industrialization | 🔷 8.5. Full and productive employment and decent work | 🔷 8.3. Policies for economic development | Accelerate Prosperity in Central and South Asia, (AP ASIA), Central Asia Invest IV and V, Promoting international trade in Central Asia, The SME Finance Facility For Central Asia, Sustainable Private Sector Programme in Central Asia | 
-| **Clean Energy Loop (R9)** | 🔷 7.2. Increase substantially the share of renewable energy in the energy mix | 🔷 7.1, 7.2, 7.3. Ensure access to affordable, reliable, sustainable and modern energy for all | | | | HYDROPOWER FOR YOU - Sustainable small-scale hydropower in Central Asia, CAWEP III - Central Asia Energy and Water Development Program, EU4Energy - Support to Energy Policy in EaP and Central Asia countries |
-| **Sustainable Communities  Loop (R13)** | 🔷 10.4: Adopt policies for greater equality | 🔷 11.1. Safe and affordable housing and basic services | 🔷 11.1. Safe and affordable housing and basic services | 🔷 6.1. Universal and equitable access to safe drinking water | 🔷 11.1. Safe and affordable housing and basic services | Strengthening disaster resilience and accelerating implementation of Sendai Framework for Disaster Risk Reduction in Central Asia |
-
-
-
-
-
-
-
-
+| **Education Loop (R5):** | Erasmus+ programme, Horizon 2020 | 🔷 4.4: Skills for employment | 🔷 4.3. Quality education for everyone | 🔷 4.3. Quality education for everyone | 🔷 4.4. Skills for employment | 🔷 4.3. Quality education for everyone |
+| **Resilient Agriculture Loop (R1):** | Central Asia Nexus Dialogue Project: Fostering Water, Energy and Food Security Nexus and Multi-Sector Investment, SWITCH-Asia and Central Asia II - Promoting Sustainable Consumption and Production | 🔷 2.4: Sustainable food production systems and implement resilient agriculture | 🔷 2.2. Ensure food security | 🔷 2.2. Ensure food security | 🔷 2.3. The agricultural productivity and rural development | 🔷 12.2. The sustainable management and efficient use of natural resources (Green Economy) |  
+| **Decent Job Creation Loop (R3):** | Accelerate Prosperity in Central and South Asia, (AP ASIA), Central Asia Invest IV and V, Promoting international trade in Central Asia, The SME Finance Facility For Central Asia, Sustainable Private Sector Programme in Central Asia | 🔷 10.4: Adopt policies for greater equality | 🔷 8.6. Youth employment and education | 🔷 9.2. Promote inclusive and sustainable industrialization | 🔷 8.5. Full and productive employment and decent work | 🔷 8.3. Policies for economic development | 
+| **Clean Energy Loop (R9)** | HYDROPOWER FOR YOU - Sustainable small-scale hydropower in Central Asia, CAWEP III - Central Asia Energy and Water Development Program, EU4Energy - Support to Energy Policy in EaP and Central Asia countries | 🔷 7.2. Increase substantially the share of renewable energy in the energy mix | 🔷 7.1, 7.2, 7.3. Ensure access to affordable, reliable, sustainable and modern energy for all | | | |
+| **Sustainable Communities  Loop (R13)** | Strengthening disaster resilience and accelerating implementation of Sendai Framework for Disaster Risk Reduction in Central Asia | 🔷 10.4: Adopt policies for greater equality | 🔷 11.1. Safe and affordable housing and basic services | 🔷 11.1. Safe and affordable housing and basic services | 🔷 6.1. Universal and equitable access to safe drinking water | 🔷 11.1. Safe and affordable housing and basic services |
 
 
 
