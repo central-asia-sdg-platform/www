@@ -50,7 +50,7 @@ However, pursuing greater equality may require trade-offs in terms of fiscal adj
 
 The dynamic map shows SDG Accelerators for Kazakhstan. 
 
-<iframe src="https://embed.kumu.io/2641668c40b8a7e162cb6a129dd76b90" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/82b435a41cc81344374354d48ba4c00a" width="100%" height="600" frameborder="0"></iframe>
 
 Use buttons to highlight certain paths and Focus to explore certain targets
 

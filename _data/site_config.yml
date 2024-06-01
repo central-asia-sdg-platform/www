@@ -225,28 +225,31 @@ menu:
       translation_key: about.centralasia_uzb
     - path: /central-asia
       translation_key: about.centralasia
-  - path: /partnership
-    translation_key: menu-partnership.partnership
-    dropdown:
-    - path: /eu4sdgs-central-asia
-      translation_key: menu-partnership.eu4sdgs-central-asia
-    - path: /parliaments/
-      translation_key: menu-partnership.parliaments
-#   - path: /private-sector
-#     translation_key: menu-partnership.private-sector
-#   - path: /academia
-#     translation_key: menu-partnership.academia
-    - path: /cso-and-ngo
-      translation_key: menu-partnership.cso-and-ngo
-    - path: /vnr
-      translation_key: menu-partnership.vnr
+  - path: /eu4sdgs-central-asia
+    translation_key: menu-partnership.eu4sdgs-central-asia
+### Block on Partnership -------------------------------------------
+#  - path: /partnership
+#    translation_key: menu-partnership.partnership
+#    dropdown:
+#    - path: /eu4sdgs-central-asia
+#      translation_key: menu-partnership.eu4sdgs-central-asia
+#    - path: /parliaments/
+#      translation_key: menu-partnership.parliaments
+##   - path: /private-sector
+##     translation_key: menu-partnership.private-sector
+##   - path: /academia
+##     translation_key: menu-partnership.academia
+#    - path: /cso-and-ngo
+#      translation_key: menu-partnership.cso-and-ngo
+#    - path: /vnr
+#      translation_key: menu-partnership.vnr
   - path: /sdg-actions
     translation_key: menu-actions.actions
     dropdown:
     - path: /goals
       translation_key: menu-actions.goals
-    - path: /sdg-local
-      translation_key: menu-actions.local
+#    - path: /sdg-local
+#      translation_key: menu-actions.local
     - path: /policies
       translation_key: menu-actions.policies
     - path: /gender
@@ -254,6 +257,8 @@ menu:
   - path: /sdg-tools
     translation_key: menu-tools.tools
     dropdown:
+    - path: /vnr
+      translation_key: menu-partnership.vnr
     - path: /systems
       translation_key: menu-actions.systems
     - path: /sdg-scenarios
