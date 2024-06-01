@@ -11,7 +11,7 @@ layout: page
 ## Обзор проектов ЕС в Центральной Азии и ЦУР
 <iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d0d816c9-5fc3-4bed-a15a-7a414c629371/page/2it1D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
-<iframe src="https://embed.kumu.io/1f00c9532894c3e1879f90414da2e60b" width="90%" height="450" frameborder="0"></iframe>
+<iframe src="https://embed.kumu.io/1f00c9532894c3e1879f90414da2e60b" width="600" height="450" frameborder="0"></iframe>
 
 
 ## Вклад проектов ЕС в достижение ЦУР
