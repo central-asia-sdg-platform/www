@@ -25,11 +25,13 @@ country:
   name: Central Asia 
   adjective: Central Asian
 create_goals:
-  previous_next_links: true
+# previous_next_links: true
+  previous_next_links: false
   goal_content_heading: ''
   goals: []
 create_indicators:
-  previous_next_links: true
+# previous_next_links: true
+  previous_next_links: false
 create_pages:
   - filename: ''
     folder: /goals
@@ -124,7 +126,6 @@ frontpage_cards:
 #    button_label: Read more
 #    button_link: 'https://www.un.org/en/conferences/SDGSummit2023'
 #    rule_color: ''
-
     
 
 
@@ -150,7 +151,7 @@ hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
 indicator_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
