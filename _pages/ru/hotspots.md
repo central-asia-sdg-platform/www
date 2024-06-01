@@ -2,130 +2,132 @@
 layout: page
 language: ru
 permalink: /ru/hotspots/
-title: Vulnerability hotspots and Cross-border SDG issues
+title: Точки уязвимости и трансграничные проблемы 
 ---
-# Vulnerability hotspots
+## Изменение климата и точки (не)безопасности
+Точки уязвимости от изменения климата и безопасности были определены в ходе процесса совместной оценки для Центральной Азии, в котором приняли участие соответствующие заинтересованные стороны из правительственных учреждений и неправительственных организаций, научных кругов, а также экспертов. Все точки уязвимости от изменения климата и безопасности, которые были выявлены в Центральной Азии, являются региональными/трансграничными. Региональные точки уязвимости имеют последствия для региональной безопасности и могут распространяться на экосистемы более чем одной страны.
 
-## Climate Change and Security Hotspots
-The climate change and security hotspots were identified during the participatory assessment process for Central Asia which included relevant stakeholders from government agencies and non-governmental organizations, academia as well as experts. All of the climate change and security hotspots that were identified in Central Asia are regional/transboundary hotspots. Regional hotspots have regional security implications, and may extend across ecosystems in more than one country.
-
-![Climate change and security hotspots in Central Asia, 2016]({{ site.baseurl }}/assets/images/climate_change_and_security_hotspots_in_ca.png)
-![Legend for climate change and security hotspots in Central Asia, 2016]({{ site.baseurl }}/assets/images/climate_change_and_security_hotspots_in_ca_legend.png)
-
-### 1. Densely populated areas (🟥 high security risk by 2030)
-Areas like the Ferghana valley as well as large irrigated oases, mainly along the Amu Darya and Syr Darya Rivers, as well as piedmont metropolitan areas are characterized by high population density and relatively scarce water and land resources shared across borders. Partly affected by tensions and instability already in the past, the security risks could increase if security of livelihoods, water, energy and food decreases due to climate change.
-
-**KEY RECOMMENDATIONS:**
-* Establish a participatory approach and dialogue for sharing vital natural resources (water, arable land and pastures), especially during extreme and adverse weather events
-* Promote good neighbourly relations and introduce early warnings/preventive measures to reduce tensions over limited natural resources
-* Introduce measures and a regime to mitigate impacts of high temperatures, drought and other extreme weather events with regard to human health and labour conditions, with a focus on vulnerable groups 
-* Improve accessibility to clean water and sanitation in combination with preventive measures to reduce epidemics and dangerous infections
-* Improve the efficiency of resource use (water, arable land and pastures) with modern technology approaches in conjunction with traditional methods
-* Introduce agriculture and water reforms to boost resilience and to address long-term climate change impacts
-* Introduce climate change resilient and reliable crops, develop insurance schemes in rural areas to support vulnerable groups in case of extreme weather events 
-* Increase the share of locally available energy sources through energy diversification to enhance energy security and increase the share of renewable sources 
-* Rehabilitate tailings and waste sites and fortify other infrastructure that threatens downstream populated areas with potentially hazardous material
-* Implement action plans and programmes to forecast natural disasters and to minimize their impacts, especially  for critical infrastructure
-* Conduct public awareness campaigns to ensure growing awareness on potential security implications induced by climate change
-
-### 2. Remote areas on the Afghan border (🟥 high security risk by 2030)
-Central Asia’s southern remote areas, notably the Tajik-Afghan and the Turkmen-Afghan border areas have been identified as climate change and security hotspots in light of extreme weather events intensified by climate change and their exposure to spill-over of instability.
-
-**KEY RECOMMENDATIONS:**
-* Promote scientific, business and educational ties with neighbouring countries, including on environmental, energy, food security and climate change threats within the framework of multilateral and bilateral arrangements and the Economic Cooperation Organization
-* Exchange information and experience and implement pilot projects with neighbouring countries on assessment of climate change impacts and risk reduction regarding livelihoods, preservation of agricultural biodiversity and  monitoring of and responses to malaria, pests and dust storms
-* Conduct afforestation and reforestation on the southern borders of Central Asia to improve microclimates, combat erosion, protect infrastructure and reduce dust storms
-* Develop and implement warning and response mechanisms to deal with natural disasters and extreme weather events, and develop co-operation in monitoring activities
-
-### 3. High mountain areas (🟨 security risk by 2030)
-Mountain communities have increased vulnerability due to high poverty and isolation, frequent natural disasters, visible climate change effects and sporadic discontent and unrest in some mountainous regions.
-
-**KEY RECOMMENDATIONS:**
-* Provide remote sensing in hard-to-reach areas
-* Diversify income and food sources
-* Diversify power generation and channels of energy imports and exports in order to reduce the risk of energy crises in extreme weather events (scarce water, cold waves and low water flow in large and small rivers devastating flash flooding and floods)
-* Incorporate climate change content into planning and maintenance of critical infrastructure (impact of melting permafrost and avalanches or landslides on communication routes, hazardous waste storage sites and mines)
-
-### 4. Central Asia breadbasket (🟩 low security risk by 2030)
-The grain-producing area in northern Kazakhstan has been identified as a regional climate change hotspot, although security implications in the national context are low thanks to stable economic policies. Soaring grain prices or crop deficits may however undermine food security in the region.
-
-**KEY RECOMMENDATIONS:**
-* Facilitate farming practices that use zero soil tilling and test crop types resilient to extreme events
-
-### 5. The Amu Darya River Basin (🟨 medium security risk by 2030)
-The Amu Darya Basin is highly dependent on irrigation and hydropower with already existing disagreements on water usage, and is characterized by environmental degradation, in particular in the delta area. Reinforced by climate change, this might have severe impacts for water, food, livelihood and human security with strong cross-border implications.
-
-**KEY RECOMMENDATIONS:**
-* Identify and improve water use practices for the reduction of damage to vulnerable areas from climate change
-* Engage all countries of the basin (including Afghanistan) in monitoring, forecasting, assessment and current and long-term water planning and use
-* Strengthen the role of and support the International Fund for Saving the Aral Sea with regards to its activities in water management of the Amu Darya River
-
-### 6. The Syr Darya River Basin (🟨 medium security risk by 2030)
-The Syr Darya River is highly regulated for irrigation and hydropower purposes. The basin also faces risks from toxic and radioactive waste. The current water allocation regime might come under threat from changing water availability due to climate change which might increase water, food, and socioeconomic insecurity.
-
-**KEY RECOMMENDATIONS:**
-* Strengthen capacities at local level on adaptation to climate change and security risks including through experience replication
-* Develop a common understanding of climate change impacts and search for mutually acceptable solutions to the water-food-energy nexus dilemmas
-* Continue to improve early warning bulletins for the Syr Darya River
-* Improve transboundary co-ordination mechanisms and ensure that obligations are met
-* Strengthen the role of and support to the International Fund for Saving the Aral Sea with regards to its activities in water management of the Syr Darya River
-
-### 7. The Zarafshan River Basin (🟨 medium security risk by 2030)
-The Zarafshan River, shared by Tajikistan and Uzbekistan, suffers risk of upstream pollution from growing industrial activities and mining and downstream pollution from agriculture, and faces increased water insecurity due to climate change impacts which could affect interstate relations.
-
-**KEY RECOMMENDATIONS:**
-* Facilitate development of a common understanding of climate change impacts and search for shared approaches
-* Develop a system for forecasting seasonal and longterm flows
-* Enhance sharing of information related to climate change and natural disasters
-* Increase water use efficiency in combination with traditional methods
-
-### 8. The Ili River and Balkhash Lake (🟨 medium security risk by 2030)
-Lake Balkhash in southeastern Kazakhstan is the largest lake in Central Asia and fed mainly by the Ili River, which originates in China. The fragile ecological balance of the lake is at risk by human, economic and climate change impacts, which affect the population in the basin and pose a challenge for transboundary water management.
-
-**KEY RECOMMENDATIONS:**
-* Incorporate climate change into planning and use of water resources and economic development 
-* Support transboundary dialogue and co-operation on management of water resources and climate change adaptation
-
-### 9. The Chu and Talas River Basins (🟩 low security risk by 2030)
-The Chu and Talas River Basins, shared by Kazakhstan and Kyrgyzstan, are an important economic area for agriculture, hydropower and mining sectors with a growing population. While climate change might decrease the availability of water, the good co-operation mechanisms that are already in place between the two countries minimize the security risks.
-
-**KEY RECOMMENDATIONS:**
-* Continue discussions on climate change impacts in the transboundary context and enhance co-operation on adaptation
-* Evaluate investment costs for eco-friendly services and adaptation measures
-
-### 10. The Caspian Sea and coastline (🟨 medium security risk by 2030)
-Being rich in oil and gas resources, the Caspian Sea is economically important and at the same time vulnerable to climate change and water level fluctuations. Climate change might affect economic and livelihood security, and the unclear marine borders might make joint responses more difficult.
-
-**KEY RECOMMENDATIONS:**
-* Extend practices of climate risks assessments for vulnerable infrastructure and onshore and offshore oil and gas production sites
-* Improve water supplies for local populations and minimize oil sector impacts on the environment and on income sources (fisheries, pastures and the others)
-
-### 11. The Aral Sea and coastline (🟩 low to 🟨 medium security risk by 2030)
-The tragedy of the Aral Sea is likely to continue due to higher temperatures and due to low run-off reaching the sea, even though the situation in the northern part has improved. Anthropogenic pressure on water resources remains the major risk factor. Climate change will intensify water and environmental insecurity of the affected population.
-
-**KEY RECOMMENDATIONS:**
-* Introduce additional, and support current, practices and ongoing efforts to cut back on environmental migration, and maintain adequate living conditions
-* Develop and implement comprehensive public awareness campaigns on climate security, adaptation measures and personal responsibility in the field of risk reduction
+![Точки уязвимости от изменения климата и безопасности в Центральной Азии, 2016]({{ site.baseurl }}/assets/images/climate_change_and_security_hotspots_in_ca.png)
+![Примечания к карте Точек уязвимости от изменения климата и безопасности в Центральной Азии, 2016]({{ site.baseurl }}/assets/images/climate_change_and_security_hotspots_in_ca_legend.png)
 
 
-# Cross-border SDG issues
-Central Asia, a region encompassing [Kazakhstan]({{ site.baseurl }}/central-asia-kaz/), [Kyrgyzstan]({{ site.baseurl }}/central-asia-kgz/), [Tajikistan]({{ site.baseurl }}/central-asia-tjk/), [Turkmenistan]({{ site.baseurl }}/central-asia-tkm/), and [Uzbekistan]({{ site.baseurl }}/central-asia-uzb/), is a culturally rich and diverse region that has undergone significant social and economic development in recent years. Addressing cross-border issues in Central Asia is the key for achieving SDGs
+### 1. Густонаселенные районы (🟥высокий риск безопасности к 2030 году)
+Такие территории, как Ферганская долина, а также крупные орошаемые оазисы, в основном вдоль рек Амударья и Сырдарья, а также предгорные мегаполисы характеризуются высокой плотностью населения и относительно скудными водными и земельными ресурсами, разделенными между странами. Риски безопасности, частично затронутые напряженностью и нестабильностью уже в прошлом, могут возрасти, если безопасность средств к существованию, воды, энергии и продовольствия снизится из-за изменения климата.
 
-## Water management
-Central Asia is home to several major rivers, including the Amu Darya and Syr Darya, which are shared by multiple countries. Disputes over water allocation, infrastructure development, and pollution are common. One solution is to promote regional cooperation through the establishment of joint institutions, such as the International Fund for Saving the Aral Sea (IFAS), which is supported by the EU and UNDP. Other initiatives include the UNDP's "CAREC Integrated Water Resources Management Project" and the EU's "Central Asia Water-Energy Nexus Dialogue Platform."
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Установить совместный подход и диалог для совместного использования жизненно важных природных ресурсов (воды, пахотных земель и пастбищ), особенно во время экстремальных и неблагоприятных погодных явлений.
+* Содействие добрососедским отношениям и введение раннего предупреждения/превентивных мер для снижения напряженности по поводу ограниченных природных ресурсов.
+* Внедрить меры и режим по смягчению воздействия высоких температур, засухи и других экстремальных погодных явлений на здоровье человека и условия труда, уделяя особое внимание уязвимым группам населения.
+* Улучшение доступа к чистой воде и канализации в сочетании с профилактическими мерами по снижению эпидемий и опасных инфекций.
+* Повышение эффективности использования ресурсов (воды, пахотных земель и пастбищ) с помощью современных технологических подходов в сочетании с традиционными методами.
+* Внедрить реформы сельского хозяйства и водных ресурсов для повышения устойчивости и устранения долгосрочных последствий изменения климата.
+* Внедрение устойчивых к изменению климата и надежных культур, разработка схем страхования в сельских районах для поддержки уязвимых групп населения в случае экстремальных погодных явлений.
+* Увеличение доли местных источников энергии за счет диверсификации энергетики для повышения энергетической безопасности и увеличения доли возобновляемых источников.
+* Реабилитировать хвостохранилища и свалки, а также укрепить другую инфраструктуру, которая угрожает населенным пунктам, расположенным ниже по течению, потенциально опасными материалами.
+* Реализация планов действий и программ по прогнозированию стихийных бедствий и минимизации их последствий, особенно для критически важной инфраструктуры.
+* Проводить кампании по повышению осведомленности общественности, чтобы обеспечить растущую осведомленность о потенциальных последствиях для безопасности, вызванных изменением климата.
 
-## Energy security
-Central Asia is a major producer and exporter of oil, gas, and electricity, but many countries still face energy shortages and rely on imports. There is also a need to promote renewable energy and energy efficiency to reduce greenhouse gas emissions. The EU's "Central Asia Energy Security Dialogue" and the UNDP's "Regional Dialogue on Energy Security in Central Asia" aim to promote cooperation on energy policy and investment.
 
-## Trade development
-Central Asia has enormous potential for trade, but many countries still face barriers to accessing international markets. Promoting trade and economic integration, as well as investing in infrastructure and human capital, can help unlock this potential. The EU's "Supporting the Implementation of WTO TFA in Central Asia" project and the UNDP's "Integrated Framework for Trade-Related Assistance to Least Developed Countries" aim to promote trade facilitation and economic growth.
+### 2. Отдаленные районы на границе с Афганистаном (🟥высокий риск безопасности к 2030 году)
+Южные отдаленные районы Центральной Азии, в частности таджикско-афганские и туркмено-афганские приграничные районы, были определены как горячие точки изменения климата и безопасности в свете экстремальных погодных явлений, усугубляемых изменением климата, и их подверженности риску распространения нестабильности.
 
-## Border management
-Central Asia has many porous borders, which pose security risks and can impede trade and travel. Promoting transparency and cooperation among border agencies, as well as investing in infrastructure and technology, can help address these challenges. The EU's "Border Management Programme for Central Asia" and the UNDP's "Central Asia Border Security Programme" are working to support these efforts.
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Содействие научным, деловым и образовательным связям с соседними странами, в том числе по вопросам окружающей среды, энергетики, продовольственной безопасности и угроз изменения климата в рамках многосторонних и двусторонних соглашений и Организации экономического сотрудничества.
+* Обмениваться информацией и опытом и реализовывать пилотные проекты с соседними странами по оценке последствий изменения климата и снижению рисков в отношении средств к существованию, сохранению сельскохозяйственного биоразнообразия, а также мониторингу и реагированию на малярию, вредителей и пылевые бури.
+* Провести облесение и лесовосстановление на южных границах Центральной Азии для улучшения микроклимата, борьбы с эрозией, защиты инфраструктуры и уменьшения пылевых бурь.
+* Разработка и внедрение механизмов предупреждения и реагирования для борьбы со стихийными бедствиями и экстремальными погодными явлениями, а также развитие сотрудничества в деятельности по мониторингу.
 
-## Environmental degradation
-Central Asia faces many environmental challenges, including desertification, deforestation, and air and water pollution. These issues often transcend national boundaries and require regional cooperation and policy coordination. The EU's "Central Asia Biodiversity, Ecosystem Services and Climate Change" project and the UNDP's "Central Asian Desert Initiative" are working to promote sustainable land use and environmental management. 
 
+### 3. Высокогорные районы (🟨 угроза безопасности к 2030 году)
+Горные общины стали более уязвимыми из-за высокого уровня бедности и изоляции, частых стихийных бедствий, видимых последствий изменения климата, а также спорадического недовольства и беспорядков в некоторых горных регионах.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Обеспечить дистанционное зондирование в труднодоступных местах.
+* Диверсифицировать источники дохода и продовольствия.
+* Диверсифицировать производство электроэнергии и каналы импорта и экспорта энергии, чтобы снизить риск энергетических кризисов при экстремальных погодных явлениях (дефицит воды, волны холода и малый расход воды в больших и малых реках, разрушительные ливневые паводки и наводнения).
+* Включить информацию об изменении климата в планирование и обслуживание критически важной инфраструктуры (воздействие таяния вечной мерзлоты и лавин или оползней на пути сообщения, места хранения опасных отходов и шахты).
+
+### 4. Житница Центральной Азии (🟩 низкий уровень риска безопасности к 2030 году)
+Район производства зерна на севере Казахстана был определен как региональная горячая точка изменения климата, хотя последствия для безопасности в национальном контексте невелики благодаря стабильной экономической политике. Однако резкий рост цен на зерно или дефицит урожая могут подорвать продовольственную безопасность в регионе.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Содействие методам ведения сельского хозяйства, в которых используется нулевая обработка почвы, и тестирование типов культур, устойчивых к экстремальным явлениям.
+
+
+### 5. Бассейн реки Амударья (🟨 средний риск безопасности к 2030 году)
+Бассейн Амударьи сильно зависит от ирригации и гидроэнергетики, при этом уже существуют разногласия по использованию воды и характеризуется деградацией окружающей среды, особенно в районе дельты. В сочетании с изменением климата это может иметь серьезные последствия для воды, продовольствия, средств к существованию и безопасности человека с серьезными трансграничными последствиями.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Выявление и улучшение методов водопользования для уменьшения ущерба уязвимым районам от изменения климата.
+* Вовлечь все страны бассейна (включая Афганистан) в мониторинг, прогнозирование, оценку, а также текущее и долгосрочное планирование и использование водных ресурсов.
+* Усиление роли и поддержка Международного фонда спасения Арала в его деятельности по управлению водными ресурсами реки Амударья.
+
+### 6. Бассейн реки Сырдарья (🟨 средний риск безопасности к 2030 году)
+Река Сырдарья строго регулируется для целей орошения и гидроэнергетики. Бассейн также подвергается риску со стороны токсичных и радиоактивных отходов. Нынешний режим вододеления может оказаться под угрозой из-за изменения доступности воды из-за изменения климата, которое может увеличить водную, продовольственную и социально-экономическую безопасность.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Укрепление потенциала на местном уровне по адаптации к изменению климата и рискам безопасности, в том числе посредством тиражирования опыта.
+* Развивать общее понимание последствий изменения климата и искать взаимоприемлемые решения дилемм, связанных с водой, продовольствием и энергетикой.
+* Продолжать совершенствовать бюллетени раннего предупреждения о реке Сырдарья.
+* Улучшить механизмы трансграничной координации и обеспечить выполнение обязательств.
+* Усилить роль и поддержку Международного фонда спасения Арала в его деятельности по управлению водными ресурсами реки Сырдарья.
+
+
+### 7. Бассейн реки Зарафшан (🟨 средний риск безопасности к 2030 году)
+Река Зарафшан, разделяемая Таджикистаном и Узбекистаном, подвергается риску загрязнения в верхнем течении в результате растущей промышленной деятельности и добычи полезных ископаемых, а также в нижнем течении в результате сельского хозяйства, а также сталкивается с растущей нехваткой воды из-за последствий изменения климата, которые могут повлиять на межгосударственные отношения.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Содействовать развитию общего понимания последствий изменения климата и поиску общих подходов.
+* Разработать систему прогнозирования сезонных и долгосрочных стоков.
+* Расширение обмена информацией, связанной с изменением климата и стихийными бедствиями.
+* Повышение эффективности использования воды в сочетании с традиционными методами.
+
+### 8. Река Или и озеро Балхаш (🟨 средний риск безопасности к 2030 году)
+Озеро Балхаш на юго-востоке Казахстана является крупнейшим озером в Центральной Азии и питается главным образом рекой Или, берущей начало в Китае. Хрупкий экологический баланс озера находится под угрозой из-за антропогенных, экономических и климатических последствий, которые влияют на население бассейна и создают проблемы для управления трансграничными водами.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Включить изменение климата в планирование и использование водных ресурсов и экономическое развитие.
+* Поддержка трансграничного диалога и сотрудничества в области управления водными ресурсами и адаптации к изменению климата.
+
+### 9. Бассейны рек Чу и Талас (🟩 низкий уровень риска безопасности к 2030 году)
+Бассейны рек Чу и Талас, находящиеся на территории Казахстана и Кыргызстана, являются важной экономической зоной для сельского хозяйства, гидроэнергетики и горнодобывающей промышленности с растущим населением. Хотя изменение климата может уменьшить доступность воды, хорошие механизмы сотрудничества, которые уже существуют между двумя странами, сводят к минимуму риски безопасности.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Продолжить обсуждение последствий изменения климата в трансграничном контексте и расширить сотрудничество в области адаптации.
+* Оценить инвестиционные затраты на экологически чистые услуги и меры по адаптации.
+
+### 10. Каспийское море и береговая линия (🟨 средний риск безопасности к 2030 году)
+Будучи богатым запасами нефти и газа, Каспийское море экономически важно и в то же время уязвимо к изменению климата и колебаниям уровня воды. Изменение климата может повлиять на экономическую безопасность и безопасность средств к существованию, а нечеткие морские границы могут затруднить совместные ответные меры.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Расширить практику оценки климатических рисков для уязвимой инфраструктуры, а также объектов добычи нефти и газа на суше и на море.
+* Улучшить водоснабжение местного населения и минимизировать воздействие нефтяного сектора на окружающую среду и источники дохода (рыболовство, пастбища и другие).
+
+### 11. Аральское море и береговая линия (угроза безопасности от 🟩 от низкого до 🟨 среднего к 2030 году)
+Трагедия Аральского моря, вероятно, продолжится из-за более высоких температур и низкого стока, достигающего моря, хотя ситуация в северной части улучшилась. Основным фактором риска остается антропогенная нагрузка на водные ресурсы. Изменение климата усилит водную и экологическую безопасность пострадавшего населения.
+
+**КЛЮЧЕВЫЕ РЕКОМЕНДАЦИИ:**
+* Внедрять дополнительные и поддерживать текущие методы и текущие усилия по сокращению экологической миграции и поддержанию адекватных условий жизни.
+* Разработка и реализация комплексных кампаний по информированию общественности о климатической безопасности, мерах по адаптации и личной ответственности в области снижения рисков.
+
+
+# Трансграничные проблемы ЦУР
+Центральная Азия — регион, включающий [Казахстан]({{ site.baseurl }}/ru/central-asia-kaz/), [Кыргызстан]({{ site.baseurl }}/ru/central-asia-kgz/), [Таджикистан]( {{ site.baseurl }}/ru/central-asia-tjk/), [Туркменистан]({{ site.baseurl }}/ru/central-asia-tkm/) и [Узбекистан]({{ site.baseurl }}/ru/central-asia-uzb/), является культурно богатым и разнообразным регионом, который в последние годы претерпел значительное социальное и экономическое развитие. Решение трансграничных проблем в Центральной Азии является ключом к достижению ЦУР
+
+## Управление водными ресурсами
+В Центральной Азии протекает несколько крупных рек, в том числе Амударья и Сырдарья, которые принадлежат нескольким странам. Споры по поводу распределения воды, развития инфраструктуры и загрязнения являются обычным явлением. Одним из решений является содействие региональному сотрудничеству посредством создания совместных институтов, таких как Международный фонд спасения Арала (МФСА), который поддерживается ЕС и ПРООН. Другие инициативы включают «Проект комплексного управления водными ресурсами ЦАРЭС» ПРООН и «Диалоговую платформу по взаимосвязи водных и энергетических ресурсов Центральной Азии» ЕС.
+
+## Энергетическая безопасность
+Центральная Азия является крупным производителем и экспортером нефти, газа и электроэнергии, но многие страны по-прежнему сталкиваются с нехваткой энергии и полагаются на импорт. Существует также необходимость продвижения возобновляемой энергетики и энергоэффективности для сокращения выбросов парниковых газов. «Диалог по энергетической безопасности Центральной Азии» ЕС и «Региональный диалог по энергетической безопасности в Центральной Азии» ПРООН направлены на содействие сотрудничеству в области энергетической политики и инвестиций.
+
+## Развитие торговли
+Центральная Азия имеет огромный торговый потенциал, но многие страны по-прежнему сталкиваются с барьерами на пути доступа к международным рынкам. Содействие торговле и экономической интеграции, а также инвестиции в инфраструктуру и человеческий капитал могут помочь раскрыть этот потенциал. Проект ЕС «Поддержка реализации соглашения ВТО по СУПТ в Центральной Азии» и «Интегрированная структура помощи наименее развитым странам в сфере торговли» ПРООН направлены на содействие упрощению процедур торговли и экономическому росту.
+
+## Пограничный контроль
+Центральная Азия имеет множество проницаемых границ, которые создают угрозу безопасности и могут препятствовать торговле и путешествиям. Содействие прозрачности и сотрудничеству между пограничными ведомствами, а также инвестиции в инфраструктуру и технологии могут помочь решить эти проблемы. «Программа управления границами для Центральной Азии» ЕС и «Программа безопасности границ в Центральной Азии» ПРООН работают над поддержкой этих усилий.
+
+## Деградация окружающей среды
+Центральная Азия сталкивается со многими экологическими проблемами, включая опустынивание, вырубку лесов и загрязнение воздуха и воды. Эти проблемы часто выходят за рамки национальных границ и требуют регионального сотрудничества и координации политики. Проект ЕС «Биоразнообразие, экосистемные услуги и изменение климата в Центральной Азии» и «Инициатива по пустыням Центральной Азии» ПРООН работают над продвижением устойчивого землепользования и управления окружающей средой.
 
 
 ![Map of Central Asia, 2020]({{ site.baseurl }}/assets/images/map_centralasia_un_2020_800px.jpg)
