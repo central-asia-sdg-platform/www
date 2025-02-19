@@ -25,12 +25,7 @@ title: Финансы для ЦУР
 Панель инструментов дает представление о запланированных, текущих и завершенных мероприятиях в рамках финансирования ЦУР в странах и территориях Европы и Центральной Азии. Он структурирован по семи направлениям деятельности.
 
 
-![Профили финансирования ЦУР в Европе и Центральной Азии]({{ site.baseurl }}/assets/images/SDG_finance_dashboard.png)
-
-
-**Примечание.** *Интерактивная информационная панель в настоящее время доступна только для сотрудников ПРООН*
-
-<iframe title="Профили финансирования ЦУР RBEC — дубликаты профилей стран" width="100%" height="550" src="https://app.powerbi.com/reportEmbed?reportId=73c75181-aa4f-495a-a82f -51b109b7c0f8&autoAuth=true&ctid=b3e5db5e-2944-4837-99f5-7488ace54319" frameborder="0" allowFullScreen="true"></iframe>
+<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d452a33c-582a-4763-8af2-0c06ce53fa75/page/uDSvE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 
 # DFA и INFF
