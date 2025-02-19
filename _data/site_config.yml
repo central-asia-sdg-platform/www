@@ -249,8 +249,8 @@ menu:
     dropdown:
     - path: /goals
       translation_key: menu-actions.goals
-#    - path: /sdg-local
-#      translation_key: menu-actions.local
+    - path: /sdg-local
+      translation_key: menu-actions.local
     - path: /policies
       translation_key: menu-actions.policies
     - path: /gender
@@ -269,8 +269,8 @@ menu:
     - path: /hotspots
       translation_key: menu-actions.hotspots
 
-#  - path: /sdg-stories
-#    translation_key: menu-stories.stories
+    - path: /sdg-stories
+      translation_key: menu-stories.stories
 #  - path: /about
 #    translation_key: menu.about
 #    dropdown: []
