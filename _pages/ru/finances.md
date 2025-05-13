@@ -25,7 +25,7 @@ title: Финансы для ЦУР
 Панель инструментов дает представление о запланированных, текущих и завершенных мероприятиях в рамках финансирования ЦУР в странах и территориях Европы и Центральной Азии. Он структурирован по семи направлениям деятельности.
 
 
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d452a33c-582a-4763-8af2-0c06ce53fa75/page/uDSvE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe width="100%" height="450" src="https://lookerstudio.google.com/embed/reporting/d452a33c-582a-4763-8af2-0c06ce53fa75/page/uDSvE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 
 # DFA и INFF
