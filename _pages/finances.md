@@ -24,7 +24,7 @@ Strengthening the coherence of government systems to classify and track public f
 The dashboard  gives a picture of planned, ongoing and completed activities within SDG Financing in the RBEC countries and territories. It is structured along the seven action areas. 
 
 
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d452a33c-582a-4763-8af2-0c06ce53fa75/page/uDSvE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<iframe width="100%" height="450" src="https://lookerstudio.google.com/embed/reporting/d452a33c-582a-4763-8af2-0c06ce53fa75/page/uDSvE" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
 
 
 # DFA and INFF
