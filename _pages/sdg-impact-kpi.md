@@ -5,7 +5,7 @@ permalink: /sdg-impact-kpi/
 layout: page
 ---
 
-The countries of Central Asia (Kazakhstan, Kyrgyz Republic, Uzbekistan, Tajikistan, and Turkmenistan) have committed to achieving the SDGs, and to support this effort the EU and UNDP have joined forces and launched a project for setting up a regional SDG platform. To this
+The countries of Central Asia ([Kazakhstan]({{ site.baseurl }}/central-asia-kaz/), [Kyrgyz Republic]({{ site.baseurl }}/central-asia-kgz/), [Uzbekistan]({{ site.baseurl }}/central-asia-uzb/), [Tajikistan]({{ site.baseurl }}/central-asia-tjk/), and [Turkmenistan]({{ site.baseurl }}/central-asia-tkm/)) have committed to achieving the SDGs, and to support this effort the EU and UNDP have joined forces and launched a project for setting up a regional SDG platform. To this
 purpose, the UNDP Country Office in Kazakhstan has mandated a research study on SDG-related KPIs to document how regional EU-funded projects contribute to meeting the SDGs. A [first research report]({{ site.baseurl }}/assets/documents/KPIs_for_SDGs_Report_Part_1.pdf) focused on best practices in monitoring frameworks. A [second report]({{ site.baseurl }}/assets/documents/KPIs_for_SDGs_Report_Part_2.pdf) built on the research mentioned above and consisted of a qualitative estimation of the contribution of EU projects to the SDGs in Central Asia. The analysis was carried out with the data available from the SDG Index, UN Stats, UN Women, and a sample of 43 EU-funded
 projects provided by the UNDP Country Office in Kazakhstan. That second report also documented obstacles, gaps, and methodological issues to be considered in relation to EU project KPIs. The [third report]({{ site.baseurl }}/assets/documents/KPIs_for_SDGs_Report_Part_3.pdf) builds on the previous two reports to provide a final set of recommendations for future SDG planning and project design and monitoring.
 
@@ -18,7 +18,7 @@ The SDG Platform for Central Asia offers a unique opportunity to collect, store,
 - How intense is that relationship? Is it a strong or a weak synergy/trade-off?
 - Is that relationship two-way or only one way? 
 
-The first report of the current consultancy consisted of a systematic research study of the different methodologies to identify and assess interlinkages among SDG targets1. Four main methodology typologies were analysed, and the research concluded that to develop a regional SDGs platform for Central Asia, the methodology to map SDG target interlinkages should combine the following features:
+The first report of the current consultancy consisted of a systematic research study of the different methodologies to identify and assess interlinkages among SDG targets. Four main methodology typologies were analysed, and the research concluded that to develop a regional SDGs platform for Central Asia, the methodology to map SDG target interlinkages should combine the following features:
 - Be structured, with a set of simple rules to identify and assess SDG interlinkages and ensure methodological robustness and consistency of results.
 - Map both synergies, trade-offs, and low or no influence among SDG targets, ideally with target direction. In order to simplify the system proposed by Nilsson et al. (2016), a five-point scale similar to the one used by Miola et al. (2019) could be useful. The different
 values of that scale could be: +2: Strong synergy; +1: Significant synergetic relation; 0: little or no causal relation or influence between targets; -1: Significant trade-off relation; -2: Costly trade-off relation
