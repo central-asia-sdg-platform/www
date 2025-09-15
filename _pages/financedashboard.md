@@ -14,7 +14,7 @@ The Regional SDG Finance Dashboard provides an overview of situation in financin
 <br>
 <br>
 <br>
-The Regional SDG Finance Dashboard relies on international data to provide comparable picture. National dashboards could provide more detailed picture, delving deeper in data available for the country. Kazak[Kazakhstan]({{ site.baseurl }}/central-asia-kaz/) developed a national SDG Finanace dashboard (in Russian), which underping country efforts in more effective targeting of finances for SDGs.
+The Regional SDG Finance Dashboard relies on international data to provide comparable picture. National dashboards could provide more detailed picture, delving deeper in data available for the country. [Kazakhstan]({{ site.baseurl }}/central-asia-kaz/) developed a national SDG Finanace dashboard (in Russian), which underping country efforts in more effective targeting of finances for SDGs.
 
 
 <iframe title="SDG Finance Dashboard Kazakhstan" width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiOTU3MmUzNTMtYWRiNy00Mzc3LWEyNTEtY2VkYWJjOWI5ZDkzIiwidCI6ImIzZTVkYjVlLTI5NDQtNDgzNy05OWY1LTc0ODhhY2U1NDMxOSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
